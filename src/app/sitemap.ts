@@ -5,6 +5,13 @@ export const dynamic = 'force-static';
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || 'centrotioyacu.com'}`;
 
+  const languages = {
+    es: `${baseUrl}/es`,
+    en: `${baseUrl}/en`,
+    zh: `${baseUrl}/zh`,
+    qu: `${baseUrl}/qu`,
+  };
+
   return [
     {
       url: `${baseUrl}/en`,
@@ -12,11 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 1,
       alternates: {
-        languages: {
-          es: `${baseUrl}/es`,
-          zh: `${baseUrl}/zh`,
-          en: `${baseUrl}/en`,
-        },
+        languages,
       },
     },
     {
@@ -25,11 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 1,
       alternates: {
-        languages: {
-          es: `${baseUrl}/es`,
-          zh: `${baseUrl}/zh`,
-          en: `${baseUrl}/en`,
-        },
+        languages,
       },
     },
     {
@@ -38,11 +37,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 1,
       alternates: {
-        languages: {
-          es: `${baseUrl}/es`,
-          zh: `${baseUrl}/zh`,
-          en: `${baseUrl}/en`,
-        },
+        languages,
+      },
+    },
+    {
+      url: `${baseUrl}/qu`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+      alternates: {
+        languages,
       },
     },
   ];

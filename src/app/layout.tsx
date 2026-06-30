@@ -13,34 +13,16 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Centro turístico Tio Yacu — Rioja, Peru",
-  description: "A travel guide to Centro turístico Tio Yacu in Rioja, Peru. Explore this natural ecological tourism scenic area in the Amazon region.",
   metadataBase: new URL(`https://${process.env.CURRENT_SITE_DOMAIN || 'centrotioyacu.com'}`),
   alternates: {
-    canonical: "/es",
+    canonical: "/en",
     languages: {
       "es": "/es",
       "en": "/en",
       "zh": "/zh",
       "qu": "/qu",
-      "x-default": "/es",
+      "x-default": "/en",
     },
-  },
-  openGraph: {
-    type: "website",
-    locale: "es_PE",
-    alternateLocale: ["en_US", "zh_CN", "qu_PE"],
-    title: "Centro turístico Tio Yacu — Rioja, Peru",
-    description: "A travel guide to Centro turístico Tio Yacu in Rioja, Peru. Explore this natural ecological tourism scenic area in the Amazon region.",
-    siteName: "Centro turístico Tio Yacu Travel Guide",
-    images: [
-      {
-        url: "/gallery/centro-turistico-tio-yacu (1).jpg",
-        width: 1200,
-        height: 630,
-        alt: "Centro turístico Tio Yacu - Rioja, Peru",
-      },
-    ],
   },
 };
 

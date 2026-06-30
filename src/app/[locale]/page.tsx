@@ -10,12 +10,12 @@ import galleryImagesData from "@/gallery-data.json";
 const MAPS_URL = "https://maps.app.goo.gl/jMkpxcSHZCNS4h1p8";
 
 const GOOGLE_REVIEWS = [
-  { name: "Carlos M.", avatar: "CM", rating: 5, date: "2024-10-15", text: "Excelente parque recreacional en Loja. Muy bien mantenido, con buen espacio para que los niños jueguen y áreas verdes para caminar. Ideal para pasar un día en familia." },
-  { name: "Sarah J.", avatar: "SJ", rating: 5, date: "2024-09-20", text: "Beautiful recreational park in Loja! Great place for family outings. The facilities are well-maintained and there's plenty of green space. Perfect for picnics and outdoor activities." },
-  { name: "Luis R.", avatar: "LR", rating: 5, date: "2024-08-10", text: "Muy buen parque para hacer ejercicio al aire libre. Tiene campos deportivos y senderos para caminar. Está bien ubicado en Velasco Ibarra 1982, muy accesible." },
-  { name: "王小明", avatar: "王", rating: 5, date: "2024-07-25", text: "洛哈市一个很不错的休闲公园，设施完善，适合全家出游。绿化很好，有儿童游乐区和运动场地。免费开放，非常值得一去。" },
-  { name: "Ana P.", avatar: "AP", rating: 5, date: "2024-06-18", text: "Me encanta este parque para reuniones familiares. Es seguro y está bien iluminado. Hay áreas para picnic y juegos infantiles. Muy recomendado para toda la familia." },
-  { name: "Michael T.", avatar: "MT", rating: 4, date: "2024-05-05", text: "Nice recreational area in Loja. Good for walking, sports, and family gatherings. The park is clean and well-maintained. Great green space in the city for outdoor relaxation." },
+  { name: "Carlos M.", avatar: "CM", rating: 5, date: "2024-10-15", text: "Excelente centro turístico en Rioja. Muy bien mantenido, con hermosos paisajes de selva amazónica y actividades de río. Ideal para pasar un día en familia conectando con la naturaleza." },
+  { name: "Sarah J.", avatar: "SJ", rating: 5, date: "2024-09-20", text: "Beautiful tourist center in Rioja! Great place for ecotourism and nature lovers. The facilities are well-maintained and there's plenty of amazon rainforest to explore. Perfect for wildlife observation and river activities." },
+  { name: "Luis R.", avatar: "LR", rating: 5, date: "2024-08-10", text: "Muy buen lugar para ecoturismo en la región San Martín. Tiene caminatas por selva, actividades de río y observación de fauna. Está bien ubicado en Rioja, muy accesible desde Tarapoto." },
+  { name: "王小明", avatar: "王", rating: 5, date: "2024-07-25", text: "里奥哈市一个很不错的生态旅游中心，设施完善，适合全家出游。亚马逊雨林风光很好，有雨林徒步和河流活动。非常值得一去。" },
+  { name: "Ana P.", avatar: "AP", rating: 5, date: "2024-06-18", text: "Me encanta este lugar para ecoturismo. Es seguro y está bien mantenido. Hay áreas para caminatas por selva y actividades de río. Muy recomendado para toda la familia." },
+  { name: "Michael T.", avatar: "MT", rating: 4, date: "2024-05-05", text: "Nice ecotourism area in Rioja. Good for hiking, wildlife observation, and river activities. The place is clean and well-maintained. Great natural space for outdoor relaxation." },
 ];
 
 function ScrollReveal({ children, className = "" }: { children: React.ReactNode; className?: string }) {
@@ -470,7 +470,7 @@ function Gallery() {
         <div className="gallery-grid">
           {galleryImages.map((src, i) => (
             <div className="gallery-item" key={i} onClick={() => setLightboxIndex(i)}>
-              <img src={src} alt={`Parque Recreacional Jipiro ${i + 1}`} loading="lazy" />
+              <img src={src} alt={`Centro turístico Tio Yacu ${i + 1}`} loading="lazy" />
             </div>
           ))}
         </div>
@@ -489,7 +489,7 @@ function Gallery() {
         <div className="lightbox" onClick={() => setLightboxIndex(null)}>
           <button className="lightbox-close" onClick={() => setLightboxIndex(null)}>×</button>
           <button className="lightbox-prev" onClick={(e) => { e.stopPropagation(); setLightboxIndex((lightboxIndex - 1 + galleryImages.length) % galleryImages.length); }}>‹</button>
-          <img src={galleryImages[lightboxIndex]} alt={`Parque Recreacional Jipiro ${lightboxIndex + 1}`} className="lightbox-img" />
+          <img src={galleryImages[lightboxIndex]} alt={`Centro turístico Tio Yacu ${lightboxIndex + 1}`} className="lightbox-img" />
           <button className="lightbox-next" onClick={(e) => { e.stopPropagation(); setLightboxIndex((lightboxIndex + 1) % galleryImages.length); }}>›</button>
         </div>
       )}
