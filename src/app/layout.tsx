@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(`https://${process.env.CURRENT_SITE_DOMAIN || 'centrotioyacu.com'}`),
+  metadataBase: new URL(`https://${process.env.CURRENT_SITE_DOMAIN}`),
   alternates: {
     canonical: "/en",
     languages: {
