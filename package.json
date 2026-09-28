@@ -6,7 +6,7 @@
     "predev": "node scripts/generate-gallery.js",
     "dev": "next dev --webpack",
     "prebuild": "node scripts/generate-gallery.js",
-    "build": "opennextjs-cloudflare build",
+    "build": "next build --webpack && opennextjs-cloudflare build --skipNextBuild",
     "start": "next start",
     "deploy": "opennextjs-cloudflare deploy",
     "preview": "opennextjs-cloudflare preview",
