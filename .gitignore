@@ -41,3 +41,7 @@ next-env.d.ts
 
 # project specific
 pozos-azules.txt
+
+# OpenNext / Cloudflare build output and local secrets
+.open-next/
+.dev.vars
