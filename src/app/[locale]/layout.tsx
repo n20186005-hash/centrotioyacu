@@ -74,7 +74,7 @@ export async function generateMetadata(
       siteName: "Centro turístico Tio Yacu Travel Guide",
       images: [
         {
-          url: "/gallery/centro-turistico-tio-yacu (1).jpg",
+          url: "/gallery/centro-turistico-tio-yacu-1.jpg",
           width: 1200,
           height: 630,
           alt: "Centro turístico Tio Yacu - Rioja, Peru",
@@ -86,7 +86,7 @@ export async function generateMetadata(
       title: "Centro turístico Tio Yacu — Rioja, Peru",
       description:
         "A travel guide to Centro turístico Tio Yacu in Rioja, Peru.",
-      images: ["/gallery/centro-turistico-tio-yacu (1).jpg"],
+      images: ["/gallery/centro-turistico-tio-yacu-1.jpg"],
     },
     robots: {
       index: true,

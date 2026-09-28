@@ -8,8 +8,8 @@ const images = files
   .filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f))
   .map(f => `/gallery/${f}`)
   .sort((a, b) => {
-    const numA = parseInt(a.match(/\((\d+)\)/)?.[1] || "0");
-    const numB = parseInt(b.match(/\((\d+)\)/)?.[1] || "0");
+    const numA = parseInt(a.match(/-(\d+)\.[a-z]+$/i)?.[1] || "0");
+    const numB = parseInt(b.match(/-(\d+)\.[a-z]+$/i)?.[1] || "0");
     return numA - numB;
   });
 
