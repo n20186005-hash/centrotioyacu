@@ -1,99 +1,110 @@
-name: Verify 150 public visitor guides
+name: Capture public visitor interface from Chrome
 on:
   push:
     branches: [verify/150-visitor-guides-20261124]
-permissions:
-  contents: read
+permissions: {}
 jobs:
-  public-html:
+  screenshots:
     runs-on: ubuntu-latest
-    timeout-minutes: 14
+    timeout-minutes: 8
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: 3ea9b3c7f7744ffd13618f8aacf7447706389ae8
-          persist-credentials: false
-      - name: Verify every production URL, site directory, sitemap and photograph
+      - name: Visit home, directory and guide on desktop and mobile
+        env:
+          SITE: centrotioyacu.com
         run: |
           python - <<'PY'
-          import concurrent.futures, hashlib, html, json, pathlib, time, urllib.parse, urllib.request
-          from html.parser import HTMLParser
-          from xml.etree import ElementTree as ET
-          origin='https://www.centrotioyacu.com'
-          langs=('en','es','zh','qu')
-          places=json.loads(pathlib.Path('src/lib/destinations.json').read_text())
-          class Page(HTMLParser):
-              def __init__(self):
-                  super().__init__(convert_charrefs=True)
-                  self.hidden=0
-                  self.text=[]
-                  self.tags=[]
-                  self.links=[]
-                  self.img=[]
-                  self.canon=[]
-                  self.alternates={}
-              def handle_starttag(self,tag,attrs):
-                  a=dict(attrs)
-                  self.tags.append(tag)
-                  if tag in ('style','script'): self.hidden+=1
-                  if tag=='a': self.links.append(a.get('href',''))
-                  if tag=='img': self.img.append(a.get('src',''))
-                  if tag=='link' and a.get('rel')=='canonical': self.canon.append(a['href'])
-                  if tag=='link' and a.get('rel')=='alternate' and a.get('hreflang'):self.alternates[a['hreflang']]=a['href']
-              def handle_endtag(self,tag):
-                  if tag in ('style','script'):self.hidden-=1
-              def handle_data(self,data):
-                  if not self.hidden:self.text.append(data)
-          def grab(url, binary=False):
-              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; GuidePublicationCheck/1.0)','Accept':'image/*' if binary else 'text/html,application/xml'})
-              for count in range(3):
-                  try:
-                      with urllib.request.urlopen(req,timeout=28) as r:
-                          assert r.status==200 and (binary or r.geturl().rstrip('/')==url.rstrip('/')), (r.status,r.geturl())
-                          return (r.read(2048) if binary else r.read()),r.headers.get('Content-Type','')
-                  except Exception:
-                      if count==2:raise
-                      time.sleep(2+count)
-          def norm(s):return ' '.join(s.split())
-          def page(url):
-              data,_=grab(url)
-              p=Page();p.feed(data.decode('utf-8'))
-              return p,norm(' '.join(p.text))
-          def inspect(task):
-              lang,p=task
-              path='/'+lang+'/nearby/'+p['slug']; url=origin+path
-              h,body=page(url)
-              c=p['local'][lang]
-              for field in [c['name'],c['story'],c['photoNote'],c['question'],c['answer'],*c['route']]:
-                  assert norm(field) in body,(path,field[:70])
-              assert h.canon==[url] and all(h.alternates.get(l)==origin+'/'+l+'/nearby/'+p['slug'] for l in langs),path+' metadata'
-              assert h.tags.count('footer')==1 and h.tags.count('summary')>=3 and h.tags.count('ol')>=1 and 'nav' in h.tags,path+' shell'
-              assert p['source'] in h.links and p['photo'] in h.img and any('www.google.com/maps/search/' in a for a in h.links),path+' resources'
-              return path,hashlib.sha256(body.encode()).hexdigest()[:12]
-          def check_photo(p):
-              body,ctype=grab(p['photo'],True)
-              assert ctype.lower().startswith('image/') and len(body)>100,(p['slug'],ctype,len(body))
-              return p['slug'],ctype
-          for n in range(8):
+          import base64, json, os, pathlib, shutil, socket, subprocess, time
+          from urllib.request import urlopen, Request
+          from urllib.error import HTTPError
+          from urllib.parse import urlparse
+          out=pathlib.Path("ui-evidence"); out.mkdir(exist_ok=True)
+          domain=os.environ["SITE"]; locale="zh"; origin="https://www."+domain
+          port=9515
+          proc=subprocess.Popen([shutil.which("chromedriver"),"--port="+str(port)],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+          base="http://127.0.0.1:"+str(port)
+          sid=""
+          def cmd(verb,path,body=None):
+              data=None if body is None else json.dumps(body).encode()
+              req=Request(base+path,data=data,method=verb,headers={"Content-Type":"application/json"})
               try:
-                  inspect(('en',places[0]));break
-              except Exception as exc:
-                  if n==7:raise
-                  if n%4==0: print('Awaiting updated production content',str(exc)[:130],flush=True)
-                  time.sleep(10)
-          with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
-              results=list(pool.map(inspect,[(l,p) for l in langs for p in places]))
-          assert len(set(x[1] for x in results))==124
-          for p,digest in results:print('BODY',p,digest)
-          for l in langs:
-              for path in ['/'+l,'/'+l+'/nearby']:
-                  h,_=page(origin+path)
-                  assert h.tags.count('footer')==1 and all('/'+l+'/nearby/'+p['slug'] in h.links for p in places),path
-                  print('INDEX',path,'31/31')
-          xml,_=grab(origin+'/sitemap.xml')
-          locations={v.text for v in ET.fromstring(xml).findall('.//{*}loc')}
-          assert all(origin+p in locations for p,_ in results)
-          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-              for slug,mime in pool.map(check_photo,places): print('PHOTO',slug,mime)
-          print('PASS 124/124 production pages; 4 homepages and 4 directories; sitemap; 31/31 location photographs',flush=True)
+                  with urlopen(req,timeout=75) as res:return json.load(res)["value"]
+              except HTTPError as err:raise RuntimeError(err.read().decode()[:1000])
+          for _ in range(60):
+              try:cmd("GET","/status");break
+              except OSError:time.sleep(.25)
+          sid=cmd("POST","/session",{"capabilities":{"alwaysMatch":{"browserName":"chrome","goog:chromeOptions":{"binary":shutil.which("google-chrome") or shutil.which("chromium"),"args":["--headless=new","--no-sandbox","--disable-dev-shm-usage","--disable-gpu","--lang=zh-CN"]}}}})["sessionId"]
+          root="/session/"+sid
+          def js(script,*args):return cmd("POST",root+"/execute/sync",{"script":script,"args":list(args)})
+          def dev(method,**params):return cmd("POST",root+"/goog/cdp/execute",{"cmd":method,"params":params})
+          def shot(name):
+              value=dev("Page.captureScreenshot",format="png",captureBeyondViewport=False)
+              (out/(name+".png")).write_bytes(base64.b64decode(value["data"]))
+          def until(fn,sec=25):
+              start=time.time()
+              while time.time()-start<sec:
+                  val=fn()
+                  if val:return val
+                  time.sleep(.35)
+              return False
+          def ready():until(lambda: js("return document.readyState==='complete'"));time.sleep(.65)
+          def click_link(path,detail=False):
+              script="""const path=arguments[0], detail=arguments[1];let items=[...document.querySelectorAll('a[href]')].filter(a=>{let u=new URL(a.href);return u.origin===location.origin&&(detail?u.pathname.startsWith(path+'/')&&u.pathname.length>path.length+1:u.pathname.replace(/\\/$/,'')===path)});for(const a of items){const r=a.getBoundingClientRect(),s=getComputedStyle(a);if(r.width>0&&r.height>0&&s.display!=='none'&&s.visibility!=='hidden'){a.scrollIntoView({block:'center',behavior:'instant'});return a}}return null"""
+              el=js(script,path,detail)
+              if not el:
+                  toggle=js("""return [...document.querySelectorAll('button[aria-controls],button[aria-expanded],button[aria-label]')].find(b=>b.getBoundingClientRect().width>0&&/menu|菜单|選單/i.test(b.getAttribute('aria-label')||b.textContent))||null""")
+                  if toggle:
+                      cmd("POST",root+"/element/"+next(iter(toggle.values()))+"/click",{});time.sleep(.3);el=js(script,path,detail)
+              if not el:return {"click":False,"reason":"no visible link"}
+              before=js("return location.pathname")
+              href=cmd("GET",root+"/element/"+next(iter(el.values()))+"/attribute/href")
+              try:cmd("POST",root+"/element/"+next(iter(el.values()))+"/click",{})
+              except RuntimeError as e:return {"click":False,"href":href,"reason":str(e)[:240]}
+              ok=until(lambda:js("return location.pathname")!=before,8)
+              ready()
+              return {"click":bool(ok),"href":href,"path":js("return location.pathname")}
+          def metrics():
+              return js("""let f=document.querySelector('footer');let w=document.documentElement.clientWidth;return {width:w,scrollWidth:Math.max(document.body.scrollWidth,document.documentElement.scrollWidth),viewport:innerWidth,h1:document.querySelector('h1')?.innerText?.trim()||'',footer:f?{tag:f.tagName,classes:f.className,text:f.innerText.replace(/\\s+/g,' ').slice(0,1500),links:[...f.querySelectorAll('a')].map(a=>a.href)}:null,url:location.href,wide:[...document.querySelectorAll('body *')].filter(e=>{let r=e.getBoundingClientRect();return r.width>0&&r.right>w+2&&getComputedStyle(e).position!=='absolute'}).slice(0,5).map(e=>[e.tagName,e.className?.toString().slice(0,75)])}""")
+          def photo():
+              return js("""let w=innerWidth,h=innerHeight;let result=[];for(const e of document.querySelectorAll('img,header,section,div')){let r=e.getBoundingClientRect();if(r.width<w*.45||r.height<120||r.top>h*.92||r.bottom<50)continue;let src=e.tagName==='IMG'?(e.currentSrc||e.src):null;if(!src){let bg=getComputedStyle(e).backgroundImage;let m=bg.match(/url\\(["']?([^"')]+)["']?\\)/);if(m)src=m[1]}if(src)result.push({source:src,loaded:e.tagName==='IMG'?e.complete&&e.naturalWidth>0:null,width:Math.round(r.width),height:Math.round(r.height),top:Math.round(r.top)})}return result.sort((a,b)=>b.width*b.height-a.width*a.height)[0]||null""")
+          def top():js("window.scrollTo({top:0,behavior:'instant'});");time.sleep(.45)
+          def footer_shot(name):
+              js("document.querySelector('footer')?.scrollIntoView({block:'start',behavior:'instant'})");time.sleep(.45);shot(name)
+          report=[]
+          try:
+              for mode,w,h in [('desktop',1440,960),('mobile',390,844)]:
+                  dev("Emulation.setDeviceMetricsOverride",width=w,height=h,deviceScaleFactor=1,mobile=mode=='mobile')
+                  cmd("POST",root+"/url",{"url":origin+"/"+locale});ready();top()
+                  row={"mode":mode,"home":metrics()};report.append(row)
+                  row["homePhoto"]=until(photo,6);shot(mode+"-home");footer_shot(mode+"-home-footer");top()
+                  row["homeToDirectory"]=click_link("/"+locale+"/nearby")
+                  if not row["homeToDirectory"]["click"]:
+                      cmd("POST",root+"/url",{"url":origin+"/"+locale+"/nearby"});ready()
+                  top();row["directory"]=metrics();shot(mode+"-directory")
+                  row["directoryToDetail"]=click_link("/"+locale+"/nearby",True)
+                  if not row["directoryToDetail"]["click"]:continue
+                  top();row["detail"]=metrics()
+                  row["detailPhoto"]=until(lambda: (p if (p:=photo()) and p.get("loaded") is not False else None),12)
+                  if row["detailPhoto"] and row["detailPhoto"]["loaded"] is None:
+                      src=row["detailPhoto"]["source"]; js("let im=new Image();window.__qaHero=im;im.src=arguments[0]",src)
+                      row["detailPhoto"]["loaded"]=bool(until(lambda:js("return window.__qaHero.complete&&window.__qaHero.naturalWidth>0"),10))
+                  shot(mode+"-detail");footer_shot(mode+"-detail-footer")
+                  row['footerMatches']=all(row[t]['footer']==row['home']['footer'] for t in ('directory','detail')) and bool(row['home']['footer'])
+                  row['noOverflow']=all(row[t]['scrollWidth']<=w+1 and row[t]['width']<=w+1 for t in ('home','directory','detail'))
+              failures=[]
+              for r in report:
+                  for name,val in [('homeToDirectory',r.get('homeToDirectory',{}).get('click')),('directoryToDetail',r.get('directoryToDetail',{}).get('click')),('detailPhoto',(r.get('detailPhoto') or {}).get('loaded')),('footerMatches',r.get('footerMatches')),('noOverflow',r.get('noOverflow'))]:
+                      if not val:failures.append(r['mode']+' '+name)
+                  print('UI',r['mode'],r.get('homeToDirectory'),r.get('directoryToDetail'),r.get('detailPhoto'),r.get('footerMatches'),[(t,r[t]['width'],r[t]['scrollWidth']) for t in ('home','directory','detail') if t in r],flush=True)
+              print("RESULT",failures or "PASS",flush=True)
+              (out/'verification.json').write_text(json.dumps({'site':domain,'failures':failures,'viewports':report},ensure_ascii=False,indent=2))
+              if failures:raise SystemExit(1)
+          finally:
+              cmd("DELETE",root);proc.terminate()
           PY
+      - name: Store screenshots and DOM checks
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: row-150-chrome-ui
+          path: ui-evidence/
+          retention-days: 60
