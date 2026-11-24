@@ -26,10 +26,11 @@ export default async function GuidePage({params}:Params) {
   const next=near[(near.findIndex(p=>p.slug===slug)+1)%near.length];
   const qs=[[c.question,c.answer],[l.start,c.route[0]+" · "+place.address],[l.howlong,l.allow+" · "+place.minutes+" "+l.minutes]];
   return <main className="place-page">
-    <header className="place-hero"><img src={place.photo} alt={c.name} fetchPriority="high"/><div><Link href={`/${locale}/nearby`}>{l.directory}</Link><h1>{c.name}</h1><p>{place.regional?l.regional:l.local}</p><a href={map}>{place.address}</a></div></header>
+    <header className="place-hero"><img src={place.photo} alt={c.name} fetchPriority="high"/><div><Link href={`/${locale}/nearby`}>{l.directory}</Link><h1>{c.name}</h1><p>{place.regional?l.regional:l.local}</p><a href={map}>{place.address}</a><p>{l.hours} · {hours}</p>{[6,11].includes(place.id)&&<small>{l.rating} · {place.id===6?"4/5":"2/5"}</small>}</div></header>
     <article className="place-body"><section><h2>{l.visit}</h2><p>{c.story}</p></section>
     <section><h2>{l.facts}</h2><dl>{[[l.address,place.address],[l.time,place.minutes+" "+l.minutes],[l.hours,hours],[l.fees,fee]].map(([k,v])=><div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl></section>
     <section><h2>{l.route}</h2><ol>{c.route.map(step=><li key={step}>{step}</li>)}</ol></section>
+    <section><h2>{l.photography}</h2><p>{c.photoNote}</p></section>
     <section><h2>{l.plan}</h2><p>{place.regional?l.regionbase:l.valleybase}</p><a href={map}>{l.map}</a></section>
     <section><h2>{l.faq}</h2>{qs.map(([q,a])=><details key={q}><summary>{q}</summary><p>{a}</p></details>)}</section>
     <aside><a href={place.source} rel="noreferrer">{l.source} · {place.source.includes("mincetur")?"MINCETUR":"PROMPERÚ"}</a></aside>

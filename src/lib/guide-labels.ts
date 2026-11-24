@@ -33,7 +33,9 @@ export const guideLabels = {
     "more": "All area guides",
     "home": "Tioyacu home",
     "next": "Continue exploring",
-    "tour": "Visitor guide"
+    "tour": "Visitor guide",
+    "photography": "Photographing the site",
+    "rating": "Rating on the linked tourism record (one visitor review)"
   },
   "es": {
     "directory": "Lugares para visitar desde Tioyacu",
@@ -69,7 +71,9 @@ export const guideLabels = {
     "more": "Todas las guías de la zona",
     "home": "Inicio de Tioyacu",
     "next": "Seguir explorando",
-    "tour": "Guía de visita"
+    "tour": "Guía de visita",
+    "photography": "Dónde fotografiar",
+    "rating": "Puntuación en la ficha turística enlazada (una opinión)"
   },
   "zh": {
     "directory": "从蒂奥亚库出发游周边",
@@ -105,7 +109,9 @@ export const guideLabels = {
     "more": "全部周边专页",
     "home": "蒂奥亚库首页",
     "next": "继续探索周边",
-    "tour": "实地游览指南"
+    "tour": "实地游览指南",
+    "photography": "实景拍摄位置",
+    "rating": "所引旅游资料的评分（仅一条评价）"
   },
   "qu": {
     "directory": "Tioyacumanta riksina pampakuna",
@@ -141,6 +147,8 @@ export const guideLabels = {
     "more": "Tukuy purina killkakuna",
     "home": "Tioyacupa kallariyna",
     "next": "Ashtawan riksiy",
-    "tour": "Purikpa killka"
+    "tour": "Purikpa killka",
+    "photography": "Maymanta fotota rurana",
+    "rating": "Purina killkapi shuk purikpa chanichiy"
   }
 };

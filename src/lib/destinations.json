@@ -18,7 +18,8 @@
      "Return by the same street and compare the lower river port as a separate stop."
     ],
     "question": "Is the river port on the same level?",
-    "answer": "The viewpoint is above the river. Arrange the descent separately if you want to board a boat."
+    "answer": "The viewpoint is above the river. Arrange the descent separately if you want to board a boat.",
+    "photoNote": "For a river panorama start at the broad public edge and include both banks. For wildlife switch to the trees below the overlook; a tighter frame separates a moving branch from the wider valley."
    },
    "es": {
     "name": "Mirador Punta de Tahuishco",
@@ -29,7 +30,8 @@
      "Vuelve por la misma calle; el puerto de abajo se visita aparte."
     ],
     "question": "¿El puerto está al mismo nivel?",
-    "answer": "El mirador está elevado; organiza la bajada aparte para embarcar."
+    "answer": "El mirador está elevado; organiza la bajada aparte para embarcar.",
+    "photoNote": "Desde el borde público encuadra las dos márgenes. Para fauna, cambia a los árboles bajo el mirador: así es más fácil distinguir qué rama se mueve."
    },
    "zh": {
     "name": "塔维什科岬观景台",
@@ -40,7 +42,8 @@
      "经原街道返回；山脚河港另作一站。"
     ],
     "question": "河港和观景台同高吗？",
-    "answer": "观景台高于河面。若还要乘船，请另行安排下到港口的路线。"
+    "answer": "观景台高于河面。若还要乘船，请另行安排下到港口的路线。",
+    "photoNote": "在公共观景边缘取宽景，把河道两岸同时收入画面。想拍动物时转向台下树冠，缩小取景范围更容易分辨哪根枝条在动。"
    },
    "qu": {
     "name": "Mirador Punta de Tahuishco",
@@ -51,7 +54,8 @@
      "Kikin ñanninta kutiy; urapi puertomanqa huk ratulla riy."
     ],
     "question": "Puerto shuk patallapichu?",
-    "answer": "Qhawana pampaka mayumanta hawapimi; kanowapi rina munashpa uraykuna ñanta rakishpa allichiy."
+    "answer": "Qhawana pampaka mayumanta hawapimi; kanowapi rina munashpa uraykuna ñanta rakishpa allichiy.",
+    "photoNote": "Pata muyumanta ishkay mayu patakunata fotopi churay. Wiwapak uray sachakunata akllay; shuk pallkallata rikushpa kuyuyta tarinki."
    }
   }
  },
@@ -74,7 +78,8 @@
      "Return to the gate on the maintained path."
     ],
     "question": "Will the water be warm?",
-    "answer": "These are cold sulphur springs. For a warm pool plan a separate stop at San Mateo."
+    "answer": "These are cold sulphur springs. For a warm pool plan a separate stop at San Mateo.",
+    "photoNote": "Work from the pool edges so the two springs can be compared without stepping into them. Choose a position out of reflected sky light if you want the stones under the clear water in the picture."
    },
    "es": {
     "name": "Baños Sulfurosos de Oromina",
@@ -85,7 +90,8 @@
      "Regresa por el sendero mantenido hasta la puerta."
     ],
     "question": "¿El agua es cálida?",
-    "answer": "Estos manantiales sulfurosos son fríos; para un baño caliente visita San Mateo en otra salida."
+    "answer": "Estos manantiales sulfurosos son fríos; para un baño caliente visita San Mateo en otra salida.",
+    "photoNote": "Compara las dos pozas desde el borde. Busca un ángulo sin reflejo de cielo para que se distinga el lecho bajo el agua transparente."
    },
    "zh": {
     "name": "奥罗米纳硫磺泉",
@@ -96,7 +102,8 @@
      "经维护的步道返回大门。"
     ],
     "question": "这里是热水吗？",
-    "answer": "这里是冷硫磺泉。偏好温水可另去圣马特奥。"
+    "answer": "这里是冷硫磺泉。偏好温水可另去圣马特奥。",
+    "photoNote": "从潭边分别拍两处泉池，比较泉眼和岸形。想显出清水下的石头，可横移几步避开天空倒影。"
    },
    "qu": {
     "name": "Baños Sulfurosos de Oromina",
@@ -107,7 +114,8 @@
      "Kikin ñanninta punkuman kutiy."
     ],
     "question": "Yakuka kunukchu?",
-    "answer": "Kay pungukunaka chiri. Kunuk yakuta munashpa San Mateoman riy."
+    "answer": "Kay pungukunaka chiri. Kunuk yakuta munashpa San Mateoman riy.",
+    "photoNote": "Ishkay yaku punguta patamantalla rikuy. Yakupa uray rumita rikuchinkapak hana pacha llipik mana rikurina pampa maskay."
    }
   }
  },
@@ -130,7 +138,8 @@
      "Pick a posted pool and retrace the gate route after changing."
     ],
     "question": "Can I go before a day trip?",
-    "answer": "The published early opening makes this possible. Check the morning schedule and leave time to change before your transfer."
+    "answer": "The published early opening makes this possible. Check the morning schedule and leave time to change before your transfer.",
+    "photoNote": "Photograph the pools from a circulation path before changing. Ask before including bathers. The nearby craft stalls offer a second subject, including local weaving and work in bombonaje palm fibre."
    },
    "es": {
     "name": "Baños Termales de San Mateo",
@@ -141,7 +150,8 @@
      "Elige una poza señalada y vuelve a la puerta después de cambiarte."
     ],
     "question": "¿Puedo ir antes de una excursión?",
-    "answer": "El horario publicado empieza temprano. Confirma la apertura y reserva tiempo para cambiarte."
+    "answer": "El horario publicado empieza temprano. Confirma la apertura y reserva tiempo para cambiarte.",
+    "photoNote": "Fotografía las pozas desde el paso antes de cambiarte y pregunta antes de incluir bañistas. Los puestos ofrecen otro tema: tejidos y piezas en fibra de bombonaje."
    },
    "zh": {
     "name": "圣马特奥温泉",
@@ -152,7 +162,8 @@
      "按现场标识选池，更衣后经原入口离开。"
     ],
     "question": "可以在白天出游前来吗？",
-    "answer": "公布的开放时间较早。先确认当天早间开门时间，再算上更衣和转乘时间。"
+    "answer": "公布的开放时间较早。先确认当天早间开门时间，再算上更衣和转乘时间。",
+    "photoNote": "更衣前先从通行区拍池形，拍到浴客前须取得同意。摊位的纺织品和本地棕榈纤维编织也是独立可拍的主题。"
    },
    "qu": {
     "name": "Baños Termales de San Mateo",
@@ -163,7 +174,8 @@
      "Unanchasqa quchata akllay, p'achata tikraspa punkuman kutiy."
     ],
     "question": "Tutamantachu rina?",
-    "answer": "Ari, ñawpa paskana pachata tapuy, churanata tikrachinapak pachata sakiy."
+    "answer": "Ari, ñawpa paskana pachata tapuy, churanata tikrachinapak pachata sakiy.",
+    "photoNote": "Churanata tikrachina ñawpa purina ñanmanta kuchata rikuy. Runata fotopi churankapak tapuy. Katuna pampapi awashkata bombonaje kututa rikuy."
    }
   }
  },
@@ -186,7 +198,8 @@
      "Turn back there along the same trail if rain has made the lower rocks slippery."
     ],
     "question": "Where should I stop on wet ground?",
-    "answer": "Choose a firm bank with a view of the drop. Wet rocks beside the flow make a poor place for a tripod."
+    "answer": "Choose a firm bank with a view of the drop. Wet rocks beside the flow make a poor place for a tripod.",
+    "photoNote": "Treat the stepped falls as a sequence. A side view includes both a rocky lip and the lower pool; breaking the cascade into separate frames makes the different drops easier to distinguish."
    },
    "es": {
     "name": "Cascada de Paccha",
@@ -197,7 +210,8 @@
      "Regresa por el mismo camino si la lluvia ha mojado las rocas bajas."
     ],
     "question": "¿Dónde paro con el piso mojado?",
-    "answer": "Busca una orilla firme con vista a la caída; evita apoyar el trípode sobre la roca mojada junto al chorro."
+    "answer": "Busca una orilla firme con vista a la caída; evita apoyar el trípode sobre la roca mojada junto al chorro.",
+    "photoNote": "Mira los saltos como secuencia. Desde un lado se aprecia el borde rocoso y la poza inferior; una foto por salto permite distinguir los distintos desniveles."
    },
    "zh": {
     "name": "帕克查瀑布",
@@ -208,7 +222,8 @@
      "若雨后低处岩石湿滑，从观景处原路返回。"
     ],
     "question": "地面湿时哪里适合停留？",
-    "answer": "选能看清水柱的坚实岸边，别把脚架放在水流边的湿岩石上。"
+    "answer": "选能看清水柱的坚实岸边，别把脚架放在水流边的湿岩石上。",
+    "photoNote": "把四级落水作为连续地形。侧面取景能同时收入石坎和下方水潭，分开拍摄各级比强求全景更能表现落差。"
    },
    "qu": {
     "name": "Cascada de Paccha",
@@ -219,7 +234,8 @@
      "Para rumikunata huq'uchiptin chaymanta kikin ñanninta kutiy."
     ],
     "question": "Maypita shayana?",
-    "answer": "Sinchi patamanta pakchata rikuy. Huku rumipika fotopa kaspita ama churaychu."
+    "answer": "Sinchi patamanta pakchata rikuy. Huku rumipika fotopa kaspita ama churaychu.",
+    "photoNote": "Pakchakunata shuk shuk rikuy. Kinraymanta rumipa patanta uray kuchata rikunki; sapanta fotopi churay."
    }
   }
  },
@@ -242,7 +258,8 @@
      "At the visitor landing walk only where the hosts direct, then return by the booked boat."
     ],
     "question": "Can I walk the whole route?",
-    "answer": "Travel through flood forest includes water transport. Confirm each leg and the return boat with your guide."
+    "answer": "Travel through flood forest includes water transport. Confirm each leg and the return boat with your guide.",
+    "photoNote": "At water level, roots that enter the channel give the image a scale the canopy alone cannot. A longer lens lets you photograph a perched animal without asking the canoe operator to approach it."
    },
    "es": {
     "name": "Reserva ecológica Tingana",
@@ -253,7 +270,8 @@
      "En el desembarco usa los tramos permitidos y vuelve en la lancha acordada."
     ],
     "question": "¿Se recorre todo a pie?",
-    "answer": "El bosque inundable incluye desplazamientos por agua; acuerda cada tramo y la embarcación de regreso."
+    "answer": "El bosque inundable incluye desplazamientos por agua; acuerda cada tramo y la embarcación de regreso.",
+    "photoNote": "Al nivel del agua, las raíces que entran al canal dan escala. Una focal larga permite fotografiar fauna posada sin pedir que la canoa se acerque."
    },
    "zh": {
     "name": "廷加纳淹水森林",
@@ -264,7 +282,8 @@
      "登岸后只走接待方允许的路，再搭约定船只返回。"
     ],
     "question": "能全程步行吗？",
-    "answer": "湿地行程需要水上交通，出发前和向导确认各段及返程用船。"
+    "answer": "湿地行程需要水上交通，出发前和向导确认各段及返程用船。",
+    "photoNote": "在船上贴近水面视角拍伸进水道的树根，可表现森林尺度；用长焦拍停栖动物，无需要求船家靠近。"
    },
    "qu": {
     "name": "Reserva ecológica Tingana",
@@ -275,7 +294,8 @@
      "Chayaspa saqisqa ñanllata puriy, kikin wampuwan kutiy."
     ],
     "question": "Tukuyta chakipichu?",
-    "answer": "Yaku sachapi kanowawanpash rina tiyan. Pusakwan kutina kanowata rimay."
+    "answer": "Yaku sachapi kanowawanpash rina tiyan. Pusakwan kutina kanowata rimay.",
+    "photoNote": "Kanowamanta yakuman yaykuk sapikunata fotopi churay. Karumanta rikuchikwan wiwa laduman mana asuyashpapash rikuchinki."
    }
   }
  },
@@ -298,7 +318,8 @@
      "Visit the selected exhibition and return on the central streets."
     ],
     "question": "Is Saturday a full opening day?",
-    "answer": "The tourism listing gives Saturday until 13:00, shorter than weekdays. Confirm holiday or exhibition closures."
+    "answer": "The tourism listing gives Saturday until 13:00, shorter than weekdays. Confirm holiday or exhibition closures.",
+    "photoNote": "Ask which objects may be photographed. Compare a ceramic vessel with a lithic piece before the fossil display; the change of material also marks a change from human craft to natural history."
    },
    "es": {
     "name": "Museo Departamental San Martín",
@@ -309,7 +330,8 @@
      "Visita la muestra elegida y vuelve por las calles del centro."
     ],
     "question": "¿El sábado abre todo el día?",
-    "answer": "La ficha señala cierre a las 13:00, antes que entre semana. Confirma feriados y cierres de sala."
+    "answer": "La ficha señala cierre a las 13:00, antes que entre semana. Confirma feriados y cierres de sala.",
+    "photoNote": "Pregunta qué piezas admiten fotos. Compara una vasija con un objeto lítico antes de pasar a fósiles: el cambio de material separa el trabajo humano de la historia natural."
    },
    "zh": {
     "name": "圣马丁地区博物馆",
@@ -320,7 +342,8 @@
      "参观选定展区后沿市中心街道返回。"
     ],
     "question": "星期六也全天开放吗？",
-    "answer": "旅游资料列周六13时闭馆，比平日早。节假日与展室临时安排需再确认。"
+    "answer": "旅游资料列周六13时闭馆，比平日早。节假日与展室临时安排需再确认。",
+    "photoNote": "先问展品拍摄规定。由陶器转向石器，再去古生物化石区，材料和制作痕迹可以帮助区分人类工艺与自然史展陈。"
    },
    "qu": {
     "name": "Museo Departamental San Martín",
@@ -331,7 +354,8 @@
      "Akllasqa t'aqata qhawaspa llaqta chawpinman kutiy."
     ],
     "question": "Sábadopi tukuy punchachu?",
-    "answer": "Killkapi 13:00 wichkarin nin. Raymi punchapi punkuta tapuy."
+    "answer": "Killkapi 13:00 wichkarin nin. Raymi punchapi punkuta tapuy.",
+    "photoNote": "Maykan rurashkata fotopi churana tapuy. Mankata rumi ruraywan chimpachiy; chaymanta ñawpa wiwapa fósilkunata rikuy."
    }
   }
  },
@@ -354,7 +378,8 @@
      "Follow the authorised chamber circuit and return with the guide to the surface."
     ],
     "question": "May I photograph the cave animals?",
-    "answer": "Ask your escort what is allowed and keep the flash off around wildlife."
+    "answer": "Ask your escort what is allowed and keep the flash off around wildlife.",
+    "photoNote": "Let the guide light one formation at a time. A curtain seen from the side reads quite differently from a column joining floor and ceiling. Stay on the visitor line when trying a lower angle."
    },
    "es": {
     "name": "Cueva de Palestina",
@@ -365,7 +390,8 @@
      "Recorre solo las salas habilitadas y regresa a la salida con el guía."
     ],
     "question": "¿Puedo fotografiar fauna en la cueva?",
-    "answer": "Consulta con el acompañante y evita usar flash cerca de los animales."
+    "answer": "Consulta con el acompañante y evita usar flash cerca de los animales.",
+    "photoNote": "Pide al guía iluminar una formación a la vez. Una cortina vista de perfil se distingue de una columna unida al piso y techo. Busca ángulos bajos desde la línea de visita."
    },
    "zh": {
     "name": "巴勒斯蒂纳洞穴",
@@ -376,7 +402,8 @@
      "只随向导走开放洞室，跟队返回地面。"
     ],
     "question": "能拍洞内动物吗？",
-    "answer": "先问陪同人员允许的范围，有野生动物时关闪光灯。"
+    "answer": "先问陪同人员允许的范围，有野生动物时关闪光灯。",
+    "photoNote": "请向导一次照亮一种洞穴沉积。侧拍帘状石幔，再比较连接洞顶与洞底的石柱，低角度也在规定通行线上完成。"
    },
    "qu": {
     "name": "Cueva de Palestina",
@@ -387,7 +414,8 @@
      "Saqisqa uchkukunallata purispa pusaqwan lluksimuy."
     ],
     "question": "Machay wiwata fotota rurashachu?",
-    "answer": "Pusakta tapuy; wiwapa ladupi achkita ama hapichiychu."
+    "answer": "Pusakta tapuy; wiwapa ladupi achkita ama hapichiychu.",
+    "photoNote": "Pusakta shuk rumi rikchayllata achkichinapak mañay. Warkurishka rumita hawata allpata tinkuchik rumita chimpachiy; ñanmanta ama lluksiychu."
    }
   }
  },
@@ -410,7 +438,8 @@
      "Turn at the open lookout and descend the same authorised way."
     ],
     "question": "What should I allow for the descent?",
-    "answer": "Set aside daylight for the return even if you reach the summit quickly; the same slope can feel slower on the way down."
+    "answer": "Set aside daylight for the return even if you reach the summit quickly; the same slope can feel slower on the way down.",
+    "photoNote": "From the summit, orient first toward Moyobamba and then toward Rioja. Take separate views before a broad panorama so you can later identify each side of the limestone rise."
    },
    "es": {
     "name": "Morro de Calzada",
@@ -421,7 +450,8 @@
      "Da la vuelta en el mirador abierto y baja por la ruta autorizada."
     ],
     "question": "¿Qué margen dejo para bajar?",
-    "answer": "Guarda luz para el retorno aunque llegues pronto a la cumbre; la pendiente puede requerir más cuidado al bajar."
+    "answer": "Guarda luz para el retorno aunque llegues pronto a la cumbre; la pendiente puede requerir más cuidado al bajar.",
+    "photoNote": "En la cima ubica primero Moyobamba y después Rioja. Captura ambas direcciones por separado antes de intentar una panorámica del relieve calizo."
    },
    "zh": {
     "name": "卡尔萨达山",
@@ -432,7 +462,8 @@
      "从开放观景处折返，经许可路线下山。"
     ],
     "question": "下山要留多少余量？",
-    "answer": "即使很快到顶也要预留白天下山的时间，陡坡下降有时比上山更慢。"
+    "answer": "即使很快到顶也要预留白天下山的时间，陡坡下降有时比上山更慢。",
+    "photoNote": "山顶先分辨莫约班巴与里奥哈两个方向，各拍一幅作为方位参考，再拍石灰岩山地与谷地全景。"
    },
    "qu": {
     "name": "Morro de Calzada",
@@ -443,7 +474,8 @@
      "Kichasqa qhawanamanta kikin ñanta uraykamuy."
     ],
     "question": "Uraykunapak imata allichina?",
-    "answer": "Utka hawaman chayashpapash inti tiyashkama uraykunapak pachata sakiy."
+    "answer": "Utka hawaman chayashpapash inti tiyashkama uraykunapak pachata sakiy.",
+    "photoNote": "Urku hawamanta ñawpa Moyobambata, chaymanta Riojata maskay. Sapan manyata rikuchishpa chaymanta tukuy waykuta fotopi churay."
    }
   }
  },
@@ -466,7 +498,8 @@
      "Complete the signed walk and return to reception"
     ],
     "question": "Is this a long forest hike?",
-    "answer": "The garden circuit is about 900 m. Extra time is best spent with the interpreter at individual plants."
+    "answer": "The garden circuit is about 900 m. Extra time is best spent with the interpreter at individual plants.",
+    "photoNote": "At a labelled or identified bromeliad, frame its attachment to the trunk as well as the leaves. A closer view of the leaf rosette then shows a structure that disappears in a general forest picture."
    },
    "es": {
     "name": "Jardín Botánico Amazonia",
@@ -477,7 +510,8 @@
      "Completa el recorrido señalizado hasta recepción"
     ],
     "question": "¿Es una caminata larga?",
-    "answer": "El circuito tiene unos 900 m. Usa el tiempo adicional para detenerte con el intérprete ante cada planta."
+    "answer": "El circuito tiene unos 900 m. Usa el tiempo adicional para detenerte con el intérprete ante cada planta.",
+    "photoNote": "En una bromelia identificada incluye su unión con el tronco, además de las hojas. Acércate con el encuadre a la roseta para mostrar su forma sin mover la planta."
    },
    "zh": {
     "name": "亚马孙植物园",
@@ -488,7 +522,8 @@
      "按标志走回接待处"
     ],
     "question": "林间步道很长吗？",
-    "answer": "园内线约900米。可将额外时间留给讲解员，在个别植株旁细看。"
+    "answer": "园内线约900米。可将额外时间留给讲解员，在个别植株旁细看。",
+    "photoNote": "遇到讲解员指出的凤梨科植物时，先拍它附着树干的位置，再拍叶丛的莲座形态，不用触碰或搬动植物。"
    },
    "qu": {
     "name": "Jardín Botánico Amazonia",
@@ -499,7 +534,8 @@
      "Señalkunata katishpa punkuman kutiy"
     ],
     "question": "Karuchu purina?",
-    "answer": "900 metro shinami. Yallik pachapi pusakwan sapan mallkita rikuy."
+    "answer": "900 metro shinami. Yallik pachapi pusakwan sapan mallkita rikuy.",
+    "photoNote": "Bromeliata tarishpa kaspiwan tinkirina kitita rikuchiy. Chaymanta pankakunapa muyu rikchayta mallkita mana kuyuchishpa fotopi churay."
    }
   }
  },
@@ -522,7 +558,8 @@
      "Return directly to your vehicle before visibility drops"
     ],
     "question": "What if cloud covers the valley?",
-    "answer": "Pause on the viewing platform for breaks in the mist; avoid walking onto the road to search for a clearer angle."
+    "answer": "Pause on the viewing platform for breaks in the mist; avoid walking onto the road to search for a clearer angle.",
+    "photoNote": "Keep one ridge in the foreground and wait for a second ridge to emerge behind it. Even if the full vista never clears, the layers show the transition between slopes and the Alto Mayo forest."
    },
    "es": {
     "name": "Mirador del Bosque de Protección Alto Mayo",
@@ -533,7 +570,8 @@
      "Regresa al vehículo antes de que cierre la neblina"
     ],
     "question": "¿Y si la neblina tapa el valle?",
-    "answer": "Espera un claro desde el mirador; evita salir a la calzada en busca de otro ángulo."
+    "answer": "Espera un claro desde el mirador; evita salir a la calzada en busca de otro ángulo.",
+    "photoNote": "Deja un filo en primer plano y espera a que aparezca otro detrás. Aun con nubes, los planos sucesivos hacen visible la transición del bosque entre laderas."
    },
    "zh": {
     "name": "上马约保护林观景台",
@@ -544,7 +582,8 @@
      "浓雾遮路前原路返回车辆"
     ],
     "question": "谷里雾大怎么办？",
-    "answer": "在观景区等云隙，别为换角度走到行车道上。"
+    "answer": "在观景区等云隙，别为换角度走到行车道上。",
+    "photoNote": "在前景留一条山脊，等雾隙露出后方另一道脊线。即使山谷没完全放晴，前后林带也足以表现坡面的森林过渡。"
    },
    "qu": {
     "name": "Mirador del Bosque de Protección Alto Mayo",
@@ -555,7 +594,8 @@
      "Puyu shamukpi karroman kutiy"
     ],
     "question": "Puyu waykuta pakakpi imatana?",
-    "answer": "Qhawana pampapi shuyay, carro ñanman ama yaykuychu."
+    "answer": "Qhawana pampapi shuyay, carro ñanman ama yaykuychu.",
+    "photoNote": "Ñawpakpi shuk urku washata akllay, washaman shuk rikurinakama shuyay. Puyu kakpipash sacha patakuna rikurin."
    }
   }
  },
@@ -578,7 +618,8 @@
      "Follow the agreed canoe loop back to the same reception"
     ],
     "question": "Whom can I call about the boat?",
-    "answer": "The regional listing gives +51 916 999 209 for reservations. Discuss landing point, fares and lifejackets before arrival."
+    "answer": "The regional listing gives +51 916 999 209 for reservations. Discuss landing point, fares and lifejackets before arrival.",
+    "photoNote": "A seated canoe view places renaco roots and their reflections in the same frame. Take a second picture of an aguaje palm crown to show why the flooded forest is more than an open stretch of water."
    },
    "es": {
     "name": "Reserva Ecológica Santa Elena",
@@ -589,7 +630,8 @@
      "Regresa en la canoa acordada al punto de recepción"
     ],
     "question": "¿Dónde consulto por la canoa?",
-    "answer": "La ficha indica +51 916 999 209 para reservas. Acuerda embarque, tarifa y chalecos antes de llegar."
+    "answer": "La ficha indica +51 916 999 209 para reservas. Acuerda embarque, tarifa y chalecos antes de llegar.",
+    "photoNote": "Desde el asiento de la canoa encuadra raíces de renaco y su reflejo. Añade la copa de un aguaje para mostrar cómo está compuesto el bosque inundable."
    },
    "zh": {
     "name": "圣埃莱娜湿地保护区",
@@ -600,7 +642,8 @@
      "按约定水路乘船返回接待处"
     ],
     "question": "船位问谁？",
-    "answer": "地区旅游资料所列预约号为 +51 916 999 209。先问码头、船费和救生衣。"
+    "answer": "地区旅游资料所列预约号为 +51 916 999 209。先问码头、船费和救生衣。",
+    "photoNote": "坐在船上拍榕根与水中倒影，再补一张沼泽棕榈树冠，将湿地展示为有层次的淹水森林。"
    },
    "qu": {
     "name": "Reserva Ecológica Santa Elena",
@@ -611,7 +654,8 @@
      "Kanowapi purishpa kallariyman kutiy"
     ],
     "question": "Kanowapak pitata kayana?",
-    "answer": "+51 916 999 209man kayay; puerto, kullki, yaku churanata tapuy."
+    "answer": "+51 916 999 209man kayay; puerto, kullki, yaku churanata tapuy.",
+    "photoNote": "Kanowapi tiyarishpa renakupa sapita yakupi rikchayntapash rikuy. Aguajepa hawata yapashpa yaku sachata rikuchiy."
    }
   }
  },
@@ -634,7 +678,8 @@
      "Wait beside a perch without handling the butterflies"
     ],
     "question": "When are blue wings easiest to see?",
-    "answer": "Look while the butterfly is in flight or resting with wings open. Its folded wings show the subdued underside."
+    "answer": "Look while the butterfly is in flight or resting with wings open. Its folded wings show the subdued underside.",
+    "photoNote": "Use leaves as your reference point for photographing eggs and larvae. In the adult enclosure, stand beside a regular landing perch and wait for a butterfly to settle naturally."
    },
    "es": {
     "name": "Mariposario Morpho Azul",
@@ -645,7 +690,8 @@
      "Espera junto a una percha sin tocar las alas"
     ],
     "question": "¿Cuándo se aprecia el azul?",
-    "answer": "En vuelo o con las alas abiertas; cuando se posan cerradas se ve el reverso pardo."
+    "answer": "En vuelo o con las alas abiertas; cuando se posan cerradas se ve el reverso pardo.",
+    "photoNote": "Utiliza la hoja como referencia para fotografiar huevos y orugas. En el recinto de adultas espera junto a una percha de descanso, sin perseguir al ejemplar."
    },
    "zh": {
     "name": "蓝闪蝶园",
@@ -656,7 +702,8 @@
      "在停栖点旁静候，不碰蝶翅"
     ],
     "question": "什么时候能看到蓝翅？",
-    "answer": "飞行或张翅时最明显。合翅停栖时主要见到褐色的翅背。"
+    "answer": "飞行或张翅时最明显。合翅停栖时主要见到褐色的翅背。",
+    "photoNote": "用寄主叶片作比例参照拍蝶卵与幼虫。到成蝶区选一根常用停栖枝守候，等蝴蝶自行落下。"
    },
    "qu": {
     "name": "Mariposario Morpho Azul",
@@ -667,7 +714,8 @@
      "Raprata mana llamkashpa shuyay"
     ],
     "question": "Imayta ankas rikurin?",
-    "answer": "Pawakpi uta raprata paskakpi. Wichkakpika puka allpa tullpu rikurin."
+    "answer": "Pawakpi uta raprata paskakpi. Wichkakpika puka allpa tullpu rikurin.",
+    "photoNote": "Pankawan pillpintu ruruta kurutapash fotopi churay. Hatun pillpintupak samana pallkapa ladupi shuyay."
    }
   }
  },
@@ -690,7 +738,8 @@
      "Finish in the sales area and check transport rules before buying"
     ],
     "question": "Will every orchid be in flower?",
-    "answer": "Flowering varies. Ask to compare roots and propagation stages if few plants are blooming."
+    "answer": "Flowering varies. Ask to compare roots and propagation stages if few plants are blooming.",
+    "photoNote": "A side-on image of a mounted orchid shows the roots gripping their support. Ask the grower to place a specimen near plain light if display arrangements allow; keep pots where staff want them."
    },
    "es": {
     "name": "Vivero Orquídeas Amazónicas",
@@ -701,7 +750,8 @@
      "Termina en ventas y consulta los requisitos de transporte"
     ],
     "question": "¿Todas estarán florecidas?",
-    "answer": "La floración varía. Si hay pocas flores, pide comparar las raíces y etapas de propagación."
+    "answer": "La floración varía. Si hay pocas flores, pide comparar las raíces y etapas de propagación.",
+    "photoNote": "De perfil, una orquídea montada deja ver cómo se sujeta al soporte. Consulta al viverista antes de acercar una maceta a otra luz y deja las plantas en su lugar."
    },
    "zh": {
     "name": "亚马孙兰花苗圃",
@@ -712,7 +762,8 @@
      "最后到售卖区，购买前核实植物携带规定"
     ],
     "question": "每株兰花都会开花吗？",
-    "answer": "花期各异，少花时可请园方示范根系与繁育阶段。"
+    "answer": "花期各异，少花时可请园方示范根系与繁育阶段。",
+    "photoNote": "侧拍附生兰可以展现根如何紧贴支撑物；若想换光线，请先征得园方同意，盆栽保持在工作人员安排的位置。"
    },
    "qu": {
     "name": "Vivero Orquídeas Amazónicas",
@@ -723,7 +774,8 @@
      "Rantina pampapi apana kamachita tapuy"
     ],
     "question": "Tukuychu sisakun?",
-    "answer": "Sisana pachaka shuk shuk. Pishi sisapi sapita wiñana rikchayta tapuy."
+    "answer": "Sisana pachaka shuk shuk. Pishi sisapi sapita wiñana rikchayta tapuy.",
+    "photoNote": "Kinraymanta orkideapa sapi kaspita imashina hapinta rikuchiy. Mankata achkiman apana ñawpa mallki kamakta tapuy."
    }
   }
  },
@@ -746,7 +798,8 @@
      "Follow the guide to the ground-bird station when invited"
     ],
     "question": "Is a walk-in suitable for the first feeding session?",
-    "answer": "Arrange it ahead: the reserve requests advance booking even within the published opening hours."
+    "answer": "Arrange it ahead: the reserve requests advance booking even within the published opening hours.",
+    "photoNote": "Frame a feeding perch with clear space where the hummingbird can enter. For quail, lower the camera toward the forest floor before birds appear so adjustments do not disturb them."
    },
    "es": {
     "name": "Reserva Arena Blanca",
@@ -757,7 +810,8 @@
      "Pasa con el guía al puesto de aves terrestres"
     ],
     "question": "¿Puedo llegar sin avisar al primer turno?",
-    "answer": "Coordina con anticipación: la reserva solicita reservar incluso dentro de su horario publicado."
+    "answer": "Coordina con anticipación: la reserva solicita reservar incluso dentro de su horario publicado.",
+    "photoNote": "Deja espacio libre delante de la percha del colibrí. Para codornices, apunta al suelo antes de que aparezcan, evitando reajustar todo al llegar las aves."
    },
    "zh": {
     "name": "白沙观鸟保护区",
@@ -768,7 +822,8 @@
      "在引导下转到地栖鸟观察点"
     ],
     "question": "能临时赶第一场观鸟吗？",
-    "answer": "最好提前约定；即使公布时间内，保护区也要求预先预约。"
+    "answer": "最好提前约定；即使公布时间内，保护区也要求预先预约。",
+    "photoNote": "拍蜂鸟时在停栖枝前留出飞入空间。等鹌鹑时提前将镜头放低对准林下，鸟出现后就不用大幅移动。"
    },
    "qu": {
     "name": "Reserva Arena Blanca",
@@ -779,7 +834,8 @@
      "Pusakwan allpapi purik pishkukunaman riy"
     ],
     "question": "Ñawpata mana willashpa yaykunachu?",
-    "answer": "Paskanapi kakpipash ñawpamanta pusakta willay."
+    "answer": "Paskanapi kakpipash ñawpamanta pusakta willay.",
+    "photoNote": "Kintipa pallka ñawpakpi pampa sakiy. Codorniz shamuna ñawpa fotota allpaman kushpa shuyay."
    }
   }
  },
@@ -802,7 +858,8 @@
      "Cross the open space and return along the opposite side"
     ],
     "question": "How does this fit into a walking day?",
-    "answer": "Use it as a shaded pause in Tarapoto. From Tioyacu, first plan a separate road transfer to the city."
+    "answer": "Use it as a shaded pause in Tarapoto. From Tioyacu, first plan a separate road transfer to the city.",
+    "photoNote": "From the corner of Alegría Arias de Morey, include the park edge and its shade trees together. A second frame from the interior looking back to the street records how the former lagoon site meets the city today."
    },
    "es": {
     "name": "Parque Suchiche",
@@ -813,7 +870,8 @@
      "Cruza el espacio abierto y vuelve por el otro lado"
     ],
     "question": "¿Cómo combinarlo con una caminata?",
-    "answer": "Úsalo como pausa sombreada en Tarapoto. Desde Tioyacu se requiere un traslado por carretera."
+    "answer": "Úsalo como pausa sombreada en Tarapoto. Desde Tioyacu se requiere un traslado por carretera.",
+    "photoNote": "Desde la esquina incluye el borde y los árboles de sombra. Desde dentro, mira de vuelta a la calle para mostrar el contacto actual entre la ciudad y el espacio de la antigua laguna."
    },
    "zh": {
     "name": "苏奇切公园",
@@ -824,7 +882,8 @@
      "穿过开阔区从对侧绕回"
     ],
     "question": "如何串进步行路线？",
-    "answer": "可作塔拉波托市内的林荫休息站；从蒂奥亚库出发须先安排城际公路交通。"
+    "answer": "可作塔拉波托市内的林荫休息站；从蒂奥亚库出发须先安排城际公路交通。",
+    "photoNote": "从街角将公园边界与遮荫树一同入镜，再从园内反拍街面，呈现这片原潟湖空地今天与城市相接的方式。"
    },
    "qu": {
     "name": "Parque Suchiche",
@@ -835,7 +894,8 @@
      "Pampata chimpashpa shuk patamanta kutiy"
     ],
     "question": "Imashina purinawan tinkuchina?",
-    "answer": "Tarapotopi llantupi samay. Tioyacumanta ñawpa karropi llaktaman riy."
+    "answer": "Tarapotopi llantupi samay. Tioyacumanta ñawpa karropi llaktaman riy.",
+    "photoNote": "Kalli kuchumanta pampa patata llantu yurakunawan rikuchiy. Pampapa ukumanta kalliman rikushpa ñawpa kuchapa kunan rikchayta rikuchiy."
    }
   }
  },
@@ -858,7 +918,8 @@
      "Use the agreed return trail while daylight remains"
     ],
     "question": "Does every circuit return the same afternoon?",
-    "answer": "The one-day route does; the published longer circuit has an overnight stop. Book the one you intend."
+    "answer": "The one-day route does; the published longer circuit has an overnight stop. Book the one you intend.",
+    "photoNote": "At the hummingbird garden, set up before the birds return to their perches. At the falls, switch to a wider view of the forest enclosing the water; agree on stops with your guide so the return schedule holds."
    },
    "es": {
     "name": "Circuitos ecoturísticos Alto Shilcayo",
@@ -869,7 +930,8 @@
      "Emprende el retorno acordado con luz"
     ],
     "question": "¿Todos los circuitos regresan esa tarde?",
-    "answer": "El de un día sí; el itinerario largo tiene pernocte. Indica cuál reservas."
+    "answer": "El de un día sí; el itinerario largo tiene pernocte. Indica cuál reservas.",
+    "photoNote": "En el jardín prepara el encuadre antes de que vuelvan los colibríes. En las cascadas abre el plano para incluir el bosque y acuerda paradas con el guía para mantener el retorno."
    },
    "zh": {
     "name": "上希尔卡约森林游径",
@@ -880,7 +942,8 @@
      "按约定回程路线在天黑前折返"
     ],
     "question": "所有线路都当天下午返回吗？",
-    "answer": "一日线当天返回，长线过夜。预约时说明选择。"
+    "answer": "一日线当天返回，长线过夜。预约时说明选择。",
+    "photoNote": "蜂鸟园先对好停栖枝再等鸟返回。到了瀑布，改用宽景收入周围森林，与向导约好停留时长以保证回程。"
    },
    "qu": {
     "name": "Circuitos ecoturísticos Alto Shilcayo",
@@ -891,7 +954,8 @@
      "Punchallapi rimashka ñanpi kutiy"
     ],
     "question": "Tukuychu chay punchalla kutin?",
-    "answer": "Shuk puncha ñan ari. Karu ñanpi puñuna tukun; maykanta munanki rimay."
+    "answer": "Shuk puncha ñan ari. Karu ñanpi puñuna tukun; maykanta munanki rimay.",
+    "photoNote": "Kinti kutimuna ñawpa pallkata akllay. Pakchapi sacha yakuwan rikuchiy; pusakwan shayana pachata rimay."
    }
   }
  },
@@ -914,7 +978,8 @@
      "Turn back at the bank on the same trail"
     ],
     "question": "Where does the approach leave the main road?",
-    "answer": "Look for Puente Colombia on the road towards Chazuta and confirm the signed turn before continuing."
+    "answer": "Look for Puente Colombia on the road towards Chazuta and confirm the signed turn before continuing.",
+    "photoNote": "Along the relatively level approach, photograph contrasting bark textures before the last opening in the trees. From the pool bank a vertical frame follows the water for the full visible drop."
    },
    "es": {
     "name": "Catarata de Pucayaquillo",
@@ -925,7 +990,8 @@
      "Regresa por el mismo sendero desde la poza"
     ],
     "question": "¿Dónde se deja la carretera?",
-    "answer": "Ubica el puente Colombia en la vía hacia Chazuta y confirma allí el desvío señalizado."
+    "answer": "Ubica el puente Colombia en la vía hacia Chazuta y confirma allí el desvío señalizado.",
+    "photoNote": "En el acceso llano compara texturas de corteza antes del claro final. Desde la orilla, el encuadre vertical sigue el agua a lo largo de la caída visible."
    },
    "zh": {
     "name": "普卡亚基约瀑布",
@@ -936,7 +1002,8 @@
      "在岸上折返同一林道"
     ],
     "question": "从公路哪里转入？",
-    "answer": "沿查苏塔方向找到哥伦比亚桥，在桥附近确认岔口标志。"
+    "answer": "沿查苏塔方向找到哥伦比亚桥，在桥附近确认岔口标志。",
+    "photoNote": "在较平缓的林段先拍树皮纹理，再到终点林间空隙。潭边用竖幅顺着水流，可收入完整可见落差。"
    },
    "qu": {
     "name": "Catarata de Pucayaquillo",
@@ -947,7 +1014,8 @@
      "Yaykushka ñantallata kutiy"
     ],
     "question": "Maypita hatun ñanta sakina?",
-    "answer": "Chazuta ñanpi Puente Colombiata maskay, chaypi rakinata tapuy."
+    "answer": "Chazuta ñanpi Puente Colombiata maskay, chaypi rakinata tapuy.",
+    "photoNote": "Pampa ñanpi sachapa karankunata chimpachiy. Yakupa patamanta sayay fotopi pakchapa tukuy urmayta rikuchiy."
    }
   }
  },
@@ -970,7 +1038,8 @@
      "Retrace the four kilometres before the last entry period ends"
     ],
     "question": "Is this a quick roadside stop?",
-    "answer": "Budget for a four-kilometre approach and another four back; a late arrival leaves little walking time."
+    "answer": "Budget for a four-kilometre approach and another four back; a late arrival leaves little walking time.",
+    "photoNote": "The fern-lined margin offers a dry-land foreground for the waterfall. Try a frame through the fronds and another without them; there is no need to approach the pool to establish scale."
    },
    "es": {
     "name": "Catarata de Huacamaillo",
@@ -981,7 +1050,8 @@
      "Vuelve con margen para los cuatro kilómetros"
     ],
     "question": "¿Es una parada junto a la carretera?",
-    "answer": "Calcula cuatro kilómetros de ida y otros cuatro de vuelta. Llegar tarde reduce el margen."
+    "answer": "Calcula cuatro kilómetros de ida y otros cuatro de vuelta. Llegar tarde reduce el margen.",
+    "photoNote": "Desde el borde de helechos crea un primer plano para el salto. Compara una imagen con frondas y otra despejada; no hace falta acercarse a la poza para dar escala."
    },
    "zh": {
     "name": "瓦卡迈约瀑布",
@@ -992,7 +1062,8 @@
      "为4公里原路返回预留时间"
     ],
     "question": "是路边即可看的景点吗？",
-    "answer": "单程约4公里，还须走相同距离返回，不宜太晚出发。"
+    "answer": "单程约4公里，还须走相同距离返回，不宜太晚出发。",
+    "photoNote": "用岸边蕨叶作前景，再拍一张无遮挡的瀑布。两张相对照即可说明尺度，不必走近深潭。"
    },
    "qu": {
     "name": "Catarata de Huacamaillo",
@@ -1003,7 +1074,8 @@
      "Chusku kilometrota kutinapak pachata sakiy"
     ],
     "question": "Carro ñan ladullapichu?",
-    "answer": "Chusku kilometro yaykuna, chuskuta kutina. Tutamanta kallariy."
+    "answer": "Chusku kilometro yaykuna, chuskuta kutina. Tutamanta kallariy.",
+    "photoNote": "Patapi helechopa pankata ñawpakpi churay. Shuk fotopi pankawan, shukpi mana pankawan pakchata rikuchiy."
    }
   }
  },
@@ -1026,7 +1098,8 @@
      "Leave the basin on the same managed trail"
     ],
     "question": "Does the small drop mean shallow water?",
-    "answer": "The tourism record describes a pool around four metres deep. View the water from the bank unless local staff confirm suitable conditions."
+    "answer": "The tourism record describes a pool around four metres deep. View the water from the bank unless local staff confirm suitable conditions.",
+    "photoNote": "Find a stable place where the two drops read separately. Make one image for each fall before trying to include both, because their flows and the light on the forest can differ."
    },
    "es": {
     "name": "Cascada de Carpishuyacu",
@@ -1037,7 +1110,8 @@
      "Sal de la poza por el mismo acceso"
     ],
     "question": "¿Los saltos bajos significan poca profundidad?",
-    "answer": "La ficha describe unos cuatro metros de profundidad. Observa desde la orilla y consulta condiciones."
+    "answer": "La ficha describe unos cuatro metros de profundidad. Observa desde la orilla y consulta condiciones.",
+    "photoNote": "Busca suelo estable desde donde se distingan ambos saltos. Registra cada uno antes de juntarlos: el caudal y la luz del bosque pueden ser distintos."
    },
    "zh": {
     "name": "卡尔皮舒亚库双瀑",
@@ -1048,7 +1122,8 @@
      "从原步道离开水潭"
     ],
     "question": "瀑布不高，潭也浅吗？",
-    "answer": "旅游资料标注潭深约四米。先在岸边欣赏，入水条件需现场确认。"
+    "answer": "旅游资料标注潭深约四米。先在岸边欣赏，入水条件需现场确认。",
+    "photoNote": "先找能分辨两级瀑布的坚实地面。分别拍摄后再合拍，水势和森林阴影的差别会更清楚。"
    },
    "qu": {
     "name": "Cascada de Carpishuyacu",
@@ -1059,7 +1134,8 @@
      "Yaykushka ñanllapi kutiy"
     ],
     "question": "Uchilla pakchaka pishi yakuchu?",
-    "answer": "Killkapi chusku metro ukuta nin. Patapi shayashpa kamakta tapuy."
+    "answer": "Killkapi chusku metro ukuta nin. Patapi shayashpa kamakta tapuy.",
+    "photoNote": "Sinchi allpamanta ishkay pakchata rikuy. Ñawpa sapanta fotopi churay, chaymanta ishkantinta; achki yaku shuk shuk kan."
    }
   }
  },
@@ -1082,7 +1158,8 @@
      "Take a wide view from a dry spot and retrace the path"
     ],
     "question": "Are bird sightings certain?",
-    "answer": "A cock-of-the-rock is seasonal. Hearing birds around the spray is more likely than seeing a particular species."
+    "answer": "A cock-of-the-rock is seasonal. Hearing birds around the spray is more likely than seeing a particular species.",
+    "photoNote": "A vertical composition follows the roughly forty-metre chute, while an oblique view shows ferns clinging to its wet wall. Use a spot beyond the heaviest spray to keep droplets off the lens."
    },
    "es": {
     "name": "Catarata Ahuashiyacu",
@@ -1093,7 +1170,8 @@
      "Toma la vista general desde suelo seco y vuelve"
     ],
     "question": "¿Es seguro ver un gallito de las rocas?",
-    "answer": "Es una observación estacional. Escuchar aves alrededor del salto no garantiza ver esa especie."
+    "answer": "Es una observación estacional. Escuchar aves alrededor del salto no garantiza ver esa especie.",
+    "photoNote": "Un encuadre vertical sigue el chorro de unos cuarenta metros; de costado se ven los helechos de la pared. Busca un punto fuera del rocío más intenso para cuidar el lente."
    },
    "zh": {
     "name": "阿瓦希亚库瀑布",
@@ -1104,7 +1182,8 @@
      "在干燥处拍全景后原路返程"
     ],
     "question": "一定会看到安第斯动冠伞鸟吗？",
-    "answer": "这种鸟只在部分季节出现，听到鸟声并不等同于能看到特定物种。"
+    "answer": "这种鸟只在部分季节出现，听到鸟声并不等同于能看到特定物种。",
+    "photoNote": "竖幅跟随约40米落水，侧面则能展开湿岩壁上的蕨丛。避开水雾最浓的一带，可减少镜头上的水滴。"
    },
    "qu": {
     "name": "Catarata Ahuashiyacu",
@@ -1115,7 +1194,8 @@
      "Chaki allpamanta rikushpa kutiy"
     ],
     "question": "Gallito de las rocas rikurinchu?",
-    "answer": "Wakin pachallapi rikurin; pishkuta uyashpallaka kay pishkuta mana yachankichu."
+    "answer": "Wakin pachallapi rikurin; pishkuta uyashpallaka kay pishkuta mana yachankichu.",
+    "photoNote": "Sayay fotopi chusku chunka metro pakchata rikuchiy. Kinraymanta rumipi helechota rikuy. Achka yaku chajchuna pampamanta karupi shayay."
    }
   }
  },
@@ -1138,7 +1218,8 @@
      "Return to the plaza after asking the maker about the piece"
     ],
     "question": "Can I photograph a craft demonstration?",
-    "answer": "Ask the maker, even if the shop is open. Agree if photographs include people or a private part of the home."
+    "answer": "Ask the maker, even if the shop is open. Agree if photographs include people or a private part of the home.",
+    "photoNote": "The plaza sculptures can be photographed from the public route. To show earthen construction, frame a wall and roof junction from the street rather than pointing a lens through a household doorway."
    },
    "es": {
     "name": "Centro Poblado Comunidad Nativa Kechwa El wayku",
@@ -1149,7 +1230,8 @@
      "Conversa con quien hizo la pieza y regresa a la plaza"
     ],
     "question": "¿Puedo fotografiar una demostración?",
-    "answer": "Pregunta al artesano aunque esté abierto. Distingue entre fotografiar la pieza, a una persona o el interior de la vivienda."
+    "answer": "Pregunta al artesano aunque esté abierto. Distingue entre fotografiar la pieza, a una persona o el interior de la vivienda.",
+    "photoNote": "Retrata las esculturas desde la plaza. Para mostrar el tapial, enfoca desde la calle la unión entre pared y cubierta, respetando la intimidad del interior doméstico."
    },
    "zh": {
     "name": "埃尔瓦伊库克丘瓦社区",
@@ -1160,7 +1242,8 @@
      "向制作者了解作品后步行回广场"
     ],
     "question": "能拍制作过程吗？",
-    "answer": "店铺开放也要先问。拍物件、拍人和拍私人住宅内部分别征得同意。"
+    "answer": "店铺开放也要先问。拍物件、拍人和拍私人住宅内部分别征得同意。",
+    "photoNote": "广场雕塑可从公共路线取景。拍夯土建筑时，从街上拍墙体与屋顶的交界，避免镜头对准住户门内。"
    },
    "qu": {
     "name": "Centro Poblado Comunidad Nativa Kechwa El wayku",
@@ -1171,7 +1254,8 @@
      "Rurakwan rimashpa pampaman kutiy"
     ],
     "question": "Makirurayta fotota rurashachu?",
-    "answer": "Paskashkapipash rurakta tapuy. Rurashkata, runata, wasi ukuta shuk shuk tapuy."
+    "answer": "Paskashkapipash rurakta tapuy. Rurashkata, runata, wasi ukuta shuk shuk tapuy.",
+    "photoNote": "Pampamanta rurashka rikchayta fotopi churay. Kallimanta puka pirqa katawan tinkirikta rikuy; wasi ukuman ama qhawaychu."
    }
   }
  },
@@ -1194,7 +1278,8 @@
      "Descend after locating Wayku and the valley from the viewpoint"
     ],
     "question": "Is the castle an archaeological site?",
-    "answer": "It is a modern work inspired by European architecture. Visit Wayku separately to learn about local building traditions."
+    "answer": "It is a modern work inspired by European architecture. Visit Wayku separately to learn about local building traditions.",
+    "photoNote": "Use the frame of a terrace opening to orient the view down toward Wayku. Another photograph of the masonry at close range explains how the handcrafted building differs from the distant urban scene."
    },
    "es": {
     "name": "El Castillo de Lamas",
@@ -1205,7 +1290,8 @@
      "Ubica Wayku y el valle antes de bajar"
     ],
     "question": "¿Es un sitio arqueológico?",
-    "answer": "Es una obra moderna inspirada en arquitectura europea. En el Wayku se conocen por separado técnicas locales de vivienda."
+    "answer": "Es una obra moderna inspirada en arquitectura europea. En el Wayku se conocen por separado técnicas locales de vivienda.",
+    "photoNote": "Enmarca la vista al Wayku con la abertura de una terraza. Una toma cercana de la piedra tallada explica mejor la construcción que una segunda toma del horizonte."
    },
    "zh": {
     "name": "拉马斯城堡",
@@ -1216,7 +1302,8 @@
      "辨认社区与河谷的方位后下楼"
     ],
     "question": "这里是考古遗迹吗？",
-    "answer": "这是受欧洲建筑启发的现代作品。如想了解当地传统民居，请另访瓦伊库。"
+    "answer": "这是受欧洲建筑启发的现代作品。如想了解当地传统民居，请另访瓦伊库。",
+    "photoNote": "用露台开口作框，收进下方的瓦伊库社区。再近拍手工石材，比重复拍天际线更能交代建筑本身。"
    },
    "qu": {
     "name": "El Castillo de Lamas",
@@ -1227,7 +1314,8 @@
      "Waykuta waykutapash tarishpa uraykuy"
     ],
     "question": "Ñawpa ruinachu?",
-    "answer": "Kunampa wasi, Europata rikushpa rurashka. Llaktapa ñawpa wasi rurayta Waykupi rikuy."
+    "answer": "Kunampa wasi, Europata rikushpa rurashka. Llaktapa ñawpa wasi rurayta Waykupi rikuy.",
+    "photoNote": "Patapa paskashka manyamanta uray Waykuta rikuchiy. Chaymanta llakllashka rumita asuyashpa rikuy."
    }
   }
  },
@@ -1250,7 +1338,8 @@
      "Read the event board before walking back"
     ],
     "question": "Do I need a show ticket to see the exhibitions?",
-    "answer": "Ask at reception which public galleries are open and whether the specific workshop or show requires registration."
+    "answer": "Ask at reception which public galleries are open and whether the specific workshop or show requires registration.",
+    "photoNote": "From the public street, use the corner of Reyes Guerra and Serafín Filomeno as a recognisable arrival picture. Inside, check the exhibition's photography rule before taking images of works or participants."
    },
    "es": {
     "name": "Centro Cultural Moyobamba (Cumo)",
@@ -1261,7 +1350,8 @@
      "Revisa la cartelera antes de volver"
     ],
     "question": "¿Necesito entrada de función para ver exposiciones?",
-    "answer": "Consulta qué salas públicas abren y si el taller o función concreta requiere inscripción."
+    "answer": "Consulta qué salas públicas abren y si el taller o función concreta requiere inscripción.",
+    "photoNote": "Desde la calle, el cruce de Reyes Guerra y Serafín Filomeno sirve como referencia de llegada. Dentro consulta las reglas de cada muestra antes de fotografiar obras o asistentes."
    },
    "zh": {
     "name": "莫约班巴文化中心",
@@ -1272,7 +1362,8 @@
      "出门前读活动告示，再步行回广场"
     ],
     "question": "看展一定要演出票吗？",
-    "answer": "先问接待处哪些公共展厅开放，再单独核实工作坊或演出是否需报名。"
+    "answer": "先问接待处哪些公共展厅开放，再单独核实工作坊或演出是否需报名。",
+    "photoNote": "在街上用交叉路口作抵达参照照。室内先确认该展的拍摄规定，再拍作品或活动参与者。"
    },
    "qu": {
     "name": "Centro Cultural Moyobamba (Cumo)",
@@ -1283,7 +1374,8 @@
      "Killkashka pachata rikushpa kutiy"
     ],
     "question": "Rikuchinata rikunkapak pukllay killkachu?",
-    "answer": "Paskashka ukuta tapuy; yachana utapash pukllaypak shuti killkanata rakishpa tapuy."
+    "answer": "Paskashka ukuta tapuy; yachana utapash pukllaypak shuti killkanata rakishpa tapuy.",
+    "photoNote": "Kallimanta Reyes Guerra tinkuyninta chayana rikchayta ruray. Ukupi rurashkata runata fotopi churana ñawpa tapuy."
    }
   }
  },
@@ -1306,7 +1398,8 @@
      "Ask about the route to Wayku before leaving"
     ],
     "question": "Should I visit before the Wayku workshops?",
-    "answer": "The displays give context to forms, materials and uses. An open workshop can then show how a maker works today."
+    "answer": "The displays give context to forms, materials and uses. An open workshop can then show how a maker works today.",
+    "photoNote": "If photographs are allowed, choose a view that includes the item's label and another focused on the form of a pot or textile pattern. This keeps the recorded interpretation attached to the object later."
    },
    "es": {
     "name": "Museo Chanka y de la Diversidad Lamista",
@@ -1317,7 +1410,8 @@
      "Pregunta por el camino al Wayku al salir"
     ],
     "question": "¿Conviene ir antes de los talleres del Wayku?",
-    "answer": "Las salas explican formas, materiales y usos. Luego un taller abierto muestra el trabajo actual."
+    "answer": "Las salas explican formas, materiales y usos. Luego un taller abierto muestra el trabajo actual.",
+    "photoNote": "Si permiten fotos, toma una imagen con la cartela y otra de la forma de la vasija o el diseño textil. Al revisar las imágenes conservarás la identificación de la pieza."
    },
    "zh": {
     "name": "昌卡与拉马斯文化多样性博物馆",
@@ -1328,7 +1422,8 @@
      "出门前询问去瓦伊库的路线"
     ],
     "question": "适合先逛馆再去瓦伊库吗？",
-    "answer": "展品可先交代形制、原料和用途，再到开放作坊看当代实际做法。"
+    "answer": "展品可先交代形制、原料和用途，再到开放作坊看当代实际做法。",
+    "photoNote": "允许拍摄时，先拍带说明牌的整体，再拍器形或纺织纹样，之后整理照片时才能把细节与原展品资料对应。"
    },
    "qu": {
     "name": "Museo Chanka y de la Diversidad Lamista",
@@ -1339,7 +1434,8 @@
      "Lluksina ñawpa Wayku ñanta tapuy"
     ],
     "question": "Ñawpachu museoman rina?",
-    "answer": "Kaypi imawan imapak rurashkata yachanki; chaymanta Waykupi kunampa rurayta rikuy."
+    "answer": "Kaypi imawan imapak rurashkata yachanki; chaymanta Waykupi kunampa rurayta rikuy.",
+    "photoNote": "Fotota ruray ushakpika shuk fotopi killkata rurashkawan churay. Shukpi mankapa rikchayta awashkapa tullputa rikuchiy."
    }
   }
  },
@@ -1362,7 +1458,8 @@
      "Enter and return only with the appointed escort"
     ],
     "question": "Must I bring my own helmet?",
-    "answer": "The inventory says the administrator provides a helmet and light. Confirm availability and fit for every visitor when reserving."
+    "answer": "The inventory says the administrator provides a helmet and light. Confirm availability and fit for every visitor when reserving.",
+    "photoNote": "Keep both hands available when the escort asks you to negotiate the cave. At a stopping point ask the escort to light the wet rock; avoid placing a camera where water runs through the passage."
    },
    "es": {
     "name": "Cueva Cascada Escondida",
@@ -1373,7 +1470,8 @@
      "Entra y vuelve con el acompañante designado"
     ],
     "question": "¿Debo llevar casco propio?",
-    "answer": "El inventario indica que el administrador facilita casco e iluminación. Confirma disponibilidad y tallas al reservar."
+    "answer": "El inventario indica que el administrador facilita casco e iluminación. Confirma disponibilidad y tallas al reservar.",
+    "photoNote": "Mantén libres las manos en los pasos que señale el acompañante. Desde una parada pide iluminar la roca mojada y mantén el equipo fuera del cauce interior."
    },
    "zh": {
     "name": "隐瀑洞",
@@ -1384,7 +1482,8 @@
      "由指定人员陪同进洞并返回"
     ],
     "question": "需要自备头盔吗？",
-    "answer": "清单列明管理方提供头盔和照明。预约时核实每人的装备与尺寸。"
+    "answer": "清单列明管理方提供头盔和照明。预约时核实每人的装备与尺寸。",
+    "photoNote": "需要通过洞内复杂处时双手留作通行。到允许停留点再请陪同人员照亮湿岩，器材不要放在地下流水路径上。"
    },
    "qu": {
     "name": "Cueva Cascada Escondida",
@@ -1395,7 +1494,8 @@
      "Pusakwan yaykuy, paywanllata kutiy"
     ],
     "question": "Ñukapa cascota apanachu?",
-    "answer": "Kamachik casco achkita kun nin. Ñawpa sapan runapak pakta kashkata tapuy."
+    "answer": "Kamachik casco achkita kun nin. Ñawpa sapan runapak pakta kashkata tapuy.",
+    "photoNote": "Sasa ñanpi ishkay makita paskashka sakiy. Shayasha pampapi pusakta huku rumita achkichina mañay; fotopa hillayta yakumanta karupi sakiy."
    }
   }
  },
@@ -1418,7 +1518,8 @@
      "Retrace the promenade to the town-side access"
     ],
     "question": "Can I enjoy the river without a boat?",
-    "answer": "Yes. The attraction is the public promenade along the Uquihua, and the viewpoint changes as you walk."
+    "answer": "Yes. The attraction is the public promenade along the Uquihua, and the viewpoint changes as you walk.",
+    "photoNote": "Try one frame along the Uquihua bank with the promenade leading into the distance, then another across the water to emphasise the vegetation. Both are possible from the public walking area."
    },
    "es": {
     "name": "Boulevard Turístico Quillosisa",
@@ -1429,7 +1530,8 @@
      "Regresa por el paseo al acceso urbano"
     ],
     "question": "¿Necesito bote para ver el río?",
-    "answer": "No hace falta: el boulevard recorre la ribera del Uquihua y la perspectiva cambia al caminar."
+    "answer": "No hace falta: el boulevard recorre la ribera del Uquihua y la perspectiva cambia al caminar.",
+    "photoNote": "Desde el paseo público toma una vista siguiendo la orilla del Uquihua y otra hacia la vegetación de enfrente. Cambiar el eje muestra el río y el uso recreativo de su borde."
    },
    "zh": {
     "name": "基约西萨滨河步道",
@@ -1440,7 +1542,8 @@
      "按原步道回到市区一端"
     ],
     "question": "看河要乘船吗？",
-    "answer": "不必，步道沿乌基瓦河展开，沿岸步行即可欣赏不同角度。"
+    "answer": "不必，步道沿乌基瓦河展开，沿岸步行即可欣赏不同角度。",
+    "photoNote": "沿乌基瓦河拍一幅步道延伸的纵深，再转向对岸植被，两张照片都可在公共步行区完成。"
    },
    "qu": {
     "name": "Boulevard Turístico Quillosisa",
@@ -1451,7 +1554,8 @@
      "Ñanllapi llaktaman kutiy"
     ],
     "question": "Kanowachu mutsurin?",
-    "answer": "Mana. Uquihua patapi chakillawan purishpa mayuta rikunki."
+    "answer": "Mana. Uquihua patapi chakillawan purishpa mayuta rikunki.",
+    "photoNote": "Purikunapa ñanmanta Uquihua patanta rikuchiy. Chaymanta chimpapi mallkikunata fotopi churay."
    }
   }
  },
@@ -1474,7 +1578,8 @@
      "Add a guided forest walk if time and trail conditions allow"
     ],
     "question": "Is there a place to stay for early birdwatching?",
-    "answer": "The inventory lists lodging and meals at Waqanki. Reserve directly and agree on an early guide separately."
+    "answer": "The inventory lists lodging and meals at Waqanki. Reserve directly and agree on an early guide separately.",
+    "photoNote": "For hummingbirds, pre-focus on a branch beside a feeder and wait for a perch. On the guided forest trail slow down for natural flowers so the photo series records habitat as well as feeder visits."
    },
    "es": {
     "name": "Centro De Conservación Waqanki",
@@ -1485,7 +1590,8 @@
      "Añade el sendero guiado si el tiempo y el piso lo permiten"
     ],
     "question": "¿Dónde dormir para observar temprano?",
-    "answer": "El inventario registra alojamiento y alimentación en Waqanki. Reserva directamente y coordina por separado el guiado temprano."
+    "answer": "El inventario registra alojamiento y alimentación en Waqanki. Reserva directamente y coordina por separado el guiado temprano.",
+    "photoNote": "Para colibríes enfoca una rama cercana al bebedero y espera. En el sendero guiado detente ante flores del bosque para registrar también el hábitat natural."
    },
    "zh": {
     "name": "瓦坎基保护中心",
@@ -1496,7 +1602,8 @@
      "路况与时间允许时再加向导林道"
     ],
     "question": "清早观鸟住哪里？",
-    "answer": "官方目录列园方提供住宿和餐食。可直接预约，再单独约好晨间向导。"
+    "answer": "官方目录列园方提供住宿和餐食。可直接预约，再单独约好晨间向导。",
+    "photoNote": "先对焦饮水器附近的树枝等蜂鸟停栖。跟向导进林时再拍天然花丛，使照片兼有定点观察和实际生境。"
    },
    "qu": {
     "name": "Centro De Conservación Waqanki",
@@ -1507,7 +1614,8 @@
      "Pacha tiyashpa pusakwan sachaman riy"
     ],
     "question": "Tutamanta qhawankapak maypi puñuna?",
-    "answer": "Waqankipi puñuna mikuna tiyan nin. Puñunata pusaktapash ñawpa tapuy."
+    "answer": "Waqankipi puñuna mikuna tiyan nin. Puñunata pusaktapash ñawpa tapuy.",
+    "photoNote": "Kintipa upyanapa ladupi pallkata akllashpa shuyay. Pusakwan sachapi sisakunata fotopi churay; pishkupa kawsana pampatapash rikuchiy."
    }
   }
  },
@@ -1530,7 +1638,8 @@
      "Cross the middle when the event layout allows"
     ],
     "question": "Can festivals affect the walking route?",
-    "answer": "Yes. Event equipment or processions may occupy the centre; circle the outside and follow local directions."
+    "answer": "Yes. Event equipment or processions may occupy the centre; circle the outside and follow local directions.",
+    "photoNote": "Use a street corner to show the square's layout, then photograph its centre from the perimeter. During a procession keep the event lane open and ask before taking an identifiable portrait."
    },
    "es": {
     "name": "Plaza De Armas De Moyobamba",
@@ -1541,7 +1650,8 @@
      "Cruza el centro si la organización del día lo permite"
     ],
     "question": "¿Las fiestas cambian el recorrido?",
-    "answer": "Los equipos y procesiones pueden ocupar el centro. Camina por el borde y sigue las indicaciones locales."
+    "answer": "Los equipos y procesiones pueden ocupar el centro. Camina por el borde y sigue las indicaciones locales.",
+    "photoNote": "Desde una esquina muestra la forma de la plaza y luego encuadra el centro desde el perímetro. Durante procesiones deja libre el paso y consulta antes de retratar a alguien."
    },
    "zh": {
     "name": "莫约班巴主广场",
@@ -1552,7 +1662,8 @@
      "现场活动允许时再穿越中心"
     ],
     "question": "节庆会影响步行吗？",
-    "answer": "庆典设施和游行可能占用中央空间，可沿外围行走并按现场指引通行。"
+    "answer": "庆典设施和游行可能占用中央空间，可沿外围行走并按现场指引通行。",
+    "photoNote": "先从街角交代广场结构，再由边缘拍中央。遇游行要留出队伍通道，拍可辨识的人像前先征询同意。"
    },
    "qu": {
     "name": "Plaza De Armas De Moyobamba",
@@ -1563,7 +1674,8 @@
      "Pakta kakpika chawpita chimpay"
     ],
     "question": "Raymipi ñan tikrarinchu?",
-    "answer": "Ari. Chawpipi runakuna tantarishka kakpi muyu patanta puriy."
+    "answer": "Ari. Chawpipi runakuna tantarishka kakpi muyu patanta puriy.",
+    "photoNote": "Kalli kuchumanta pampapa rikchayta rikuchiy. Raymi purik runakunapa ñanta paskashka sakiy; runapa fotota rurana ñawpa tapuy."
    }
   }
  },
@@ -1586,7 +1698,8 @@
      "Descend on the same path before dusk"
     ],
     "question": "Is sunset the only good time to see the valley?",
-    "answer": "Morning light also defines the hills and gives more daylight to return to Nueva Cajamarca."
+    "answer": "Morning light also defines the hills and gives more daylight to return to Nueva Cajamarca.",
+    "photoNote": "Choose a foreground outcrop visible from the recognised trail and let the valley recede behind it. From the viewpoint take a second frame toward Nueva Cajamarca to record the town's position below."
    },
    "es": {
     "name": "Cerro Mirador",
@@ -1597,7 +1710,8 @@
      "Baja por la misma huella antes del anochecer"
     ],
     "question": "¿Solo vale la pena al atardecer?",
-    "answer": "La mañana también marca el relieve y deja más horas de luz para regresar a Nueva Cajamarca."
+    "answer": "La mañana también marca el relieve y deja más horas de luz para regresar a Nueva Cajamarca.",
+    "photoNote": "Desde la senda reconocida sitúa una roca en primer plano y deja el valle al fondo. Desde el mirador registra también Nueva Cajamarca para ubicar la ciudad con respecto al cerro."
    },
    "zh": {
     "name": "新卡哈马卡观景山",
@@ -1608,7 +1722,8 @@
      "天黑前沿上山路线下降"
     ],
     "question": "只有日落才好看吗？",
-    "answer": "早上的斜光也能勾勒山形，而且留有更多白天下山时间。"
+    "answer": "早上的斜光也能勾勒山形，而且留有更多白天下山时间。",
+    "photoNote": "在正式步道上选前景石灰岩，让河谷在其后展开，再从观景点拍下城镇，记录新卡哈马卡与山体的位置关系。"
    },
    "qu": {
     "name": "Cerro Mirador",
@@ -1619,7 +1734,8 @@
      "Manarak tutayakpi ñanllata uraykuy"
     ],
     "question": "Inti yaykunallapichu alli?",
-    "answer": "Tutamantapash urkukunata rikunki; llaktaman kutinapak achki puchun."
+    "answer": "Tutamantapash urkukunata rikunki; llaktaman kutinapak achki puchun.",
+    "photoNote": "Ñanmanta ñawpakpi rumita churay, washapi waykuta rikuchiy. Qhawanamanta Nueva Cajamarcata fotopi churay."
    }
   }
  },
@@ -1642,7 +1758,8 @@
      "Use the return arranged before boarding"
     ],
     "question": "Is a return boat automatically included?",
-    "answer": "Agree beforehand whether the fare is one way or round trip, where you meet the boat and how long it waits."
+    "answer": "Agree beforehand whether the fare is one way or round trip, where you meet the boat and how long it waits.",
+    "photoNote": "On the boat keep the camera low enough to avoid obstructing the operator. First record the broad river channel; for a bird picture follow its perch with the lens while the boat stays on its agreed course."
    },
    "es": {
     "name": "Río Mayo, Sector Juan Antonio - Tahuishco",
@@ -1653,7 +1770,8 @@
      "Regresa según lo pactado antes del embarque"
     ],
     "question": "¿La vuelta está incluida?",
-    "answer": "Aclara si pagas ida o ida y vuelta, el puerto de encuentro y cuánto esperará el bote."
+    "answer": "Aclara si pagas ida o ida y vuelta, el puerto de encuentro y cuánto esperará el bote.",
+    "photoNote": "En el bote deja despejada la vista del motorista. Registra el cauce amplio y luego sigue con el lente la percha de un ave, manteniendo el rumbo acordado."
    },
    "zh": {
     "name": "塔维什科至胡安安东尼奥的马约河",
@@ -1664,7 +1782,8 @@
      "依登船前商定方式返回"
     ],
     "question": "船费默认含往返吗？",
-    "answer": "上船前明确单程或往返、返程会合码头以及等待时间。"
+    "answer": "上船前明确单程或往返、返程会合码头以及等待时间。",
+    "photoNote": "船上取景别遮挡掌舵者视线。先拍宽河道，再沿约定航线寻找停栖的鸟，用镜头跟随而非改变航向。"
    },
    "qu": {
     "name": "Río Mayo, Sector Juan Antonio - Tahuishco",
@@ -1675,7 +1794,8 @@
      "Ñawpata rimashkashina kutiy"
     ],
     "question": "Kutina kanowapak kullki yaykushkachu?",
-    "answer": "Shuk ñanllachu ishkantinchu, maypi tarinata, mashna shuyanata tapuy."
+    "answer": "Shuk ñanllachu ishkantinchu, maypi tarinata, mashna shuyanata tapuy.",
+    "photoNote": "Kanowapi apakpa qhawananta ama harkaychu. Ñawpa hatun mayuta, chaymanta pallkapi tiyashka pishkuta kanowapa ñanmanta rikuchiy."
    }
   }
  },
@@ -1698,7 +1818,8 @@
      "Return by the visitor path without standing between birds and feeders"
     ],
     "question": "Where should I stand for photographs?",
-    "answer": "Use the observation position suggested by the family, leaving the flight line between flowers and feeders open."
+    "answer": "Use the observation position suggested by the family, leaving the flight line between flowers and feeders open.",
+    "photoNote": "At the heliconias, frame the flower first and leave room for a hovering bird. At a feeder, step back to include the approach branch. The two images document different ways the same garden supports birds."
    },
    "es": {
     "name": "Llantería Bird´S",
@@ -1709,7 +1830,8 @@
      "Vuelve sin interponerte entre las aves y sus bebederos"
     ],
     "question": "¿Dónde ubicarme para fotos?",
-    "answer": "Usa el puesto indicado por la familia y deja libre la trayectoria entre flores y bebederos."
+    "answer": "Usa el puesto indicado por la familia y deja libre la trayectoria entre flores y bebederos.",
+    "photoNote": "En las heliconias encuadra la flor y deja espacio para el vuelo. Junto al bebedero retrocede para incluir una rama de llegada: ambas imágenes muestran dos usos distintos del jardín."
    },
    "zh": {
     "name": "扬特里亚观鸟花园",
@@ -1720,7 +1842,8 @@
      "从游径返回，避开鸟与饮水器之间的飞行线"
     ],
     "question": "在哪里拍照合适？",
-    "answer": "使用园方家庭指定的观察位置，别挡住花丛和饮水器之间的飞行路径。"
+    "answer": "使用园方家庭指定的观察位置，别挡住花丛和饮水器之间的飞行路径。",
+    "photoNote": "拍赫蕉时先构好花朵并留出悬停空间。饮水器旁后退一些，将飞鸟抵达的树枝收入画面，记录园中两种不同的取食方式。"
    },
    "qu": {
     "name": "Llantería Bird´S",
@@ -1731,7 +1854,8 @@
      "Pishku upyanaman rik ñanta mana harkashpa kutiy"
     ],
     "question": "Maymanta fotota rurana?",
-    "answer": "Ayllu rikuchishka pampapi shayay. Sisamanta upyanaman kinti rik ñanta paskashkata sakiy."
+    "answer": "Ayllu rikuchishka pampapi shayay. Sisamanta upyanaman kinti rik ñanta paskashkata sakiy.",
+    "photoNote": "Heliconia sisata fotopi churashpa kinti shamunapak pampa sakiy. Upyanapi asha kutishpa chayana pallkata rikuchiy."
    }
   }
  }
