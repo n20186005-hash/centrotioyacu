@@ -5,15 +5,13 @@ import {guideLabels} from "@/lib/guide-labels";
 import {guideMeta} from "@/lib/guide-meta";
 import guides from "@/lib/destinations.json";
 type Params = {params: Promise<{locale: Locale;slug:string}>};
-export function generateStaticParams() {return guides.map(({slug})=>({slug}));}
-export const dynamicParams = false;
-export async function generateMetadata({params}: Params) {
+export async function detailMetadata({params}: Params) {
   const {locale,slug}=await params;
   const p=guides.find(g=>g.slug===slug);
   if(!p) notFound();
   return guideMeta(locale,"/nearby/"+slug,p.local[locale].name,p.local[locale].story,p.photo);
 }
-export default async function GuidePage({params}:Params) {
+export async function GuidePage({params}:Params) {
   const {locale,slug}=await params;
   const place=guides.find(p=>p.slug===slug);
   if(!place) notFound();
@@ -36,4 +34,10 @@ export default async function GuidePage({params}:Params) {
     <aside><a href={place.source} rel="noreferrer">{l.source} · {place.source.includes("mincetur")?"MINCETUR":"PROMPERÚ"}</a></aside>
     <section><h2>{l.next}</h2><div className="place-nav"><Link href={`/${locale}/nearby/${next.slug}`}>{next.local[locale].name}</Link><Link href={`/${locale}/nearby`}>{l.more}</Link><Link href={`/${locale}`}>{l.home}</Link></div></section>
     </article></main>;
+}
+// Literal page routes keep Cloudflare's Next adapter from rejecting prerendered nested parameters.
+export function forPlace(slug:string) {
+  type LocalParams={params:Promise<{locale:Locale}>};
+  function withSlug({params}:LocalParams):Params {return {params:params.then(({locale})=>({locale,slug}))};}
+  return {metadata:(props:LocalParams)=>detailMetadata(withSlug(props)),page:(props:LocalParams)=>GuidePage(withSlug(props))};
 }
