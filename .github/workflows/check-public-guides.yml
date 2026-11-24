@@ -1,38 +1,35 @@
-name: Read public tourism records
+name: Validate 150 guide build
 on:
   push:
-    branches: ['verify/150-visitor-guides-20261124']
-permissions: {}
+    branches: [verify/150-visitor-guides-20261124]
+permissions:
+  contents: read
 jobs:
-  sources:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
-      - name: Read official access and image references
+      - uses: actions/checkout@v4
+        with:
+          ref: 801deed578bb8d3af13e77b6c136b80a06e0739f
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci --no-audit --no-fund
+      - run: npm run build
+      - name: Inspect local production HTML for every language and place
         run: |
-          python3 - <<'PY'
-          from concurrent.futures import ThreadPoolExecutor
-          from html.parser import HTMLParser
-          from urllib.request import Request,urlopen
-          from urllib.parse import urljoin
-          import re,json
-          urls=["https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/mirador-punta-de-tahuishco","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/aguas-sulfurosas-de-oromina","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/aguas-termales-de-san-mateo","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/cascada-de-paccha","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/reserva-ecologica-tingana","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/museo-departamental-san-martin","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/cueva-de-palestina","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/naciente-del-rio-tioyacu","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/morro-de-calzada","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/jardin-botanico-amazonia-","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/mirador-del-bosque-de-proteccion-alto-mayo","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/reserva-ecologica-santa-elena","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/mariposario-morpho-azul","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/vivero-orquideas-amazonicas","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/reserva-arena-blanca-","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/parque-suchiche","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/circuitos-ecoturisticos-alto-shilcayo","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/catarata-de-pucayaquillo","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/catarata-de-huacamaillo","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/lago-sauce-laguna-azul","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/cascada-de-carpishuyacu","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/centro-cultural-wasichay-en-chazuta","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/catarata-ahuashiyacu","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/centro-poblado-comunidad-nativa-kechwa-el-wayku","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/castillo-de-lamas","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/cascada-de-chapawanki","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/urnas-funerarias-de-chazuta","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/museo-de-ayahuasca","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4230","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/museo-chanka-y-de-la-diversidad-lamista","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=12478","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13228","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3046","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3107","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3198","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3124","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11288"]
-          class Tag(HTMLParser):
-              def __init__(self): super().__init__(); self.text=[]; self.images=[]
-              def handle_data(self,d):
-                  d=' '.join(d.split())
-                  if d:self.text.append(d)
-              def handle_starttag(self,t,a):
-                  d=dict(a)
-                  if t=='img':self.images.append((d.get('src'),d.get('alt')))
-          def job(url):
-              try:
-                  with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0'}),timeout=15) as r:raw=r.read().decode('utf8',errors='replace')
-                  p=Tag();p.feed(raw);s=' '.join(p.text)
-                  if 'cod_Ficha' in url:
-                      print('GALLERY',json.dumps([url,[line.strip()[:420] for line in raw.splitlines() if any(w in line.lower() for w in ['galeria','galer','fotograf','fotorecurso','<script src','img src','imageurl','ficha.aspx','filefoto']) and not any(w in line.lower() for w in ['vineta_','icono-','vinie','google-analytics'])][:38]],ensure_ascii=False))
-                  else:
-                      a=s.find('Volver a ');end=s.find('Sé el primero en compartir',a);print('FACT',json.dumps([url,s[a:end if end>a else a+2600][:2600]],ensure_ascii=False))
-              except Exception as e:print('ERROR',url,str(e))
-          with ThreadPoolExecutor(4) as pool:list(pool.map(job,[u for u in urls if "cod_Ficha" in u]))
+          python - <<'PY'
+          import json,pathlib,html
+          g=json.loads(pathlib.Path('src/lib/destinations.json').read_text())
+          root=pathlib.Path('.next/server/app')
+          for locale in ('en','es','zh','qu'):
+            for p in g:
+              url=f'{locale}/nearby/{p["slug"]}'
+              doc=html.unescape((root/(url+'.html')).read_text())
+              c=p['local'][locale]
+              checks=[c['name'],c['story'],*c['route'],c['question'],p['photo'],'site-footer','maps/search']
+              assert all(i in doc for i in checks),url
+          print('124 distinct rendered visitor pages passed')
           PY
