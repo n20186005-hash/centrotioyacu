@@ -1,26 +1,99 @@
-name: Diagnose live routing 150
+name: Verify 150 public visitor guides
 on:
   push:
     branches: [verify/150-visitor-guides-20261124]
-permissions: {}
+permissions:
+  contents: read
 jobs:
-  routes:
+  public-html:
     runs-on: ubuntu-latest
+    timeout-minutes: 14
     steps:
-      - run: |
+      - uses: actions/checkout@v4
+        with:
+          ref: 3ea9b3c7f7744ffd13618f8aacf7447706389ae8
+          persist-credentials: false
+      - name: Verify every production URL, site directory, sitemap and photograph
+        run: |
           python - <<'PY'
-          import concurrent.futures,urllib.request,urllib.error,re,time
-          base='https://www.centrotioyacu.com'
-          paths=['/sitemap.xml','/en','/en/nearby','/zh/nearby','/en/nearby/mirador-punta-de-tahuishco','/en/nearby/mirador-punta-de-tahuishco/','/zh/nearby/mirador-punta-de-tahuishco','/es/nearby/centro-cultural-moyobamba','/qu/nearby/llanteria-birds']
-          def probe(p):
-           for q in ('','?verifyguide=150'):
-            try:
-             req=urllib.request.Request(base+p+q,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
-             try:r=urllib.request.urlopen(req,timeout=18)
-             except urllib.error.HTTPError as e:r=e
-             with r:
-              html=r.read().decode('utf-8','replace')
-              print(r.status,p+q,'hrefs',html.count('/nearby/'),'has-guide',('area-directory' in html or 'place-hero' in html),'canonical',re.findall(r'<link rel="canonical"[^>]+>',html)[:1],'cache',r.headers.get('cf-cache-status'),r.headers.get('age'),len(html),'title',re.findall('<title>(.*?)</title>',html)[:1],flush=True)
-            except Exception as e:print(repr(e),flush=True)
-          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(probe,paths))
+          import concurrent.futures, hashlib, html, json, pathlib, time, urllib.parse, urllib.request
+          from html.parser import HTMLParser
+          from xml.etree import ElementTree as ET
+          origin='https://www.centrotioyacu.com'
+          langs=('en','es','zh','qu')
+          places=json.loads(pathlib.Path('src/lib/destinations.json').read_text())
+          class Page(HTMLParser):
+              def __init__(self):
+                  super().__init__(convert_charrefs=True)
+                  self.hidden=0
+                  self.text=[]
+                  self.tags=[]
+                  self.links=[]
+                  self.img=[]
+                  self.canon=[]
+                  self.alternates={}
+              def handle_starttag(self,tag,attrs):
+                  a=dict(attrs)
+                  self.tags.append(tag)
+                  if tag in ('style','script'): self.hidden+=1
+                  if tag=='a': self.links.append(a.get('href',''))
+                  if tag=='img': self.img.append(a.get('src',''))
+                  if tag=='link' and a.get('rel')=='canonical': self.canon.append(a['href'])
+                  if tag=='link' and a.get('rel')=='alternate' and a.get('hreflang'):self.alternates[a['hreflang']]=a['href']
+              def handle_endtag(self,tag):
+                  if tag in ('style','script'):self.hidden-=1
+              def handle_data(self,data):
+                  if not self.hidden:self.text.append(data)
+          def grab(url, binary=False):
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; GuidePublicationCheck/1.0)','Accept':'image/*' if binary else 'text/html,application/xml'})
+              for count in range(3):
+                  try:
+                      with urllib.request.urlopen(req,timeout=28) as r:
+                          assert r.status==200 and (binary or r.geturl().rstrip('/')==url.rstrip('/')), (r.status,r.geturl())
+                          return (r.read(2048) if binary else r.read()),r.headers.get('Content-Type','')
+                  except Exception:
+                      if count==2:raise
+                      time.sleep(2+count)
+          def norm(s):return ' '.join(s.split())
+          def page(url):
+              data,_=grab(url)
+              p=Page();p.feed(data.decode('utf-8'))
+              return p,norm(' '.join(p.text))
+          def inspect(task):
+              lang,p=task
+              path='/'+lang+'/nearby/'+p['slug']; url=origin+path
+              h,body=page(url)
+              c=p['local'][lang]
+              for field in [c['name'],c['story'],c['photoNote'],c['question'],c['answer'],*c['route']]:
+                  assert norm(field) in body,(path,field[:70])
+              assert h.canon==[url] and all(h.alternates.get(l)==origin+'/'+l+'/nearby/'+p['slug'] for l in langs),path+' metadata'
+              assert h.tags.count('footer')==1 and h.tags.count('summary')>=3 and h.tags.count('ol')>=1 and 'nav' in h.tags,path+' shell'
+              assert p['source'] in h.links and p['photo'] in h.img and any('www.google.com/maps/search/' in a for a in h.links),path+' resources'
+              return path,hashlib.sha256(body.encode()).hexdigest()[:12]
+          def check_photo(p):
+              body,ctype=grab(p['photo'],True)
+              assert ctype.lower().startswith('image/') and len(body)>100,(p['slug'],ctype,len(body))
+              return p['slug'],ctype
+          for n in range(8):
+              try:
+                  inspect(('en',places[0]));break
+              except Exception as exc:
+                  if n==7:raise
+                  if n%4==0: print('Awaiting updated production content',str(exc)[:130],flush=True)
+                  time.sleep(10)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+              results=list(pool.map(inspect,[(l,p) for l in langs for p in places]))
+          assert len(set(x[1] for x in results))==124
+          for p,digest in results:print('BODY',p,digest)
+          for l in langs:
+              for path in ['/'+l,'/'+l+'/nearby']:
+                  h,_=page(origin+path)
+                  assert h.tags.count('footer')==1 and all('/'+l+'/nearby/'+p['slug'] in h.links for p in places),path
+                  print('INDEX',path,'31/31')
+          xml,_=grab(origin+'/sitemap.xml')
+          locations={v.text for v in ET.fromstring(xml).findall('.//{*}loc')}
+          assert all(origin+p in locations for p,_ in results)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+              for slug,mime in pool.map(check_photo,places): print('PHOTO',slug,mime)
+          print('PASS 124/124 production pages; 4 homepages and 4 directories; sitemap; 31/31 location photographs',flush=True)
           PY
