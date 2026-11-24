@@ -1,0 +1,45 @@
+name: Check Tio Yacu production links and official destination references
+on:
+  push:
+    branches: ['verify/150-visitor-guides-20261124']
+permissions: {}
+jobs:
+  public-references:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Read public HTTPS references
+        run: |
+          python3 - <<'PY'
+          from concurrent.futures import ThreadPoolExecutor
+          from html.parser import HTMLParser
+          from urllib.request import Request,urlopen
+          from urllib.parse import urljoin,urlparse
+          import json,re
+          def get(u):
+              with urlopen(Request(u,headers={'User-Agent':'Mozilla/5.0 (Tio Yacu visitor-guide verification)'}),timeout=18) as r:return r.read().decode('utf8',errors='replace')
+          for path in ['/sitemap.xml','/en','/es','/zh','/qu']:
+              text=get('https://www.centrotioyacu.com'+path)
+              print('ORIGIN',path,'PASS' if 'https://undefined' not in text and 'centrotioyacu.com' in text else 'FAIL')
+          class Reader(HTMLParser):
+              def __init__(self):super().__init__();self.tags=[]
+              def handle_starttag(self,t,a):self.tags.append((t,dict(a)))
+          base='https://www.ytuqueplanes.com/destinos/san-martin/'
+          urls=[]
+          for section in ['alto-mayo','tarapoto']:
+              u=base+section;page=get(u);p=Reader();p.feed(page)
+              for t,a in p.tags:
+                  link=urljoin(u,a.get('href',''))
+                  if t=='a' and link.startswith(u+'/') and link not in urls:urls.append(link)
+          urls += ['https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha='+str(n) for n in [4230,13228,12478,3046,3107,3124,3198,11288]]
+          def check(u):
+              try:
+                  page=get(u);p=Reader();p.feed(page)
+                  title=next((a['content'] for t,a in p.tags if a.get('property')=='og:title'),'')
+                  m=[a.get('content','') for t,a in p.tags if a.get('property')=='og:image']
+                  css=re.findall(r'background-image\s*:\s*url\(\s*[\x27\x22]?([^\x22\x27\)]+)',page)
+                  imgs=[a.get('src','') for t,a in p.tags if t=='img' and (('/fotos/' in a.get('src','').lower() or 'recursos' in a.get('src','').lower() or any(w in a.get('src','').lower() for w in u.rsplit('/',1)[-1].split('-') if len(w)>4)))]
+                  print('SOURCE',json.dumps([u,title,m[:2],css[:6],imgs[:7]],ensure_ascii=False),flush=True)
+              except Exception as e: print('SOURCE_ERROR',u,str(e),flush=True)
+          with ThreadPoolExecutor(4) as e:list(e.map(check,urls))
+          PY
