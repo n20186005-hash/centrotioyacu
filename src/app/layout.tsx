@@ -1,3 +1,4 @@
+import { baseUrl } from '@/lib/site-url';
 import type { Metadata, Viewport } from "next";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
@@ -13,7 +14,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(`https://${process.env.CURRENT_SITE_DOMAIN}`),
+  metadataBase: new URL(baseUrl),
   alternates: {
     canonical: "/en",
     languages: {

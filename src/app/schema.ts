@@ -1,5 +1,5 @@
+import { baseUrl } from '@/lib/site-url';
 export function generateSchema(locale: string) {
-  const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN}`;
   const lang = locale === "en" ? "en-US" : locale === "es" ? "es-PE" : locale === "qu" ? "qu-PE" : "zh-CN";
 
   return {
