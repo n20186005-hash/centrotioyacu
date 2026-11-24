@@ -1,45 +1,38 @@
-name: Check Tio Yacu production links and official destination references
+name: Read public tourism records
 on:
   push:
     branches: ['verify/150-visitor-guides-20261124']
 permissions: {}
 jobs:
-  public-references:
+  sources:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Read public HTTPS references
+      - name: Read official access and image references
         run: |
           python3 - <<'PY'
           from concurrent.futures import ThreadPoolExecutor
           from html.parser import HTMLParser
           from urllib.request import Request,urlopen
-          from urllib.parse import urljoin,urlparse
-          import json,re
-          def get(u):
-              with urlopen(Request(u,headers={'User-Agent':'Mozilla/5.0 (Tio Yacu visitor-guide verification)'}),timeout=18) as r:return r.read().decode('utf8',errors='replace')
-          for path in ['/sitemap.xml','/en','/es','/zh','/qu']:
-              text=get('https://www.centrotioyacu.com'+path)
-              print('ORIGIN',path,'PASS' if 'https://undefined' not in text and 'centrotioyacu.com' in text else 'FAIL')
-          class Reader(HTMLParser):
-              def __init__(self):super().__init__();self.tags=[]
-              def handle_starttag(self,t,a):self.tags.append((t,dict(a)))
-          base='https://www.ytuqueplanes.com/destinos/san-martin/'
-          urls=[]
-          for section in ['alto-mayo','tarapoto']:
-              u=base+section;page=get(u);p=Reader();p.feed(page)
-              for t,a in p.tags:
-                  link=urljoin(u,a.get('href',''))
-                  if t=='a' and link.startswith(u+'/') and link not in urls:urls.append(link)
-          urls += ['https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha='+str(n) for n in [4230,13228,12478,3046,3107,3124,3198,11288]]
-          def check(u):
+          from urllib.parse import urljoin
+          import re,json
+          urls=["https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/mirador-punta-de-tahuishco","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/aguas-sulfurosas-de-oromina","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/aguas-termales-de-san-mateo","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/cascada-de-paccha","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/reserva-ecologica-tingana","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/museo-departamental-san-martin","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/cueva-de-palestina","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/naciente-del-rio-tioyacu","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/morro-de-calzada","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/jardin-botanico-amazonia-","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/mirador-del-bosque-de-proteccion-alto-mayo","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/reserva-ecologica-santa-elena","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/mariposario-morpho-azul","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/vivero-orquideas-amazonicas","https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/reserva-arena-blanca-","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/parque-suchiche","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/circuitos-ecoturisticos-alto-shilcayo","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/catarata-de-pucayaquillo","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/catarata-de-huacamaillo","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/lago-sauce-laguna-azul","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/cascada-de-carpishuyacu","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/centro-cultural-wasichay-en-chazuta","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/catarata-ahuashiyacu","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/centro-poblado-comunidad-nativa-kechwa-el-wayku","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/castillo-de-lamas","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/cascada-de-chapawanki","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/urnas-funerarias-de-chazuta","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/museo-de-ayahuasca","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4230","https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/museo-chanka-y-de-la-diversidad-lamista","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=12478","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13228","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3046","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3107","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3198","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3124","https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11288"]
+          class Tag(HTMLParser):
+              def __init__(self): super().__init__(); self.text=[]; self.images=[]
+              def handle_data(self,d):
+                  d=' '.join(d.split())
+                  if d:self.text.append(d)
+              def handle_starttag(self,t,a):
+                  d=dict(a)
+                  if t=='img':self.images.append((d.get('src'),d.get('alt')))
+          def job(url):
               try:
-                  page=get(u);p=Reader();p.feed(page)
-                  title=next((a['content'] for t,a in p.tags if a.get('property')=='og:title'),'')
-                  m=[a.get('content','') for t,a in p.tags if a.get('property')=='og:image']
-                  css=re.findall(r'background-image\s*:\s*url\(\s*[\x27\x22]?([^\x22\x27\)]+)',page)
-                  imgs=[a.get('src','') for t,a in p.tags if t=='img' and (('/fotos/' in a.get('src','').lower() or 'recursos' in a.get('src','').lower() or any(w in a.get('src','').lower() for w in u.rsplit('/',1)[-1].split('-') if len(w)>4)))]
-                  print('SOURCE',json.dumps([u,title,m[:2],css[:6],imgs[:7]],ensure_ascii=False),flush=True)
-              except Exception as e: print('SOURCE_ERROR',u,str(e),flush=True)
-          with ThreadPoolExecutor(4) as e:list(e.map(check,urls))
+                  with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0'}),timeout=15) as r:raw=r.read().decode('utf8',errors='replace')
+                  p=Tag();p.feed(raw);s=' '.join(p.text)
+                  if 'cod_Ficha' in url:
+                      print('FACT',json.dumps([url,re.sub('<[^>]+>',' ',s[s.find('Nombre del Recurso'):s.find('Nombre del Recurso')+1500]),p.images[-35:],re.findall(r'[^"\x27<> \n]+?\.(?:jpe?g|png)',raw,re.I)[-35:]],ensure_ascii=False))
+                  else:
+                      a=s.find('Volver a ');end=s.find('Sé el primero en compartir',a);print('FACT',json.dumps([url,s[a:end if end>a else a+2600][:2600]],ensure_ascii=False))
+              except Exception as e:print('ERROR',url,str(e))
+          with ThreadPoolExecutor(4) as pool:list(pool.map(job,urls))
           PY
