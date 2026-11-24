@@ -1,0 +1,1738 @@
+[
+ {
+  "id": 0,
+  "slug": "mirador-punta-de-tahuishco",
+  "address": "Moyobamba, barrio de Zaragoza",
+  "minutes": 45,
+  "hours": "day",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/mirador-punta-de-tahuishco",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/destinos/mirador-tahuishco_desk.webp",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Mirador Punta de Tahuishco",
+    "story": "The lookout faces the Río Mayo floodplain. Stand back first to see the river bend, cultivated land and patches of forest in the same frame. A closer look may reveal birds moving between the crowns; a sighting of a titi monkey is never guaranteed.",
+    "route": [
+     "Start at the Zaragoza street entrance",
+     "Follow the public overlook to the widest view of the river",
+     "Return by the same street and compare the lower river port as a separate stop."
+    ],
+    "question": "Is the river port on the same level?",
+    "answer": "The viewpoint is above the river. Arrange the descent separately if you want to board a boat."
+   },
+   "es": {
+    "name": "Mirador Punta de Tahuishco",
+    "story": "Desde el mirador se lee la llanura del río Mayo. Retrocede para encuadrar el cauce, las chacras y las islas de bosque. Acércate después para observar el movimiento en las copas; el avistamiento del mono tocón depende del momento.",
+    "route": [
+     "Empieza por la entrada del barrio Zaragoza",
+     "Recorre el borde público hasta la vista más amplia del río",
+     "Vuelve por la misma calle; el puerto de abajo se visita aparte."
+    ],
+    "question": "¿El puerto está al mismo nivel?",
+    "answer": "El mirador está elevado; organiza la bajada aparte para embarcar."
+   },
+   "zh": {
+    "name": "塔维什科岬观景台",
+    "story": "观景台正对马约河平原。先退后几步，将河曲、农田和片状森林收入同一画面，再靠近观察树冠间活动的鸟类。这里有机会看到当地绢毛猴，但不可预设必能看到。",
+    "route": [
+     "从萨拉戈萨街区入口出发",
+     "沿公共观景区走到河面视野最开阔处",
+     "经原街道返回；山脚河港另作一站。"
+    ],
+    "question": "河港和观景台同高吗？",
+    "answer": "观景台高于河面。若还要乘船，请另行安排下到港口的路线。"
+   },
+   "qu": {
+    "name": "Mirador Punta de Tahuishco",
+    "story": "Kay qhawana pampamanta Mayo mayuta, chakrakunata, sachakunata hukllapi rikunki. Ñawpaqta huk chhikata qhipaman puriy; chaymanta sachakunapa umankunapi pisqukunata qhaway. Titi kusillotaqa mana sapa punchawchu rikunki.",
+    "route": [
+     "Zaragoza ayllumanta yaykuy",
+     "Mayuta allin rikuna pataman puriy",
+     "Kikin ñanninta kutiy; urapi puertomanqa huk ratulla riy."
+    ],
+    "question": "Puerto shuk patallapichu?",
+    "answer": "Qhawana pampaka mayumanta hawapimi; kanowapi rina munashpa uraykuna ñanta rakishpa allichiy."
+   }
+  }
+ },
+ {
+  "id": 1,
+  "slug": "aguas-sulfurosas-de-oromina",
+  "address": "Cerro Oromina, Moyobamba",
+  "minutes": 60,
+  "hours": "07:00–17:00",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/aguas-sulfurosas-de-oromina",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/destinos/banos-de-oromina_desk.webp",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Oromina sulphur springs",
+    "story": "Two springs at the base of Cerro Oromina feed clear, cool pools. The source and the bathing water are separate things to observe: look at where water emerges before going to the changing area. These are not the warm baths at San Mateo.",
+    "route": [
+     "Ask for the Oromina entrance from Moyobamba",
+     "Follow the signed approach to the pools and check the day’s bathing area",
+     "Return to the gate on the maintained path."
+    ],
+    "question": "Will the water be warm?",
+    "answer": "These are cold sulphur springs. For a warm pool plan a separate stop at San Mateo."
+   },
+   "es": {
+    "name": "Baños Sulfurosos de Oromina",
+    "story": "Dos manantiales al pie del cerro Oromina alimentan pozas de agua fresca. Observa primero dónde aflora el agua y luego el área de baño. Las termas de San Mateo son otro lugar.",
+    "route": [
+     "Pide el acceso de Oromina desde Moyobamba",
+     "Sigue el camino señalado a las pozas y comprueba el sector de baño",
+     "Regresa por el sendero mantenido hasta la puerta."
+    ],
+    "question": "¿El agua es cálida?",
+    "answer": "Estos manantiales sulfurosos son fríos; para un baño caliente visita San Mateo en otra salida."
+   },
+   "zh": {
+    "name": "奥罗米纳硫磺泉",
+    "story": "奥罗米纳山脚的两眼泉水注入清凉的池子。先看水如何冒出，再区分出水点和游客沐浴处；这里并非圣马特奥温泉。",
+    "route": [
+     "从莫约班巴前往奥罗米纳入口",
+     "沿标示步道到池边，核对当天开放的沐浴区",
+     "经维护的步道返回大门。"
+    ],
+    "question": "这里是热水吗？",
+    "answer": "这里是冷硫磺泉。偏好温水可另去圣马特奥。"
+   },
+   "qu": {
+    "name": "Baños Sulfurosos de Oromina",
+    "story": "Oromina urqupa chakimpi iskay pukyu chiri yakuta qun. Ñawpaqta yaku lluqsimuqta qhaway, chaymanta armana quchaman riy. San Mateo quñi pukyuqa huk kitipim kachkan.",
+    "route": [
+     "Moyobambamanta Oromina punkuta tapuy",
+     "Unanchasqa ñanta quchakunaman riy, maypi armana kasqanta tapuy",
+     "Kikin ñanninta punkuman kutiy."
+    ],
+    "question": "Yakuka kunukchu?",
+    "answer": "Kay pungukunaka chiri. Kunuk yakuta munashpa San Mateoman riy."
+   }
+  }
+ },
+ {
+  "id": 2,
+  "slug": "aguas-termales-de-san-mateo",
+  "address": "Baños Termales San Mateo, Moyobamba",
+  "minutes": 75,
+  "hours": "05:00–20:00",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/aguas-termales-de-san-mateo",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Aguas-termales-de-San-Mateo.webp",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "San Mateo thermal baths",
+    "story": "San Mateo is a managed bathing complex with several pools at different temperatures. Read the posted conditions at the entrance before choosing a pool; a smaller basin is not necessarily cooler. Bring swimwear and keep time for changing before the return ride.",
+    "route": [
+     "Leave Moyobamba's main square for the San Mateo road",
+     "Take the signed pedestrian entrance and locate the changing rooms",
+     "Pick a posted pool and retrace the gate route after changing."
+    ],
+    "question": "Can I go before a day trip?",
+    "answer": "The published early opening makes this possible. Check the morning schedule and leave time to change before your transfer."
+   },
+   "es": {
+    "name": "Baños Termales de San Mateo",
+    "story": "San Mateo reúne pozas de temperaturas distintas. Lee las indicaciones antes de elegir; el tamaño de una poza no revela su temperatura. Lleva traje de baño y deja tiempo para cambiarte antes del transporte de vuelta.",
+    "route": [
+     "Sal de la plaza de Moyobamba por la vía a San Mateo",
+     "Entra por el acceso peatonal y ubica los vestuarios",
+     "Elige una poza señalada y vuelve a la puerta después de cambiarte."
+    ],
+    "question": "¿Puedo ir antes de una excursión?",
+    "answer": "El horario publicado empieza temprano. Confirma la apertura y reserva tiempo para cambiarte."
+   },
+   "zh": {
+    "name": "圣马特奥温泉",
+    "story": "圣马特奥是设有多座不同温度浴池的温泉设施。池子较小不等于水温较低，应先读现场标识再选池。带泳衣，并给更衣和回程接车留出时间。",
+    "route": [
+     "从莫约班巴主广场转往圣马特奥道路",
+     "从标示的人行入口进入，先找更衣处",
+     "按现场标识选池，更衣后经原入口离开。"
+    ],
+    "question": "可以在白天出游前来吗？",
+    "answer": "公布的开放时间较早。先确认当天早间开门时间，再算上更衣和转乘时间。"
+   },
+   "qu": {
+    "name": "Baños Termales de San Mateo",
+    "story": "San Mateopi achka armana qucha kachkan; sapa quchapa quñiynin huk hinam. Yaykunapi kamachiyta ñawiriy, chaymanta quchata akllay. Armana p'achata apay, kutinaykipaq pachata waqaychay.",
+    "route": [
+     "Moyobamba hatun pampamanta San Mateo ñanninta riy",
+     "Purina punkuta yaykuy, p'acha tikrana wasita maskay",
+     "Unanchasqa quchata akllay, p'achata tikraspa punkuman kutiy."
+    ],
+    "question": "Tutamantachu rina?",
+    "answer": "Ari, ñawpa paskana pachata tapuy, churanata tikrachinapak pachata sakiy."
+   }
+  }
+ },
+ {
+  "id": 3,
+  "slug": "cascada-de-paccha",
+  "address": "Paccha, distrito de Jepelacio, Moyobamba",
+  "minutes": 60,
+  "hours": "08:00–17:00",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/cascada-de-paccha",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/destinos/cascada-paccha_desk.webp",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Paccha waterfall",
+    "story": "Paccha is a succession of falls rather than one uninterrupted sheet. Look upstream from a permitted stop to see how rock ledges divide the water. Photograph the falls through a gap in the vegetation; polished rock beside the pools makes a poor shortcut.",
+    "route": [
+     "Reach the local access in the Jepelacio district",
+     "Walk the short marked forest approach to the recognised viewpoint",
+     "Turn back there along the same trail if rain has made the lower rocks slippery."
+    ],
+    "question": "Where should I stop on wet ground?",
+    "answer": "Choose a firm bank with a view of the drop. Wet rocks beside the flow make a poor place for a tripod."
+   },
+   "es": {
+    "name": "Cascada de Paccha",
+    "story": "Paccha se reparte en varios saltos. Desde un punto habilitado mira aguas arriba para ver cómo los escalones de roca dividen la corriente. Busca un claro para la foto, sin usar las piedras pulidas de las pozas como atajo.",
+    "route": [
+     "Llega al acceso local en Jepelacio",
+     "Recorre el sendero corto de bosque hasta el mirador habilitado",
+     "Regresa por el mismo camino si la lluvia ha mojado las rocas bajas."
+    ],
+    "question": "¿Dónde paro con el piso mojado?",
+    "answer": "Busca una orilla firme con vista a la caída; evita apoyar el trípode sobre la roca mojada junto al chorro."
+   },
+   "zh": {
+    "name": "帕克查瀑布",
+    "story": "这不是一道连续水幕，水流被岩阶分成数层。从允许停留的位置向上游看可辨认分层，在植被空隙取景；池边光滑岩石不适合作捷径。",
+    "route": [
+     "抵达赫佩拉西奥区当地入口",
+     "沿较短的林间标示步道到正式观景处",
+     "若雨后低处岩石湿滑，从观景处原路返回。"
+    ],
+    "question": "地面湿时哪里适合停留？",
+    "answer": "选能看清水柱的坚实岸边，别把脚架放在水流边的湿岩石上。"
+   },
+   "qu": {
+    "name": "Cascada de Paccha",
+    "story": "Pacchapi yakuqa achka patakunamanta uraykamun. Saqisqa sayanapi wichayman qhaway; rumikuna yakuta rakinku. Sachakunapa chawpinmanta fotota hurquy, llusk'a rumikunata ama saruychu.",
+    "route": [
+     "Jepelacio llaqtapi yaykunaman chayay",
+     "Sachakunapa chawpinpi unanchasqa ñanninta qhawanaman puriy",
+     "Para rumikunata huq'uchiptin chaymanta kikin ñanninta kutiy."
+    ],
+    "question": "Maypita shayana?",
+    "answer": "Sinchi patamanta pakchata rikuy. Huku rumipika fotopa kaspita ama churaychu."
+   }
+  }
+ },
+ {
+  "id": 4,
+  "slug": "reserva-ecologica-tingana",
+  "address": "Boca de Huascayacu; río Avisado, Moyobamba",
+  "minutes": 180,
+  "hours": "reserve",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/reserva-ecologica-tingana",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/destinos/sm-reserva-ecologica-tingana_desk.webp",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Tingana flooded forest",
+    "story": "The floodplain forest is best understood from the water. Smaller craft reach channels that vehicles cannot, and a paddle allows the group to pause quietly beside flooded roots. The road transfer and river passage end at different places.",
+    "route": [
+     "Agree the transfer from Moyobamba to Boca de Huascayacu",
+     "Meet the community boat team and confirm the Avisado route",
+     "At the visitor landing walk only where the hosts direct, then return by the booked boat."
+    ],
+    "question": "Can I walk the whole route?",
+    "answer": "Travel through flood forest includes water transport. Confirm each leg and the return boat with your guide."
+   },
+   "es": {
+    "name": "Reserva ecológica Tingana",
+    "story": "El bosque inundable se entiende desde el agua. Una embarcación pequeña entra en canales sin acceso vehicular y permite detenerse junto a las raíces anegadas. El traslado terrestre termina antes del fluvial.",
+    "route": [
+     "Acuerda el traslado de Moyobamba a la Boca de Huascayacu",
+     "Reúnete con los anfitriones del transporte fluvial y confirma la ruta del Avisado",
+     "En el desembarco usa los tramos permitidos y vuelve en la lancha acordada."
+    ],
+    "question": "¿Se recorre todo a pie?",
+    "answer": "El bosque inundable incluye desplazamientos por agua; acuerda cada tramo y la embarcación de regreso."
+   },
+   "zh": {
+    "name": "廷加纳淹水森林",
+    "story": "这片季节性淹水森林适合从水面观察。小船可进入车辆无法到达的水道，划桨放慢时能静看浸水树根。陆路接送与河上航段有不同的终点。",
+    "route": [
+     "约好从莫约班巴到瓦斯卡亚库河口的接送",
+     "与当地船方会合，确认阿维萨多河航段",
+     "登岸后只走接待方允许的路，再搭约定船只返回。"
+    ],
+    "question": "能全程步行吗？",
+    "answer": "湿地行程需要水上交通，出发前和向导确认各段及返程用船。"
+   },
+   "qu": {
+    "name": "Reserva ecológica Tingana",
+    "story": "Kay yakuyuq sachapiqa kanuwanmanta saphikunata allinta rikunki. Karroqa uchuy yaku ñanman mana yaykunchu. Chayrayku karromanta uraykuspa wampuman sikay.",
+    "route": [
+     "Moyobambamanta Boca de Huascayacuman rinata ñawpaqta rimay",
+     "Wampu apaqkunawan Avisado ñanta tapuy",
+     "Chayaspa saqisqa ñanllata puriy, kikin wampuwan kutiy."
+    ],
+    "question": "Tukuyta chakipichu?",
+    "answer": "Yaku sachapi kanowawanpash rina tiyan. Pusakwan kutina kanowata rimay."
+   }
+  }
+ },
+ {
+  "id": 5,
+  "slug": "museo-departamental-san-martin",
+  "address": "Jirón Benavides 380, Moyobamba",
+  "minutes": 60,
+  "hours": "museum",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/museo-departamental-san-martin",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Museo-departamental-San-Mart%C3%ADn.webp",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "San Martín Regional Museum",
+    "story": "The regional museum connects archaeology with the everyday material culture of San Martín. Choose one exhibition group and look closely at its material and provenance before moving on. A town walk from the plaza fits better than trying to visit between two distant river trips.",
+    "route": [
+     "Start in Moyobamba's Plaza de Armas",
+     "Follow Jirón Benavides to number 380 and ask which rooms are open",
+     "Visit the selected exhibition and return on the central streets."
+    ],
+    "question": "Is Saturday a full opening day?",
+    "answer": "The tourism listing gives Saturday until 13:00, shorter than weekdays. Confirm holiday or exhibition closures."
+   },
+   "es": {
+    "name": "Museo Departamental San Martín",
+    "story": "El museo pone en relación la arqueología y la cultura material de San Martín. Elige un grupo de piezas y compara material y procedencia antes de cambiar de sala. Se combina bien con un paseo desde la plaza.",
+    "route": [
+     "Sal de la Plaza de Armas",
+     "Sigue el jirón Benavides hasta el número 380 y pregunta por las salas abiertas",
+     "Visita la muestra elegida y vuelve por las calles del centro."
+    ],
+    "question": "¿El sábado abre todo el día?",
+    "answer": "La ficha señala cierre a las 13:00, antes que entre semana. Confirma feriados y cierres de sala."
+   },
+   "zh": {
+    "name": "圣马丁地区博物馆",
+    "story": "博物馆把圣马丁地区考古与物质文化联系起来。可先选同组器物，比较材料和来源标签，再前往下一展区。适合与市中心步行结合，不宜挤在两段较远河游之间。",
+    "route": [
+     "从莫约班巴武器广场出发",
+     "沿贝纳维德斯街走到380号，询问开放展厅",
+     "参观选定展区后沿市中心街道返回。"
+    ],
+    "question": "星期六也全天开放吗？",
+    "answer": "旅游资料列周六13时闭馆，比平日早。节假日与展室临时安排需再确认。"
+   },
+   "qu": {
+    "name": "Museo Departamental San Martín",
+    "story": "Kay museopi San Martín llaqtakunapa ñawpa rurayninkunata rikunki. Huk t'aqa imakunata akllay; imawan ruwasqa, maymanta hamusqa, chayta ñawiriy. Hatun pampamanta chakillapi riy atikun.",
+    "route": [
+     "Moyobamba hatun pampamanta qallariy",
+     "Benavides k'ichkinta 380 punkukama puriy, kichasqa wasikunata tapuy",
+     "Akllasqa t'aqata qhawaspa llaqta chawpinman kutiy."
+    ],
+    "question": "Sábadopi tukuy punchachu?",
+    "answer": "Killkapi 13:00 wichkarin nin. Raymi punchapi punkuta tapuy."
+   }
+  }
+ },
+ {
+  "id": 6,
+  "slug": "cueva-de-palestina",
+  "address": "Caserío Palestina, Nueva Cajamarca, Rioja",
+  "minutes": 90,
+  "hours": "09:00–17:00",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/cueva-de-palestina",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Cueva-de-Palestina.webp",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Palestina Cave",
+    "story": "Water has deposited limestone in curtains and columns inside this cave. The full surveyed system is much longer than the visitor circuit: book the guided route suitable for your group and fit the helmet before entering.",
+    "route": [
+     "Reach the Palestina settlement from Nueva Cajamarca",
+     "Meet the cave guide at reception and collect the required equipment",
+     "Follow the authorised chamber circuit and return with the guide to the surface."
+    ],
+    "question": "May I photograph the cave animals?",
+    "answer": "Ask your escort what is allowed and keep the flash off around wildlife."
+   },
+   "es": {
+    "name": "Cueva de Palestina",
+    "story": "Dentro de la cueva, el agua ha formado cortinas y columnas de caliza. La longitud explorada supera ampliamente la sección para visitantes. Acuerda el circuito guiado adecuado y ajusta el casco antes de entrar.",
+    "route": [
+     "Desde Nueva Cajamarca llega al caserío Palestina",
+     "Reúnete con el guía y recoge el equipo en recepción",
+     "Recorre solo las salas habilitadas y regresa a la salida con el guía."
+    ],
+    "question": "¿Puedo fotografiar fauna en la cueva?",
+    "answer": "Consulta con el acompañante y evita usar flash cerca de los animales."
+   },
+   "zh": {
+    "name": "巴勒斯蒂纳洞穴",
+    "story": "水在洞内逐渐沉积出帷幕状和柱状石灰岩。勘测的洞系长度远超游客段；入洞前选定适合团队的导览线路并戴好头盔。",
+    "route": [
+     "从新卡哈马卡到巴勒斯蒂纳居民点",
+     "在接待处会合洞穴向导并领取所需装备",
+     "只随向导走开放洞室，跟队返回地面。"
+    ],
+    "question": "能拍洞内动物吗？",
+    "answer": "先问陪同人员允许的范围，有野生动物时关闪光灯。"
+   },
+   "qu": {
+    "name": "Cueva de Palestina",
+    "story": "Mach'ay ukhupi yakuqa rumimanta sayaqkunata, p'acha hina patakunata wiñachin. Llapan mach'ayqa puriqkunapa ñanninmanta aswan hatunmi. Pusaqwan ñanta akllay, yaykuspa umata amachay.",
+    "route": [
+     "Nueva Cajamarcamanta Palestina aylluman riy",
+     "Punkupi pusaqwan tinkuy, amachana imakunata chaskiy",
+     "Saqisqa uchkukunallata purispa pusaqwan lluksimuy."
+    ],
+    "question": "Machay wiwata fotota rurashachu?",
+    "answer": "Pusakta tapuy; wiwapa ladupi achkita ama hapichiychu."
+   }
+  }
+ },
+ {
+  "id": 8,
+  "slug": "morro-de-calzada",
+  "address": "Calzada, provincia de Moyobamba",
+  "minutes": 150,
+  "hours": "reserve",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/morro-de-calzada",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Morro-de-Calzada.webp",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Morro de Calzada",
+    "story": "This limestone eminence rises distinctly above the flatter Mayo valley. From the allowed lookout, trace the edge between forest slopes and worked land. Leave time for the descent; a panoramic photograph at the top is only halfway through a return hike.",
+    "route": [
+     "Go first to Calzada and its signed Morro access",
+     "Register and follow the marked uphill trail, pausing at a clearing",
+     "Turn at the open lookout and descend the same authorised way."
+    ],
+    "question": "What should I allow for the descent?",
+    "answer": "Set aside daylight for the return even if you reach the summit quickly; the same slope can feel slower on the way down."
+   },
+   "es": {
+    "name": "Morro de Calzada",
+    "story": "El morro calizo sobresale sobre la planicie del Mayo. Desde el mirador autorizado distingue laderas boscosas y terrenos de cultivo. Reserva tiempo para bajar: la fotografía en lo alto no termina la caminata.",
+    "route": [
+     "Primero llega a Calzada y al acceso señalizado del Morro",
+     "Regístrate y sigue el sendero de subida haciendo una pausa en un claro",
+     "Da la vuelta en el mirador abierto y baja por la ruta autorizada."
+    ],
+    "question": "¿Qué margen dejo para bajar?",
+    "answer": "Guarda luz para el retorno aunque llegues pronto a la cumbre; la pendiente puede requerir más cuidado al bajar."
+   },
+   "zh": {
+    "name": "卡尔萨达山",
+    "story": "石灰岩山丘高出相对平坦的马约河谷。从开放观景处可分辨林坡与耕地的交界线。登顶拍照只完成往返徒步的一半，应为下山留足时间。",
+    "route": [
+     "先到卡尔萨达并找到山丘标示入口",
+     "登记后沿上坡步道走，在林间空地休息",
+     "从开放观景处折返，经许可路线下山。"
+    ],
+    "question": "下山要留多少余量？",
+    "answer": "即使很快到顶也要预留白天下山的时间，陡坡下降有时比上山更慢。"
+   },
+   "qu": {
+    "name": "Morro de Calzada",
+    "story": "Kay rumi urquqa Mayo pampamanta hatarimun. Saqisqa qhawanamanta sachayuq urquta chakrakunamantawan tupanachiy. Urqu umanpi fotota hurquspapas uraykamunaykipaq pachata waqaychay.",
+    "route": [
+     "Calzada llaqtaman chayaspa Morro punkuta maskay",
+     "Sutiykita qillqaspa unanchasqa ñanta wichay",
+     "Kichasqa qhawanamanta kikin ñanta uraykamuy."
+    ],
+    "question": "Uraykunapak imata allichina?",
+    "answer": "Utka hawaman chayashpapash inti tiyashkama uraykunapak pachata sakiy."
+   }
+  }
+ },
+ {
+  "id": 9,
+  "slug": "jardin-botanico-amazonia",
+  "address": "Jardín Botánico Amazonia, Alto Mayo",
+  "minutes": 60,
+  "hours": "08:00–18:00",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/jardin-botanico-amazonia-",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Jard%C3%ADn-Bot%C3%A1nico-Amazon%C3%ADa.webp",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Amazonia Botanical Garden",
+    "story": "A roughly 900-metre trail through this private woodland lets you compare plants at three heights. Look beside the path for seedlings, along trunks for bromeliads and above for the canopy that shelters both. Some animals here have been rescued; follow the interpreter's directions around them.",
+    "route": [
+     "Ask at the entrance which trail is open",
+     "Pause beside a bromeliad without touching the roots",
+     "Complete the signed walk and return to reception"
+    ],
+    "question": "Is this a long forest hike?",
+    "answer": "The garden circuit is about 900 m. Extra time is best spent with the interpreter at individual plants."
+   },
+   "es": {
+    "name": "Jardín Botánico Amazonia",
+    "story": "En los cerca de 900 metros de sendero del bosque privado, cambia la altura de la mirada. Junto al suelo nacen plántulas, en los troncos crecen bromelias y arriba la copa regula la luz. Sigue al intérprete al acercarte al sector de animales rescatados.",
+    "route": [
+     "Pregunta en recepción por el tramo abierto",
+     "Detente frente a una bromelia sin tocar las raíces",
+     "Completa el recorrido señalizado hasta recepción"
+    ],
+    "question": "¿Es una caminata larga?",
+    "answer": "El circuito tiene unos 900 m. Usa el tiempo adicional para detenerte con el intérprete ante cada planta."
+   },
+   "zh": {
+    "name": "亚马孙植物园",
+    "story": "这片私人林地有约900米游径。先看地面的幼苗，再找树干上的凤梨科植物，最后抬头看树冠如何遮光。园内有获救动物，在相关区域请按讲解员指引参观。",
+    "route": [
+     "在入口问清开放路段",
+     "在凤梨科植物旁停下观察，不碰根系",
+     "按标志走回接待处"
+    ],
+    "question": "林间步道很长吗？",
+    "answer": "园内线约900米。可将额外时间留给讲解员，在个别植株旁细看。"
+   },
+   "qu": {
+    "name": "Jardín Botánico Amazonia",
+    "story": "Kay sachapi ñanka 900 metro shinami. Allpapi uchilla mallkikunata rikuy, kaspipi wiñak bromeliakunata maskay, hawapita yurakunapa llantunta rikuy. Kishpichishka wiwakunaman asuyankapak pusakpa rimashkanta uyay.",
+    "route": [
+     "Punkupi paskashka ñanta tapuy",
+     "Bromeliapa sapinta ama llamkaychu, rikuylla",
+     "Señalkunata katishpa punkuman kutiy"
+    ],
+    "question": "Karuchu purina?",
+    "answer": "900 metro shinami. Yallik pachapi pusakwan sapan mallkita rikuy."
+   }
+  }
+ },
+ {
+  "id": 10,
+  "slug": "mirador-del-bosque-de-proteccion-alto-mayo",
+  "address": "Bosque de Protección Alto Mayo, límite San Martín–Amazonas",
+  "minutes": 30,
+  "hours": "day",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/mirador-del-bosque-de-proteccion-alto-mayo",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/destinos/bosque-proteccion-alto-mayo_desk.webp",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Alto Mayo Protected Forest Lookout",
+    "story": "The slope looks across the headwaters of the Serranoyacu at the border with Amazonas. Watch the saddle rather than waiting for the whole valley to clear: moving cloud briefly exposes layers of forest at different elevations.",
+    "route": [
+     "Stop at the lookout access",
+     "Use the designated viewpoint to trace the drainage",
+     "Return directly to your vehicle before visibility drops"
+    ],
+    "question": "What if cloud covers the valley?",
+    "answer": "Pause on the viewing platform for breaks in the mist; avoid walking onto the road to search for a clearer angle."
+   },
+   "es": {
+    "name": "Mirador del Bosque de Protección Alto Mayo",
+    "story": "Desde el límite con Amazonas se distingue la cabecera del Serranoyacu. Mira el paso entre las cumbres: incluso cuando el valle se cubre, los claros permiten distinguir franjas de bosque a diferentes alturas.",
+    "route": [
+     "Baja en el acceso del mirador",
+     "Sigue con la vista el cauce desde el espacio habilitado",
+     "Regresa al vehículo antes de que cierre la neblina"
+    ],
+    "question": "¿Y si la neblina tapa el valle?",
+    "answer": "Espera un claro desde el mirador; evita salir a la calzada en busca de otro ángulo."
+   },
+   "zh": {
+    "name": "上马约保护林观景台",
+    "story": "这里位于圣马丁与亚马孙大区交界，可望见塞拉诺亚库河上游。云层遮谷时先看两座山之间的鞍部，云隙会依次露出不同高度的林带。",
+    "route": [
+     "在观景台入口下车",
+     "到观景区沿河道方向辨认山谷",
+     "浓雾遮路前原路返回车辆"
+    ],
+    "question": "谷里雾大怎么办？",
+    "answer": "在观景区等云隙，别为换角度走到行车道上。"
+   },
+   "qu": {
+    "name": "Mirador del Bosque de Protección Alto Mayo",
+    "story": "Amazonaspa saywapi Serranoyacu mayupa uma yakukunata rikunkiman. Puyuka waykuta pakakpika urkukunapa chawpinta rikuy; puyu kuyurishpa karu sachakunata asha asha rikuchin.",
+    "route": [
+     "Qhawana punkupi uraykuy",
+     "Qhawana pampamanta yakupa ñanta rikuy",
+     "Puyu shamukpi karroman kutiy"
+    ],
+    "question": "Puyu waykuta pakakpi imatana?",
+    "answer": "Qhawana pampapi shuyay, carro ñanman ama yaykuychu."
+   }
+  }
+ },
+ {
+  "id": 11,
+  "slug": "reserva-ecologica-santa-elena",
+  "address": "Santa Elena, Pósic, Rioja",
+  "minutes": 120,
+  "hours": "reserve",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/reserva-ecologica-santa-elena",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Reserva-ecol%C3%B3gica-de-Santa-Elena.webp",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Santa Elena Wetland Reserve",
+    "story": "Aguaje palms and fig roots stand in water on the floodplain northwest of Rioja. Between December and April rising water can change the landing point. The short approach on foot and the water circuit are separate; arrange the canoe before leaving town.",
+    "route": [
+     "Meet the operator at Santa Elena",
+     "Walk to the landing indicated for that day's level",
+     "Follow the agreed canoe loop back to the same reception"
+    ],
+    "question": "Whom can I call about the boat?",
+    "answer": "The regional listing gives +51 916 999 209 for reservations. Discuss landing point, fares and lifejackets before arrival."
+   },
+   "es": {
+    "name": "Reserva Ecológica Santa Elena",
+    "story": "Los aguajes y las raíces del renacal quedan rodeados de agua al noroeste de Rioja. Entre diciembre y abril puede cambiar el punto de embarque. Separa el corto acceso a pie del paseo acuático y acuerda la canoa antes de salir.",
+    "route": [
+     "Encuentra al operador en Santa Elena",
+     "Camina al embarque indicado según el nivel del día",
+     "Regresa en la canoa acordada al punto de recepción"
+    ],
+    "question": "¿Dónde consulto por la canoa?",
+    "answer": "La ficha indica +51 916 999 209 para reservas. Acuerda embarque, tarifa y chalecos antes de llegar."
+   },
+   "zh": {
+    "name": "圣埃莱娜湿地保护区",
+    "story": "里奥哈西北的泛洪平原上，水中长着沼泽棕榈与盘根的榕树。12月至4月水位变化可能改变登船点。入口短步道和水上游程是两段行程，出城前先约船。",
+    "route": [
+     "在圣埃莱娜与船方会合",
+     "步行到当天水位适用的码头",
+     "按约定水路乘船返回接待处"
+    ],
+    "question": "船位问谁？",
+    "answer": "地区旅游资料所列预约号为 +51 916 999 209。先问码头、船费和救生衣。"
+   },
+   "qu": {
+    "name": "Reserva Ecológica Santa Elena",
+    "story": "Riojamanta inti yaykuna ladupi aguajekuna renakuna yakupi wiñan. Diciembremanta abrilkama yaku yaparikpi kanowaman yaykuna pampa tikrarin. Ñawpa kanowata mañay, chakipi purina ñanqa huk rakimi.",
+    "route": [
+     "Santa Elenapi pusakta taripay",
+     "Kunampa yaku yaykuna pampaman puriy",
+     "Kanowapi purishpa kallariyman kutiy"
+    ],
+    "question": "Kanowapak pitata kayana?",
+    "answer": "+51 916 999 209man kayay; puerto, kullki, yaku churanata tapuy."
+   }
+  }
+ },
+ {
+  "id": 12,
+  "slug": "mariposario-morpho-azul",
+  "address": "Mariposario Morpho Azul, Alto Mayo",
+  "minutes": 50,
+  "hours": "09:00–17:00",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/mariposario-morpho-azul",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Mariposario-Morpho-Azul.webp",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Morpho Azul Butterfly House",
+    "story": "The visit makes more sense starting with the host plants and eggs. When an adult blue morpho settles with folded wings its brown underside can make it disappear; watch from one position and compare it with the eyespots of an owl butterfly.",
+    "route": [
+     "Ask which host plant has eggs today",
+     "Follow the guide from larvae to the adult enclosure",
+     "Wait beside a perch without handling the butterflies"
+    ],
+    "question": "When are blue wings easiest to see?",
+    "answer": "Look while the butterfly is in flight or resting with wings open. Its folded wings show the subdued underside."
+   },
+   "es": {
+    "name": "Mariposario Morpho Azul",
+    "story": "Empieza por la planta hospedera y los huevos. Cuando la morpho cierra las alas desaparece el azul y se ve el reverso pardo. Espera quieto y compáralo con las manchas en forma de ojo de la mariposa búho.",
+    "route": [
+     "Pregunta qué planta tiene huevos hoy",
+     "Sigue la explicación desde las orugas hasta el recinto de adultas",
+     "Espera junto a una percha sin tocar las alas"
+    ],
+    "question": "¿Cuándo se aprecia el azul?",
+    "answer": "En vuelo o con las alas abiertas; cuando se posan cerradas se ve el reverso pardo."
+   },
+   "zh": {
+    "name": "蓝闪蝶园",
+    "story": "从寄主植物和蝶卵开始看。蓝闪蝶停栖收翅后，蓝色会被褐色翅背遮住。站定等它再展翅，还可比较猫头鹰蝶翅上的大眼斑。",
+    "route": [
+     "询问哪株寄主植物上有蝶卵",
+     "跟随讲解从幼虫区走到成蝶区",
+     "在停栖点旁静候，不碰蝶翅"
+    ],
+    "question": "什么时候能看到蓝翅？",
+    "answer": "飞行或张翅时最明显。合翅停栖时主要见到褐色的翅背。"
+   },
+   "qu": {
+    "name": "Mariposario Morpho Azul",
+    "story": "Pillpintupa mallkinpi rurukunata ñawpa rikuy. Ankas morphoka rapranta wichkakpi ankas tullpuka chinkarin. Shukllapi shayashpa búho pillpintupa ñawi shina tullpukunawan chimpachiy.",
+    "route": [
+     "Ruruyuk mallkita tapuy",
+     "Kurumanta hatun pillpintukama pusakta katiy",
+     "Raprata mana llamkashpa shuyay"
+    ],
+    "question": "Imayta ankas rikurin?",
+    "answer": "Pawakpi uta raprata paskakpi. Wichkakpika puka allpa tullpu rikurin."
+   }
+  }
+ },
+ {
+  "id": 13,
+  "slug": "vivero-orquideas-amazonicas",
+  "address": "Vivero Orquídeas Amazónicas, Moyobamba",
+  "minutes": 50,
+  "hours": "08:00–18:00",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/vivero-orquideas-amazonicas",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Vivero-Orqu%C3%ADdeas-Amaz%C3%B3nicas.webp",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Amazonian Orchid Nursery",
+    "story": "This working nursery shows how growers propagate and support orchids. Look first at the roots on a mounted specimen, then compare it with one in a pot and the tiny plants grown in vitro. Flowers vary with the season, but the contrast in growing methods remains visible.",
+    "route": [
+     "Start in the nursery display",
+     "Ask a grower to point out a mounted orchid and a young plant",
+     "Finish in the sales area and check transport rules before buying"
+    ],
+    "question": "Will every orchid be in flower?",
+    "answer": "Flowering varies. Ask to compare roots and propagation stages if few plants are blooming."
+   },
+   "es": {
+    "name": "Vivero Orquídeas Amazónicas",
+    "story": "El vivero permite comparar raíces expuestas, ejemplares en maceta y plantas diminutas propagadas in vitro. Aunque cambie la floración según la temporada, se puede ver cómo el soporte y el sustrato varían entre ejemplares.",
+    "route": [
+     "Entra por la exhibición",
+     "Pide comparar una orquídea montada con una plántula",
+     "Termina en ventas y consulta los requisitos de transporte"
+    ],
+    "question": "¿Todas estarán florecidas?",
+    "answer": "La floración varía. Si hay pocas flores, pide comparar las raíces y etapas de propagación."
+   },
+   "zh": {
+    "name": "亚马孙兰花苗圃",
+    "story": "这是一家实际育苗的苗圃。先看附生兰外露的根，再比较盆栽基质和瓶中繁育的小苗。即使没遇上花期，也能通过栽培方式看出不同兰花的生长需求。",
+    "route": [
+     "从展示区进入",
+     "请园方指出附生兰与幼苗作对照",
+     "最后到售卖区，购买前核实植物携带规定"
+    ],
+    "question": "每株兰花都会开花吗？",
+    "answer": "花期各异，少花时可请园方示范根系与繁育阶段。"
+   },
+   "qu": {
+    "name": "Vivero Orquídeas Amazónicas",
+    "story": "Kay mallki wasipi orkideakunapa sapinta rikuy. Kaspipi watashka sisata, mankapi wiñakta, uchilla kispi ukupi wiñachishkata chimpachiy. Sisa mana tiyashpapash wiñachina yachayta rikunkiman.",
+    "route": [
+     "Rikuchina pampapi kallariy",
+     "Hatun mallkita uchilla mallkiwan chimpachiy",
+     "Rantina pampapi apana kamachita tapuy"
+    ],
+    "question": "Tukuychu sisakun?",
+    "answer": "Sisana pachaka shuk shuk. Pishi sisapi sapita wiñana rikchayta tapuy."
+   }
+  }
+ },
+ {
+  "id": 14,
+  "slug": "reserva-arena-blanca",
+  "address": "Reserva Arena Blanca, Alto Mayo",
+  "minutes": 120,
+  "hours": "06:00–17:00",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/alto-mayo/reserva-arena-blanca-",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Reserva-Arena-Blanca.webp",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Arena Blanca Bird Reserve",
+    "story": "Garden feeders draw hummingbirds into view while quail use a different feeding area near the ground. Reserve several hours ahead and ask which hide will be active first. Staying at a single perch gives better views of behaviour than walking between feeders.",
+    "route": [
+     "Check in at the booked time",
+     "Sit at the assigned garden platform",
+     "Follow the guide to the ground-bird station when invited"
+    ],
+    "question": "Is a walk-in suitable for the first feeding session?",
+    "answer": "Arrange it ahead: the reserve requests advance booking even within the published opening hours."
+   },
+   "es": {
+    "name": "Reserva Arena Blanca",
+    "story": "Los colibríes se acercan a bebederos y las codornices a otro sector, junto al suelo. Reserva con horas de anticipación y pregunta qué puesto se usará primero. Esperar en una sola plataforma permite observar sus movimientos sin espantarlas.",
+    "route": [
+     "Regístrate a la hora reservada",
+     "Espera en la plataforma del jardín",
+     "Pasa con el guía al puesto de aves terrestres"
+    ],
+    "question": "¿Puedo llegar sin avisar al primer turno?",
+    "answer": "Coordina con anticipación: la reserva solicita reservar incluso dentro de su horario publicado."
+   },
+   "zh": {
+    "name": "白沙观鸟保护区",
+    "story": "蜂鸟在饮水器间穿梭，鹌鹑则在近地面的另一处觅食。至少提前数小时联系，确认先开放哪个观察点。与其不停换位，不如固定观察一根停栖枝上的往返活动。",
+    "route": [
+     "按预约时间登记",
+     "在指定花园平台坐下静候",
+     "在引导下转到地栖鸟观察点"
+    ],
+    "question": "能临时赶第一场观鸟吗？",
+    "answer": "最好提前约定；即使公布时间内，保护区也要求预先预约。"
+   },
+   "qu": {
+    "name": "Reserva Arena Blanca",
+    "story": "Kintikuna upyana pampaman shamun, yurakpa uraypi codornizkunaka mikun. Ñawpamanta pusakta willay. Shuk qhawana pampallapi upalla shuyashpa kintipa kutimuyta allita rikunkiman.",
+    "route": [
+     "Rimashka pachapi yaykuy",
+     "Kinti qhawana pampapi tiyay",
+     "Pusakwan allpapi purik pishkukunaman riy"
+    ],
+    "question": "Ñawpata mana willashpa yaykunachu?",
+    "answer": "Paskanapi kakpipash ñawpamanta pusakta willay."
+   }
+  }
+ },
+ {
+  "id": 15,
+  "slug": "parque-suchiche",
+  "address": "Cuadra 4, jirón Alegría Arias de Morey, Tarapoto",
+  "minutes": 35,
+  "hours": "day",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/parque-suchiche",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/principal-parque-suchiche.webp",
+  "regional": true,
+  "local": {
+   "en": {
+    "name": "Suchiche Park",
+    "story": "Today's shady square occupies the site of a former lagoon associated with the Suchiche people from Lamas. Stop at the edge before crossing it: the open space is easier to read from the surrounding streets than from beneath the trees.",
+    "route": [
+     "Start on block four of Alegría Arias de Morey",
+     "Follow the shaded edge to a bench",
+     "Cross the open space and return along the opposite side"
+    ],
+    "question": "How does this fit into a walking day?",
+    "answer": "Use it as a shaded pause in Tarapoto. From Tioyacu, first plan a separate road transfer to the city."
+   },
+   "es": {
+    "name": "Parque Suchiche",
+    "story": "El parque de hoy ocupa el lugar de una antigua laguna ligada al pueblo Suchiche procedente de Lamas. Antes de cruzar bajo los árboles, mira la amplitud del espacio desde la esquina de la cuadra cuatro.",
+    "route": [
+     "Empieza en la cuadra cuatro de Alegría Arias de Morey",
+     "Sigue el borde sombreado hasta una banca",
+     "Cruza el espacio abierto y vuelve por el otro lado"
+    ],
+    "question": "¿Cómo combinarlo con una caminata?",
+    "answer": "Úsalo como pausa sombreada en Tarapoto. Desde Tioyacu se requiere un traslado por carretera."
+   },
+   "zh": {
+    "name": "苏奇切公园",
+    "story": "这座绿荫广场所在处从前是潟湖，与来自拉马斯的苏奇切人有关。先站在街区转角看广场的轮廓，再走到树下，会更容易理解这里曾经拥有的开阔水面。",
+    "route": [
+     "从阿莱格里亚·阿里亚斯·德莫雷街第四街区出发",
+     "沿阴凉边缘走到长椅",
+     "穿过开阔区从对侧绕回"
+    ],
+    "question": "如何串进步行路线？",
+    "answer": "可作塔拉波托市内的林荫休息站；从蒂奥亚库出发须先安排城际公路交通。"
+   },
+   "qu": {
+    "name": "Parque Suchiche",
+    "story": "Kunampa pampapi ñawpa kucha kashka; Lamasmanta shamuk Suchiche runakuna kaypi kawsashka. Yurapa llantuman yaykunaykipa ñawpakta kalli kuchumanta pampa imashina paskarinta rikuy.",
+    "route": [
+     "Alegría Arias de Morey kallipa chusku cuadrapi kallariy",
+     "Llantu patata katishpa tiyarinaman riy",
+     "Pampata chimpashpa shuk patamanta kutiy"
+    ],
+    "question": "Imashina purinawan tinkuchina?",
+    "answer": "Tarapotopi llantupi samay. Tioyacumanta ñawpa karropi llaktaman riy."
+   }
+  }
+ },
+ {
+  "id": 16,
+  "slug": "circuitos-ecoturisticos-alto-shilcayo",
+  "address": "Garita Alto Shilcayo, Tarapoto",
+  "minutes": 420,
+  "hours": "reserve",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/circuitos-ecoturisticos-alto-shilcayo",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/destinos/area-de-conservacion-cordillera_desk.webp",
+  "regional": true,
+  "local": {
+   "en": {
+    "name": "Alto Shilcayo forest trails",
+    "story": "Start at the staffed control post. The published one-day circuit links a hummingbird garden, Vestido de la Novia and Tamushal falls. A longer itinerary includes an overnight stay, so tell your guide which return you need before leaving the post.",
+    "route": [
+     "Register at the control post",
+     "Visit the hummingbird garden and continue with the guide to the falls",
+     "Use the agreed return trail while daylight remains"
+    ],
+    "question": "Does every circuit return the same afternoon?",
+    "answer": "The one-day route does; the published longer circuit has an overnight stop. Book the one you intend."
+   },
+   "es": {
+    "name": "Circuitos ecoturísticos Alto Shilcayo",
+    "story": "El circuito de un día enlaza la garita, el jardín de colibríes y las caídas Vestido de la Novia y Tamushal. Existe una salida con pernocte: antes de partir acuerda el regreso a Tarapoto con tu guía.",
+    "route": [
+     "Regístrate en la garita",
+     "Visita el jardín y sigue con el guía a las cascadas",
+     "Emprende el retorno acordado con luz"
+    ],
+    "question": "¿Todos los circuitos regresan esa tarde?",
+    "answer": "El de un día sí; el itinerario largo tiene pernocte. Indica cuál reservas."
+   },
+   "zh": {
+    "name": "上希尔卡约森林游径",
+    "story": "从管理岗亭出发。官方的一日线串联蜂鸟园、新娘婚纱瀑布和塔穆沙尔瀑布，另有过夜路线。在岗亭先与向导约定当天返城时间，再进林。",
+    "route": [
+     "在管理岗亭登记",
+     "经蜂鸟园跟向导走到瀑布",
+     "按约定回程路线在天黑前折返"
+    ],
+    "question": "所有线路都当天下午返回吗？",
+    "answer": "一日线当天返回，长线过夜。预约时说明选择。"
+   },
+   "qu": {
+    "name": "Circuitos ecoturísticos Alto Shilcayo",
+    "story": "Kamachik punkumanta pacha shuk puncha ñanka kintipa pampata, Vestido de la Novia shinallatak Tamushal yakukunata tinkuchin. Sacha ukupipash puñuna tiyami; mana sakirinkapak pusakwan kutina pachata ñawpa rimay.",
+    "route": [
+     "Punkupi shutiykita killkay",
+     "Kinti pampamanta pusakwan pakchakunaman riy",
+     "Punchallapi rimashka ñanpi kutiy"
+    ],
+    "question": "Tukuychu chay punchalla kutin?",
+    "answer": "Shuk puncha ñan ari. Karu ñanpi puñuna tukun; maykanta munanki rimay."
+   }
+  }
+ },
+ {
+  "id": 17,
+  "slug": "catarata-de-pucayaquillo",
+  "address": "Puente Colombia, carretera a Chazuta, Shapaja",
+  "minutes": 100,
+  "hours": "08:00–15:00",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/catarata-de-pucayaquillo",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Catarata-de-Pucayaquillo.webp",
+  "regional": true,
+  "local": {
+   "en": {
+    "name": "Pucayaquillo waterfall",
+    "story": "Turn off near Puente Colombia on the Chazuta road. The mostly level approach crosses secondary forest. Look for contrasting trunks of capirona and cedar before the trees open onto a roughly 20-metre fall; use the bank to see its whole height.",
+    "route": [
+     "Locate the turn by Puente Colombia",
+     "Follow the forest path to the pool margin",
+     "Turn back at the bank on the same trail"
+    ],
+    "question": "Where does the approach leave the main road?",
+    "answer": "Look for Puente Colombia on the road towards Chazuta and confirm the signed turn before continuing."
+   },
+   "es": {
+    "name": "Catarata de Pucayaquillo",
+    "story": "El desvío está junto al puente Colombia en la vía a Chazuta. El paseo por terreno relativamente llano cruza bosque secundario; compara las cortezas de capirona y cedro antes de salir a la orilla frente a la caída de unos 20 metros.",
+    "route": [
+     "Ubica el desvío del puente Colombia",
+     "Sigue el sendero de monte hasta la orilla",
+     "Regresa por el mismo sendero desde la poza"
+    ],
+    "question": "¿Dónde se deja la carretera?",
+    "answer": "Ubica el puente Colombia en la vía hacia Chazuta y confirma allí el desvío señalizado."
+   },
+   "zh": {
+    "name": "普卡亚基约瀑布",
+    "story": "入口在通往查苏塔的哥伦比亚桥附近。相对平缓的林道穿过次生林，沿途可比较卡皮罗纳树与香椿属树木的树皮。到岸边停下，才能看全约20米落差。",
+    "route": [
+     "找到哥伦比亚桥旁的岔口",
+     "沿林间小径走到水潭边",
+     "在岸上折返同一林道"
+    ],
+    "question": "从公路哪里转入？",
+    "answer": "沿查苏塔方向找到哥伦比亚桥，在桥附近确认岔口标志。"
+   },
+   "qu": {
+    "name": "Catarata de Pucayaquillo",
+    "story": "Chazutaman rik ñanpi Puente Colombiamanta rakirik ñanta hapiy. Pampa ñanpi musuk sachata chimpashpa capirona cedrowan karanta chimpachiy. Patamanta ishkay chunka metro pakchata tukuyta rikuy.",
+    "route": [
+     "Puente Colombia ñanrakita maskay",
+     "Sacha ñanta yakupa patakama katiy",
+     "Yaykushka ñantallata kutiy"
+    ],
+    "question": "Maypita hatun ñanta sakina?",
+    "answer": "Chazuta ñanpi Puente Colombiata maskay, chaypi rakinata tapuy."
+   }
+  }
+ },
+ {
+  "id": 18,
+  "slug": "catarata-de-huacamaillo",
+  "address": "Catarata Huacamaillo, San Antonio de Cumbaza",
+  "minutes": 170,
+  "hours": "09:00–15:00",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/catarata-de-huacamaillo",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/principal-catarata-Huacamaillo.webp",
+  "regional": true,
+  "local": {
+   "en": {
+    "name": "Huacamaillo waterfall",
+    "story": "Allow time for the four-kilometre approach as well as the return. Ferns and orchids favour the humid forest near the cascade. The pool below the fall is described as about two metres deep, so its clear surface tells you little about footing.",
+    "route": [
+     "Confirm the path conditions in San Antonio",
+     "Walk the forest trail to the waterfall bank",
+     "Retrace the four kilometres before the last entry period ends"
+    ],
+    "question": "Is this a quick roadside stop?",
+    "answer": "Budget for a four-kilometre approach and another four back; a late arrival leaves little walking time."
+   },
+   "es": {
+    "name": "Catarata de Huacamaillo",
+    "story": "Cuenta los cuatro kilómetros de acceso y el regreso. Cerca de la caída prosperan helechos y orquídeas de bosque húmedo. La poza se describe con unos dos metros de profundidad: ver el fondo no garantiza un apoyo seguro.",
+    "route": [
+     "Consulta el estado del camino en San Antonio",
+     "Recorre el bosque hasta la orilla de la caída",
+     "Vuelve con margen para los cuatro kilómetros"
+    ],
+    "question": "¿Es una parada junto a la carretera?",
+    "answer": "Calcula cuatro kilómetros de ida y otros cuatro de vuelta. Llegar tarde reduce el margen."
+   },
+   "zh": {
+    "name": "瓦卡迈约瀑布",
+    "story": "单程林道约4公里，安排时间时要算上回程。接近瀑布时注意潮湿林缘的蕨类和兰花。瀑下水潭资料深约两米，即使水清见底，也无法据此判断能否站稳。",
+    "route": [
+     "在圣安东尼奥确认路况",
+     "走林道抵达瀑布岸边",
+     "为4公里原路返回预留时间"
+    ],
+    "question": "是路边即可看的景点吗？",
+    "answer": "单程约4公里，还须走相同距离返回，不宜太晚出发。"
+   },
+   "qu": {
+    "name": "Catarata de Huacamaillo",
+    "story": "Yaykuna ñanka chusku kilometromi; kutina pachata yupay. Pakchapa ladupi helechokuna orkideakuna wiñan. Uraypi kuchaka ishkay metro shinami; chuya yakuta rikushpallaka ama yaykuychu.",
+    "route": [
+     "San Antoniopi ñanta tapuy",
+     "Sacha ñanta pakchapa pataman katiy",
+     "Chusku kilometrota kutinapak pachata sakiy"
+    ],
+    "question": "Carro ñan ladullapichu?",
+    "answer": "Chusku kilometro yaykuna, chuskuta kutina. Tutamanta kallariy."
+   }
+  }
+ },
+ {
+  "id": 20,
+  "slug": "cascada-de-carpishuyacu",
+  "address": "Caserío San José, Cordillera Escalera",
+  "minutes": 150,
+  "hours": "08:00–15:00",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/cascada-de-carpishuyacu",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/CarpishuyacuBanner.webp",
+  "regional": true,
+  "local": {
+   "en": {
+    "name": "Carpishuyacu cascades",
+    "story": "The forest at San José shelters two falls of about six metres each. The basin is much deeper than the modest height suggests. Frame the two streams from the bank and ask about route conditions before committing to the return walk.",
+    "route": [
+     "Ask at the San José entrance",
+     "Follow the marked approach to the viewing bank",
+     "Leave the basin on the same managed trail"
+    ],
+    "question": "Does the small drop mean shallow water?",
+    "answer": "The tourism record describes a pool around four metres deep. View the water from the bank unless local staff confirm suitable conditions."
+   },
+   "es": {
+    "name": "Cascada de Carpishuyacu",
+    "story": "En el caserío San José se accede a dos caídas de aproximadamente seis metros. La poza es bastante profunda pese al tamaño de los saltos. Observa ambos cauces desde tierra y confirma al ingreso el estado del regreso.",
+    "route": [
+     "Consulta en el acceso de San José",
+     "Sigue el camino habilitado hasta la orilla",
+     "Sal de la poza por el mismo acceso"
+    ],
+    "question": "¿Los saltos bajos significan poca profundidad?",
+    "answer": "La ficha describe unos cuatro metros de profundidad. Observa desde la orilla y consulta condiciones."
+   },
+   "zh": {
+    "name": "卡尔皮舒亚库双瀑",
+    "story": "入口在圣何塞村，两级瀑布各约六米。瀑布看似不高，但下面的潭很深。先从岸上找出两道落水的位置，进入林道前就确认当天的回程条件。",
+    "route": [
+     "在圣何塞入口咨询",
+     "沿开放的步道走到观赏岸边",
+     "从原步道离开水潭"
+    ],
+    "question": "瀑布不高，潭也浅吗？",
+    "answer": "旅游资料标注潭深约四米。先在岸边欣赏，入水条件需现场确认。"
+   },
+   "qu": {
+    "name": "Cascada de Carpishuyacu",
+    "story": "San José llaktapi ishkay pakcha tiyan, sapan sukta metro shina. Pakchaka mana hatunchu, ichaka uray kuchaka uku. Ishkay yakuta patamanta rikuy; yaykunayki ñawpa kutina ñanta tapuy.",
+    "route": [
+     "San José punkupi tapuy",
+     "Paskashka ñanpi pataman riy",
+     "Yaykushka ñanllapi kutiy"
+    ],
+    "question": "Uchilla pakchaka pishi yakuchu?",
+    "answer": "Killkapi chusku metro ukuta nin. Patapi shayashpa kamakta tapuy."
+   }
+  }
+ },
+ {
+  "id": 22,
+  "slug": "catarata-ahuashiyacu",
+  "address": "Cordillera Escalera, carretera Tarapoto–Yurimaguas",
+  "minutes": 75,
+  "hours": "09:00–17:00",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/catarata-ahuashiyacu",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/AhuashiyacuBanner.webp",
+  "regional": true,
+  "local": {
+   "en": {
+    "name": "Ahuashiyacu waterfall",
+    "story": "Water runs down a roughly 40-metre rock face in the Cordillera Escalera conservation area. Look at the ferns on the damp wall beside the main flow. Birds and butterflies move through the edges, where the spray is lighter and photography more practical.",
+    "route": [
+     "Check access at the road entrance",
+     "Follow the visitor path to the pool edge",
+     "Take a wide view from a dry spot and retrace the path"
+    ],
+    "question": "Are bird sightings certain?",
+    "answer": "A cock-of-the-rock is seasonal. Hearing birds around the spray is more likely than seeing a particular species."
+   },
+   "es": {
+    "name": "Catarata Ahuashiyacu",
+    "story": "En el área de conservación Cordillera Escalera, el agua desciende unos 40 metros por la roca. Observa los helechos junto al chorro y busca aves o mariposas en los bordes, donde salpica menos y es más fácil enfocar.",
+    "route": [
+     "Consulta en el ingreso de la carretera",
+     "Sigue el camino de visita a la poza",
+     "Toma la vista general desde suelo seco y vuelve"
+    ],
+    "question": "¿Es seguro ver un gallito de las rocas?",
+    "answer": "Es una observación estacional. Escuchar aves alrededor del salto no garantiza ver esa especie."
+   },
+   "zh": {
+    "name": "阿瓦希亚库瀑布",
+    "story": "这条瀑布在埃斯卡莱拉山脉保护区内沿岩壁落下约40米。先看主水柱旁湿壁上的蕨类，再到水雾稍薄的边缘观察鸟蝶，那里也较容易对焦拍摄。",
+    "route": [
+     "在公路边入口确认开放情况",
+     "沿游径到瀑潭边缘",
+     "在干燥处拍全景后原路返程"
+    ],
+    "question": "一定会看到安第斯动冠伞鸟吗？",
+    "answer": "这种鸟只在部分季节出现，听到鸟声并不等同于能看到特定物种。"
+   },
+   "qu": {
+    "name": "Catarata Ahuashiyacu",
+    "story": "Cordillera Escalera wakaychishka allpapi yakuka chusku chunka metro shina rumipi urman. Yaku ladupi helechokunata rikuy. Maypi yaku asha chajchun, chaypi pillpintuta pishkutapash maskay.",
+    "route": [
+     "Hatun ñanpa punkupi tapuy",
+     "Purina ñanta kuchakama katiy",
+     "Chaki allpamanta rikushpa kutiy"
+    ],
+    "question": "Gallito de las rocas rikurinchu?",
+    "answer": "Wakin pachallapi rikurin; pishkuta uyashpallaka kay pishkuta mana yachankichu."
+   }
+  }
+ },
+ {
+  "id": 23,
+  "slug": "centro-poblado-comunidad-nativa-kechwa-el-wayku",
+  "address": "Barrio El Wayku, Lamas",
+  "minutes": 90,
+  "hours": "day",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/centro-poblado-comunidad-nativa-kechwa-el-wayku",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Centro-poblado-comunidad-nativa-Kechwa-El-Wayku.webp",
+  "regional": true,
+  "local": {
+   "en": {
+    "name": "Kechwa El Wayku community",
+    "story": "Start at the plaza sculptures before looking at red rammed-earth walls from the street. A craft shop may share a family home. Ask whether it is open and whether photographs are welcome; the street is public, the workshop and its occupants decide their own visiting arrangements.",
+    "route": [
+     "Begin at the El Wayku plaza",
+     "Walk the adjoining public streets to an open craft shop",
+     "Return to the plaza after asking the maker about the piece"
+    ],
+    "question": "Can I photograph a craft demonstration?",
+    "answer": "Ask the maker, even if the shop is open. Agree if photographs include people or a private part of the home."
+   },
+   "es": {
+    "name": "Centro Poblado Comunidad Nativa Kechwa El wayku",
+    "story": "Observa las escenas de la plaza y luego las paredes de tapial rojizo desde la calle. Algunos talleres ocupan parte de la vivienda familiar. Pregunta si reciben visitas y si permiten fotos antes de pasar del umbral.",
+    "route": [
+     "Inicia en la plaza de El Wayku",
+     "Recorre las calles públicas hasta un taller abierto",
+     "Conversa con quien hizo la pieza y regresa a la plaza"
+    ],
+    "question": "¿Puedo fotografiar una demostración?",
+    "answer": "Pregunta al artesano aunque esté abierto. Distingue entre fotografiar la pieza, a una persona o el interior de la vivienda."
+   },
+   "zh": {
+    "name": "埃尔瓦伊库克丘瓦社区",
+    "story": "先看广场雕塑里的生活场景，再沿公共街道观察红土夯墙。有些工艺品店设在家庭住宅内，进门前先确认是否接待，也要另问可否拍摄作坊和人物。",
+    "route": [
+     "从社区广场出发",
+     "沿公共街道走到营业的工艺品店",
+     "向制作者了解作品后步行回广场"
+    ],
+    "question": "能拍制作过程吗？",
+    "answer": "店铺开放也要先问。拍物件、拍人和拍私人住宅内部分别征得同意。"
+   },
+   "qu": {
+    "name": "Centro Poblado Comunidad Nativa Kechwa El wayku",
+    "story": "Pampapi rurashka runa rikchaykunata rikuy, kalli patamanta puka allpa pirqakunata rikuy. Wakinkuna wasillapi makirurayta katun. Wasi punkuta chimpana ñawpa yaykuyta, fotota rurayta tapuy.",
+    "route": [
+     "El Wayku pampapi kallariy",
+     "Kallimanta paskashka makiruray wasiman riy",
+     "Rurakwan rimashpa pampaman kutiy"
+    ],
+    "question": "Makirurayta fotota rurashachu?",
+    "answer": "Paskashkapipash rurakta tapuy. Rurashkata, runata, wasi ukuta shuk shuk tapuy."
+   }
+  }
+ },
+ {
+  "id": 24,
+  "slug": "castillo-de-lamas",
+  "address": "Castillo de Lamas, Lamas",
+  "minutes": 75,
+  "hours": "09:00–18:30",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/castillo-de-lamas",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/LamasBanner.webp",
+  "regional": true,
+  "local": {
+   "en": {
+    "name": "Castle of Lamas",
+    "story": "This contemporary, European-inspired building is made of hand-shaped stone. Its five levels provide a changing view of Wayku and the lower Mayo valley. If stairs limit your visit, ask at reception which viewing levels you can reach before buying admission.",
+    "route": [
+     "Check the open levels at reception",
+     "Compare the stonework on the way to a terrace",
+     "Descend after locating Wayku and the valley from the viewpoint"
+    ],
+    "question": "Is the castle an archaeological site?",
+    "answer": "It is a modern work inspired by European architecture. Visit Wayku separately to learn about local building traditions."
+   },
+   "es": {
+    "name": "El Castillo de Lamas",
+    "story": "Se trata de una construcción contemporánea de inspiración europea, con piedra labrada a mano. Sus cinco niveles cambian la perspectiva del Wayku y el bajo Mayo. Consulta qué miradores puedes alcanzar si necesitas evitar escaleras antes de pagar.",
+    "route": [
+     "Confirma los niveles abiertos en recepción",
+     "Observa la piedra al subir a la terraza",
+     "Ubica Wayku y el valle antes de bajar"
+    ],
+    "question": "¿Es un sitio arqueológico?",
+    "answer": "Es una obra moderna inspirada en arquitectura europea. En el Wayku se conocen por separado técnicas locales de vivienda."
+   },
+   "zh": {
+    "name": "拉马斯城堡",
+    "story": "这座受欧洲城堡启发的当代建筑使用手工加工的石材。五层观景处分别能看到瓦伊库社区与马约河下游河谷的不同角度。如行动受限，购票前问清可达的楼层。",
+    "route": [
+     "在接待处确认开放楼层",
+     "上露台途中观察石材加工",
+     "辨认社区与河谷的方位后下楼"
+    ],
+    "question": "这里是考古遗迹吗？",
+    "answer": "这是受欧洲建筑启发的现代作品。如想了解当地传统民居，请另访瓦伊库。"
+   },
+   "qu": {
+    "name": "El Castillo de Lamas",
+    "story": "Kay kunan pachapa wasita Europapa kastillukunata rikushpa makiwan rumita llakllashpa rurashka. Pichka patawan Waykuta uray Mayo waykutapash rikuchin. Chakanapi sikay sasa kakpika manarak kullkita kushpa tapuy.",
+    "route": [
+     "Punkupi paskashka patata tapuy",
+     "Hawaman rikushpa rumita rikuy",
+     "Waykuta waykutapash tarishpa uraykuy"
+    ],
+    "question": "Ñawpa ruinachu?",
+    "answer": "Kunampa wasi, Europata rikushpa rurashka. Llaktapa ñawpa wasi rurayta Waykupi rikuy."
+   }
+  }
+ },
+ {
+  "id": 28,
+  "slug": "centro-cultural-moyobamba",
+  "address": "Reyes Guerra y Serafín Filomeno, Moyobamba",
+  "minutes": 50,
+  "hours": "museum",
+  "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4230",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=617073",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Moyobamba Cultural Centre",
+    "story": "A few blocks from the Plaza de Armas, the CUMO brings local artists, workshops and audiences into the same building. Public exhibition rooms and scheduled events work differently: check the programme at the door before planning a performance or a workshop.",
+    "route": [
+     "Leave the main square for the Reyes Guerra and Serafín Filomeno junction",
+     "Ask which galleries are open",
+     "Read the event board before walking back"
+    ],
+    "question": "Do I need a show ticket to see the exhibitions?",
+    "answer": "Ask at reception which public galleries are open and whether the specific workshop or show requires registration."
+   },
+   "es": {
+    "name": "Centro Cultural Moyobamba (Cumo)",
+    "story": "A pocas cuadras de la Plaza de Armas, el CUMO reúne a artistas, talleres y público. Distingue las salas de acceso público de las actividades con horario: revisa la programación en la entrada antes de contar con una función.",
+    "route": [
+     "Desde la plaza llega al cruce Reyes Guerra y Serafín Filomeno",
+     "Pregunta qué salas están abiertas",
+     "Revisa la cartelera antes de volver"
+    ],
+    "question": "¿Necesito entrada de función para ver exposiciones?",
+    "answer": "Consulta qué salas públicas abren y si el taller o función concreta requiere inscripción."
+   },
+   "zh": {
+    "name": "莫约班巴文化中心",
+    "story": "文化中心离主广场仅几个街区，平时举办当地展览、工作坊与演出。公共展室与需按场次参加的活动是两回事，到门口先看当天节目表再安排停留。",
+    "route": [
+     "从主广场走到两街交会处",
+     "询问开放的展厅后入内",
+     "出门前读活动告示，再步行回广场"
+    ],
+    "question": "看展一定要演出票吗？",
+    "answer": "先问接待处哪些公共展厅开放，再单独核实工作坊或演出是否需报名。"
+   },
+   "qu": {
+    "name": "Centro Cultural Moyobamba (Cumo)",
+    "story": "Hatun pampamanta asha kallikunata purishpa CUMOman chayanki. Kaypi llaktapa rurakkuna yachachinkuna shinallatak rikuchinkuna. Rikuchina wasita pachayuk pukllaymanta rakiy; punkupi kunampa killkata ñawiriy.",
+    "route": [
+     "Pampamanta Reyes Guerra tinkuyman riy",
+     "Paskashka ukukunata tapuy",
+     "Killkashka pachata rikushpa kutiy"
+    ],
+    "question": "Rikuchinata rikunkapak pukllay killkachu?",
+    "answer": "Paskashka ukuta tapuy; yachana utapash pukllaypak shuti killkanata rakishpa tapuy."
+   }
+  }
+ },
+ {
+  "id": 29,
+  "slug": "museo-chanka-y-de-la-diversidad-lamista",
+  "address": "Museo Chanka y de la Diversidad Lamista, Lamas",
+  "minutes": 60,
+  "hours": "museum",
+  "source": "https://www.ytuqueplanes.com/destinos/san-martin/tarapoto/museo-chanka-y-de-la-diversidad-lamista",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/destinos/museo-chanka_desk.webp",
+  "regional": true,
+  "local": {
+   "en": {
+    "name": "Chanka and Lamista Diversity Museum",
+    "story": "This private museum explains ceramics and weaving alongside Lamista customs. Compare an object's material and use before moving to the next display. Follow the museum with a visit to an open Wayku workshop if you want to see contemporary production.",
+    "route": [
+     "Find the museum from the Lamas plaza",
+     "Visit the pottery and textile displays in turn",
+     "Ask about the route to Wayku before leaving"
+    ],
+    "question": "Should I visit before the Wayku workshops?",
+    "answer": "The displays give context to forms, materials and uses. An open workshop can then show how a maker works today."
+   },
+   "es": {
+    "name": "Museo Chanka y de la Diversidad Lamista",
+    "story": "El museo privado sitúa cerámica y tejidos dentro de las costumbres lamistas. En cada vitrina, compara el material con el uso de la pieza. Una visita posterior a un taller abierto del Wayku permite ver cómo trabajan hoy sus artesanos.",
+    "route": [
+     "Ubica el museo desde la plaza de Lamas",
+     "Recorre cerámica y tejidos por separado",
+     "Pregunta por el camino al Wayku al salir"
+    ],
+    "question": "¿Conviene ir antes de los talleres del Wayku?",
+    "answer": "Las salas explican formas, materiales y usos. Luego un taller abierto muestra el trabajo actual."
+   },
+   "zh": {
+    "name": "昌卡与拉马斯文化多样性博物馆",
+    "story": "这座私人博物馆以陶器和纺织品说明拉马斯的生活习俗。在一组展品前先看原料，再找用途的说明；若想了解今天的制作过程，可另约瓦伊库开放的作坊参观。",
+    "route": [
+     "从拉马斯广场定位博物馆",
+     "依次看陶器与纺织品展区",
+     "出门前询问去瓦伊库的路线"
+    ],
+    "question": "适合先逛馆再去瓦伊库吗？",
+    "answer": "展品可先交代形制、原料和用途，再到开放作坊看当代实际做法。"
+   },
+   "qu": {
+    "name": "Museo Chanka y de la Diversidad Lamista",
+    "story": "Kay sapalla museo wasipi Lamista runakunapa mankakunata awashkakunatapash rikuchin. Imawan rurashka, imapak kashka, ishkantin chimpachiy. Kunampa rurayta rikunkapak Waykupi paskashka makiruray wasiman riy.",
+    "route": [
+     "Lamas pampamanta museota maskay",
+     "Mankata awashkata katishpa rikuy",
+     "Lluksina ñawpa Wayku ñanta tapuy"
+    ],
+    "question": "Ñawpachu museoman rina?",
+    "answer": "Kaypi imawan imapak rurashkata yachanki; chaymanta Waykupi kunampa rurayta rikuy."
+   }
+  }
+ },
+ {
+  "id": 30,
+  "slug": "cueva-cascada-escondida",
+  "address": "La Florida, Nueva Cajamarca, Rioja",
+  "minutes": 120,
+  "hours": "reserve",
+  "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=12478",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=496631",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Cascada Escondida Cave",
+    "story": "The point of this cave trip is the combination of underground passages and falling water. The administrator provides boots, helmet, light, gloves and an escort. Confirm the complete kit and water conditions at La Florida; turning around at the entrance is a valid choice.",
+    "route": [
+     "Meet the administrator in La Florida",
+     "Fit the equipment before walking to the cave mouth",
+     "Enter and return only with the appointed escort"
+    ],
+    "question": "Must I bring my own helmet?",
+    "answer": "The inventory says the administrator provides a helmet and light. Confirm availability and fit for every visitor when reserving."
+   },
+   "es": {
+    "name": "Cueva Cascada Escondida",
+    "story": "En esta cueva se combinan galerías y agua en movimiento. El administrador proporciona botas, casco, luz, guantes y acompañamiento. Confirma en La Florida que el equipo esté completo y que el nivel del agua permita avanzar.",
+    "route": [
+     "Encuentra al administrador en La Florida",
+     "Ajusta el equipo antes de llegar a la boca",
+     "Entra y vuelve con el acompañante designado"
+    ],
+    "question": "¿Debo llevar casco propio?",
+    "answer": "El inventario indica que el administrador facilita casco e iluminación. Confirma disponibilidad y tallas al reservar."
+   },
+   "zh": {
+    "name": "隐瀑洞",
+    "story": "洞穴把地下通道与流水结合在一起。管理方提供靴、头盔、照明、手套并陪同进洞。先在拉佛罗里达确认装备齐全和当日水况，不适合时可留在入口。",
+    "route": [
+     "在拉佛罗里达见管理方",
+     "到洞口前穿好并调整装备",
+     "由指定人员陪同进洞并返回"
+    ],
+    "question": "需要自备头盔吗？",
+    "answer": "清单列明管理方提供头盔和照明。预约时核实每人的装备与尺寸。"
+   },
+   "qu": {
+    "name": "Cueva Cascada Escondida",
+    "story": "Kay machaypi uku ñankuna yakuwan tinkirin. Kamachikqa botakunata, casco, achki, maki pakana kuspa pushan. La Florida llaktapi tukuy yanapak hillayta rikuy; yaku yaparikpika punkullapi sakiriy.",
+    "route": [
+     "La Floridapi kamachikta taripay",
+     "Machay punkuman rina ñawpa hillayta churay",
+     "Pusakwan yaykuy, paywanllata kutiy"
+    ],
+    "question": "Ñukapa cascota apanachu?",
+    "answer": "Kamachik casco achkita kun nin. Ñawpa sapan runapak pakta kashkata tapuy."
+   }
+  }
+ },
+ {
+  "id": 31,
+  "slug": "boulevard-quillosisa",
+  "address": "Sector Uquihua, Rioja",
+  "minutes": 45,
+  "hours": "day",
+  "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13228",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=565629",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Quillosisa Riverside Promenade",
+    "story": "The Uquihua river runs beside this promenade at the edge of Rioja. Use the waterside as a slow linear walk: pause where vegetation meets the bank and watch for movement before choosing a second viewpoint. No boat transfer is needed to enjoy the shore.",
+    "route": [
+     "Reach the boulevard in sector Uquihua",
+     "Walk along the public riverside to a clear viewing spot",
+     "Retrace the promenade to the town-side access"
+    ],
+    "question": "Can I enjoy the river without a boat?",
+    "answer": "Yes. The attraction is the public promenade along the Uquihua, and the viewpoint changes as you walk."
+   },
+   "es": {
+    "name": "Boulevard Turístico Quillosisa",
+    "story": "El Uquihua acompaña este paseo cercano a Rioja. Recorre su borde sin prisa y detente donde la vegetación llega al agua para buscar movimiento antes de cambiar de ángulo. Se puede disfrutar de la ribera enteramente a pie.",
+    "route": [
+     "Llega al boulevard del sector Uquihua",
+     "Sigue la ribera pública hasta un claro",
+     "Regresa por el paseo al acceso urbano"
+    ],
+    "question": "¿Necesito bote para ver el río?",
+    "answer": "No hace falta: el boulevard recorre la ribera del Uquihua y la perspectiva cambia al caminar."
+   },
+   "zh": {
+    "name": "基约西萨滨河步道",
+    "story": "步道沿里奥哈城边的乌基瓦河铺开。沿岸慢行，在植被伸到河边处停下观察动静，再换角度，无需乘船即可看清河岸景观。",
+    "route": [
+     "抵达乌基瓦片区步道入口",
+     "沿公共河岸步行到视野开阔处",
+     "按原步道回到市区一端"
+    ],
+    "question": "看河要乘船吗？",
+    "answer": "不必，步道沿乌基瓦河展开，沿岸步行即可欣赏不同角度。"
+   },
+   "qu": {
+    "name": "Boulevard Turístico Quillosisa",
+    "story": "Rioja llaktapa patapi Uquihua mayu purin. Mayupa patanta allilla puriy; kiwa yakuman tinkirikpi shayashpa rikuy. Kanowapi mana rishpapash chakillawan patakunata riksinkiman.",
+    "route": [
+     "Uquihua pampaman riy",
+     "Mayu patata paskashka qhawanakama katiy",
+     "Ñanllapi llaktaman kutiy"
+    ],
+    "question": "Kanowachu mutsurin?",
+    "answer": "Mana. Uquihua patapi chakillawan purishpa mayuta rikunki."
+   }
+  }
+ },
+ {
+  "id": 32,
+  "slug": "waqanki",
+  "address": "Quebrada Mishquiyaquillo, Moyobamba",
+  "minutes": 120,
+  "hours": "reserve",
+  "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3046",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=295050",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Waqanki Conservation Centre",
+    "story": "Waqanki offers forest guiding and a base for bird photography near the Mishquiyaquillo stream. Ask whether the day's best option is a quiet session at the hummingbird viewing area or a longer woodland trail; the two involve different levels of walking.",
+    "route": [
+     "Check in with Waqanki staff",
+     "Start at the designated hummingbird area",
+     "Add a guided forest walk if time and trail conditions allow"
+    ],
+    "question": "Is there a place to stay for early birdwatching?",
+    "answer": "The inventory lists lodging and meals at Waqanki. Reserve directly and agree on an early guide separately."
+   },
+   "es": {
+    "name": "Centro De Conservación Waqanki",
+    "story": "Waqanki ofrece guiado por el bosque y observación de colibríes cerca de la quebrada Mishquiyaquillo. Pregunta si conviene esperar en un puesto fijo o salir al sendero forestal; la exigencia de caminata cambia según la opción.",
+    "route": [
+     "Coordina con el personal de Waqanki",
+     "Empieza en el área de colibríes",
+     "Añade el sendero guiado si el tiempo y el piso lo permiten"
+    ],
+    "question": "¿Dónde dormir para observar temprano?",
+    "answer": "El inventario registra alojamiento y alimentación en Waqanki. Reserva directamente y coordina por separado el guiado temprano."
+   },
+   "zh": {
+    "name": "瓦坎基保护中心",
+    "story": "瓦坎基位于米什基亚基约溪附近，提供森林向导与观鸟服务。定点拍蜂鸟与深入林道是两种不同步行强度的体验，可先问园方当天哪种更合适。",
+    "route": [
+     "先在接待处与工作人员会合",
+     "从指定蜂鸟观察区开始",
+     "路况与时间允许时再加向导林道"
+    ],
+    "question": "清早观鸟住哪里？",
+    "answer": "官方目录列园方提供住宿和餐食。可直接预约，再单独约好晨间向导。"
+   },
+   "qu": {
+    "name": "Centro De Conservación Waqanki",
+    "story": "Mishquiyaquillo yakupa ladupi Waqankika sacha pusayta kinti qhawayta kun. Shuk pampallapi shuyayta uta sacha ñanpi karuman riyta munanki, pusakta ñawpa tapuy; purina pacha shuk shukmi.",
+    "route": [
+     "Waqanki kamakwan rimay",
+     "Kinti qhawana pampapi kallariy",
+     "Pacha tiyashpa pusakwan sachaman riy"
+    ],
+    "question": "Tutamanta qhawankapak maypi puñuna?",
+    "answer": "Waqankipi puñuna mikuna tiyan nin. Puñunata pusaktapash ñawpa tapuy."
+   }
+  }
+ },
+ {
+  "id": 33,
+  "slug": "plaza-de-armas-de-moyobamba",
+  "address": "Callao, Pedro Canga, San Martín y Manuel del Águila, Moyobamba",
+  "minutes": 45,
+  "hours": "day",
+  "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3107",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=616623",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Moyobamba Main Square",
+    "story": "The Plaza de Armas serves as Moyobamba's civic meeting place. Corpus Christi and the municipal tourist week can change its ordinary rhythm. Walk its perimeter before crossing the centre to see how the four surrounding streets lead into the square.",
+    "route": [
+     "Start on the Pedro Canga side",
+     "Walk the perimeter to the San Martín side",
+     "Cross the middle when the event layout allows"
+    ],
+    "question": "Can festivals affect the walking route?",
+    "answer": "Yes. Event equipment or processions may occupy the centre; circle the outside and follow local directions."
+   },
+   "es": {
+    "name": "Plaza De Armas De Moyobamba",
+    "story": "La Plaza de Armas concentra encuentros cívicos de Moyobamba. Durante Corpus Christi o la Semana Turística cambia el uso de su espacio. Observa primero cómo desembocan las cuatro calles del contorno y luego atraviesa el centro.",
+    "route": [
+     "Empieza por Pedro Canga",
+     "Rodea la plaza hasta el lado de San Martín",
+     "Cruza el centro si la organización del día lo permite"
+    ],
+    "question": "¿Las fiestas cambian el recorrido?",
+    "answer": "Los equipos y procesiones pueden ocupar el centro. Camina por el borde y sigue las indicaciones locales."
+   },
+   "zh": {
+    "name": "莫约班巴主广场",
+    "story": "主广场是莫约班巴的公共集会地，圣体节与当地旅游周会改变日常动线。先沿边缘看四条街道如何汇入广场，再穿过中心；有活动时按现场指引通行。",
+    "route": [
+     "从佩德罗·坎加街一侧开始",
+     "沿广场边缘走到圣马丁街侧",
+     "现场活动允许时再穿越中心"
+    ],
+    "question": "节庆会影响步行吗？",
+    "answer": "庆典设施和游行可能占用中央空间，可沿外围行走并按现场指引通行。"
+   },
+   "qu": {
+    "name": "Plaza De Armas De Moyobamba",
+    "story": "Moyobamba runakuna kay hatun pampapi tantarin. Corpus Christi raymipi uta llaktapa purik semanapi pampa tikrarin. Ñawpa muyupi chusku kallikunata rikuy; chaymanta chawpita chimpay.",
+    "route": [
+     "Pedro Canga patapi kallariy",
+     "Muyushpa San Martín pataman riy",
+     "Pakta kakpika chawpita chimpay"
+    ],
+    "question": "Raymipi ñan tikrarinchu?",
+    "answer": "Ari. Chawpipi runakuna tantarishka kakpi muyu patanta puriy."
+   }
+  }
+ },
+ {
+  "id": 34,
+  "slug": "cerro-mirador-nueva-cajamarca",
+  "address": "Cerro Mirador, Nueva Cajamarca, Rioja",
+  "minutes": 120,
+  "hours": "day",
+  "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3198",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=512570",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Cerro Mirador of Nueva Cajamarca",
+    "story": "A limestone rise above Nueva Cajamarca gives a wider view of the Alto Mayo valley than the streets below. Early light may reveal the relief more clearly. Agree on a turnaround time at the foot of the hill so the descent stays in daylight.",
+    "route": [
+     "Find the recognised access in Nueva Cajamarca",
+     "Ascend the local walking trail to the viewpoint",
+     "Descend on the same path before dusk"
+    ],
+    "question": "Is sunset the only good time to see the valley?",
+    "answer": "Morning light also defines the hills and gives more daylight to return to Nueva Cajamarca."
+   },
+   "es": {
+    "name": "Cerro Mirador",
+    "story": "La elevación caliza sobre Nueva Cajamarca muestra la amplitud del valle Alto Mayo. La luz temprana ayuda a distinguir el relieve. Decide al pie del cerro una hora de retorno que deje margen para bajar con luz.",
+    "route": [
+     "Localiza el acceso reconocido en Nueva Cajamarca",
+     "Sube por el sendero local al mirador",
+     "Baja por la misma huella antes del anochecer"
+    ],
+    "question": "¿Solo vale la pena al atardecer?",
+    "answer": "La mañana también marca el relieve y deja más horas de luz para regresar a Nueva Cajamarca."
+   },
+   "zh": {
+    "name": "新卡哈马卡观景山",
+    "story": "石灰岩山丘俯瞰新卡哈马卡和上马约谷地。较早的斜光更容易展现山势；在山脚先定折返点与下山时间，以便在天亮时完成返程。",
+    "route": [
+     "在城内确认正式登山口",
+     "沿当地步道上行至观景点",
+     "天黑前沿上山路线下降"
+    ],
+    "question": "只有日落才好看吗？",
+    "answer": "早上的斜光也能勾勒山形，而且留有更多白天下山时间。"
+   },
+   "qu": {
+    "name": "Cerro Mirador",
+    "story": "Nueva Cajamarca hawapi yuraq rumi urkumanta Alto Mayo wayku paskarin. Tutamanta achki urkukunapa rikchayta rikuchin. Urku chakipi kutina pachata rimay, punchallapi uraykunapak.",
+    "route": [
+     "Llaktapi urku punkuta taripay",
+     "Qhawana pampaman sikay",
+     "Manarak tutayakpi ñanllata uraykuy"
+    ],
+    "question": "Inti yaykunallapichu alli?",
+    "answer": "Tutamantapash urkukunata rikunki; llaktaman kutinapak achki puchun."
+   }
+  }
+ },
+ {
+  "id": 35,
+  "slug": "rio-mayo-juan-antonio-tahuishco",
+  "address": "Embarcadero Tahuishco, Moyobamba",
+  "minutes": 90,
+  "hours": "reserve",
+  "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=3124",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=313947",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Río Mayo between Tahuishco and Juan Antonio",
+    "story": "Here the attraction is the river journey between two ports. Herons and kingfishers use very different parts of the bank; search exposed shallows for the former and low branches for the latter. Agree whether the boat waits at Juan Antonio or a separate return is needed.",
+    "route": [
+     "Walk to the Tahuishco landing",
+     "Travel the agreed river stretch to Juan Antonio",
+     "Use the return arranged before boarding"
+    ],
+    "question": "Is a return boat automatically included?",
+    "answer": "Agree beforehand whether the fare is one way or round trip, where you meet the boat and how long it waits."
+   },
+   "es": {
+    "name": "Río Mayo, Sector Juan Antonio - Tahuishco",
+    "story": "El atractivo es el tramo fluvial entre dos puertos. Busca garzas en las orillas someras y martines pescadores en ramas bajas. Antes de embarcar, acuerda si el bote espera en Juan Antonio o si hay que contratar el regreso por separado.",
+    "route": [
+     "Baja al embarcadero de Tahuishco",
+     "Navega el tramo acordado a Juan Antonio",
+     "Regresa según lo pactado antes del embarque"
+    ],
+    "question": "¿La vuelta está incluida?",
+    "answer": "Aclara si pagas ida o ida y vuelta, el puerto de encuentro y cuánto esperará el bote."
+   },
+   "zh": {
+    "name": "塔维什科至胡安安东尼奥的马约河",
+    "story": "这里游览的是两处码头之间的河段。浅滩适合找鹭，低枝则可留意翠鸟。登船前说好船只是否在胡安安东尼奥等待，还是需要另外安排回程。",
+    "route": [
+     "步行到塔维什科码头",
+     "按约定航段乘船至胡安安东尼奥",
+     "依登船前商定方式返回"
+    ],
+    "question": "船费默认含往返吗？",
+    "answer": "上船前明确单程或往返、返程会合码头以及等待时间。"
+   },
+   "qu": {
+    "name": "Río Mayo, Sector Juan Antonio - Tahuishco",
+    "story": "Ishkay puerto chawpipi Mayo mayuta kanowapi rikunki. Garzakunata pishi yaku patapi maskay, challwata hapik pishkuta uray pallkakunapi. Juan Antoniopi kanowa shuyan uta kutina kanowata maskana kanki, ñawpa rimay.",
+    "route": [
+     "Tahuishco puerto pataman puriy",
+     "Kanowapi Juan Antoniokama riy",
+     "Ñawpata rimashkashina kutiy"
+    ],
+    "question": "Kutina kanowapak kullki yaykushkachu?",
+    "answer": "Shuk ñanllachu ishkantinchu, maypi tarinata, mashna shuyanata tapuy."
+   }
+  }
+ },
+ {
+  "id": 36,
+  "slug": "llanteria-birds",
+  "address": "Llantería Bird’s, Nueva Cajamarca, Rioja",
+  "minutes": 75,
+  "hours": "reserve",
+  "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11288",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=389756",
+  "regional": false,
+  "local": {
+   "en": {
+    "name": "Llantería Bird’s garden",
+    "story": "The Chuque family's birdwatching project combines hummingbird feeders, heliconias and walking paths on about two hectares. Look first at a flower being visited, then at the feeder; the different approaches make a more interesting comparison than counting birds at one station.",
+    "route": [
+     "Meet the family at reception",
+     "Walk from the viewing station to the heliconia garden",
+     "Return by the visitor path without standing between birds and feeders"
+    ],
+    "question": "Where should I stand for photographs?",
+    "answer": "Use the observation position suggested by the family, leaving the flight line between flowers and feeders open."
+   },
+   "es": {
+    "name": "Llantería Bird´S",
+    "story": "El emprendimiento de la familia Chuque combina bebederos, heliconias y senderos en unas dos hectáreas. Observa primero una flor visitada y después el bebedero para comparar las aproximaciones en lugar de limitarte al conteo de aves.",
+    "route": [
+     "Encuentra a la familia en la entrada",
+     "Camina del puesto de observación al jardín de heliconias",
+     "Vuelve sin interponerte entre las aves y sus bebederos"
+    ],
+    "question": "¿Dónde ubicarme para fotos?",
+    "answer": "Usa el puesto indicado por la familia y deja libre la trayectoria entre flores y bebederos."
+   },
+   "zh": {
+    "name": "扬特里亚观鸟花园",
+    "story": "丘克家族经营的约两公顷园地设蜂鸟饮水器、赫蕉园和观鸟步道。先盯住一朵刚有鸟到访的花，再去饮水器观察，对照飞行和停栖方式，比只数鸟更有意思。",
+    "route": [
+     "在入口与接待家族会合",
+     "从观察点步行到赫蕉园",
+     "从游径返回，避开鸟与饮水器之间的飞行线"
+    ],
+    "question": "在哪里拍照合适？",
+    "answer": "使用园方家庭指定的观察位置，别挡住花丛和饮水器之间的飞行路径。"
+   },
+   "qu": {
+    "name": "Llantería Bird´S",
+    "story": "Chuque ayllupa ishkay hectárea pampapi kinti upyanakuna, heliconia sisakuna, purina ñankuna tiyan. Ñawpa kinti shamuk sisata rikuy, chaymanta upyanata rikuy; imashina asuyashkata chimpachiy.",
+    "route": [
+     "Punkupi aylluta taripay",
+     "Qhawana pampamanta heliconia sisaman puriy",
+     "Pishku upyanaman rik ñanta mana harkashpa kutiy"
+    ],
+    "question": "Maymanta fotota rurana?",
+    "answer": "Ayllu rikuchishka pampapi shayay. Sisamanta upyanaman kinti rik ñanta paskashkata sakiy."
+   }
+  }
+ }
+]

@@ -1,0 +1,374 @@
+[
+ {
+  "slug": "mirador-punta-de-tahuishco",
+  "regional": false,
+  "address": "Moyobamba, barrio de Zaragoza",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/destinos/mirador-tahuishco_desk.webp",
+  "names": {
+   "en": "Mirador Punta de Tahuishco",
+   "es": "Mirador Punta de Tahuishco",
+   "zh": "塔维什科岬观景台",
+   "qu": "Mirador Punta de Tahuishco"
+  }
+ },
+ {
+  "slug": "aguas-sulfurosas-de-oromina",
+  "regional": false,
+  "address": "Cerro Oromina, Moyobamba",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/destinos/banos-de-oromina_desk.webp",
+  "names": {
+   "en": "Oromina sulphur springs",
+   "es": "Baños Sulfurosos de Oromina",
+   "zh": "奥罗米纳硫磺泉",
+   "qu": "Baños Sulfurosos de Oromina"
+  }
+ },
+ {
+  "slug": "aguas-termales-de-san-mateo",
+  "regional": false,
+  "address": "Baños Termales San Mateo, Moyobamba",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Aguas-termales-de-San-Mateo.webp",
+  "names": {
+   "en": "San Mateo thermal baths",
+   "es": "Baños Termales de San Mateo",
+   "zh": "圣马特奥温泉",
+   "qu": "Baños Termales de San Mateo"
+  }
+ },
+ {
+  "slug": "cascada-de-paccha",
+  "regional": false,
+  "address": "Paccha, distrito de Jepelacio, Moyobamba",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/destinos/cascada-paccha_desk.webp",
+  "names": {
+   "en": "Paccha waterfall",
+   "es": "Cascada de Paccha",
+   "zh": "帕克查瀑布",
+   "qu": "Cascada de Paccha"
+  }
+ },
+ {
+  "slug": "reserva-ecologica-tingana",
+  "regional": false,
+  "address": "Boca de Huascayacu; río Avisado, Moyobamba",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/destinos/sm-reserva-ecologica-tingana_desk.webp",
+  "names": {
+   "en": "Tingana flooded forest",
+   "es": "Reserva ecológica Tingana",
+   "zh": "廷加纳淹水森林",
+   "qu": "Reserva ecológica Tingana"
+  }
+ },
+ {
+  "slug": "museo-departamental-san-martin",
+  "regional": false,
+  "address": "Jirón Benavides 380, Moyobamba",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Museo-departamental-San-Mart%C3%ADn.webp",
+  "names": {
+   "en": "San Martín Regional Museum",
+   "es": "Museo Departamental San Martín",
+   "zh": "圣马丁地区博物馆",
+   "qu": "Museo Departamental San Martín"
+  }
+ },
+ {
+  "slug": "cueva-de-palestina",
+  "regional": false,
+  "address": "Caserío Palestina, Nueva Cajamarca, Rioja",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Cueva-de-Palestina.webp",
+  "names": {
+   "en": "Palestina Cave",
+   "es": "Cueva de Palestina",
+   "zh": "巴勒斯蒂纳洞穴",
+   "qu": "Cueva de Palestina"
+  }
+ },
+ {
+  "slug": "morro-de-calzada",
+  "regional": false,
+  "address": "Calzada, provincia de Moyobamba",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Morro-de-Calzada.webp",
+  "names": {
+   "en": "Morro de Calzada",
+   "es": "Morro de Calzada",
+   "zh": "卡尔萨达山",
+   "qu": "Morro de Calzada"
+  }
+ },
+ {
+  "slug": "jardin-botanico-amazonia",
+  "regional": false,
+  "address": "Jardín Botánico Amazonia, Alto Mayo",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Jard%C3%ADn-Bot%C3%A1nico-Amazon%C3%ADa.webp",
+  "names": {
+   "en": "Amazonia Botanical Garden",
+   "es": "Jardín Botánico Amazonia",
+   "zh": "亚马孙植物园",
+   "qu": "Jardín Botánico Amazonia"
+  }
+ },
+ {
+  "slug": "mirador-del-bosque-de-proteccion-alto-mayo",
+  "regional": false,
+  "address": "Bosque de Protección Alto Mayo, límite San Martín–Amazonas",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/destinos/bosque-proteccion-alto-mayo_desk.webp",
+  "names": {
+   "en": "Alto Mayo Protected Forest Lookout",
+   "es": "Mirador del Bosque de Protección Alto Mayo",
+   "zh": "上马约保护林观景台",
+   "qu": "Mirador del Bosque de Protección Alto Mayo"
+  }
+ },
+ {
+  "slug": "reserva-ecologica-santa-elena",
+  "regional": false,
+  "address": "Santa Elena, Pósic, Rioja",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Reserva-ecol%C3%B3gica-de-Santa-Elena.webp",
+  "names": {
+   "en": "Santa Elena Wetland Reserve",
+   "es": "Reserva Ecológica Santa Elena",
+   "zh": "圣埃莱娜湿地保护区",
+   "qu": "Reserva Ecológica Santa Elena"
+  }
+ },
+ {
+  "slug": "mariposario-morpho-azul",
+  "regional": false,
+  "address": "Mariposario Morpho Azul, Alto Mayo",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Mariposario-Morpho-Azul.webp",
+  "names": {
+   "en": "Morpho Azul Butterfly House",
+   "es": "Mariposario Morpho Azul",
+   "zh": "蓝闪蝶园",
+   "qu": "Mariposario Morpho Azul"
+  }
+ },
+ {
+  "slug": "vivero-orquideas-amazonicas",
+  "regional": false,
+  "address": "Vivero Orquídeas Amazónicas, Moyobamba",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Vivero-Orqu%C3%ADdeas-Amaz%C3%B3nicas.webp",
+  "names": {
+   "en": "Amazonian Orchid Nursery",
+   "es": "Vivero Orquídeas Amazónicas",
+   "zh": "亚马孙兰花苗圃",
+   "qu": "Vivero Orquídeas Amazónicas"
+  }
+ },
+ {
+  "slug": "reserva-arena-blanca",
+  "regional": false,
+  "address": "Reserva Arena Blanca, Alto Mayo",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Reserva-Arena-Blanca.webp",
+  "names": {
+   "en": "Arena Blanca Bird Reserve",
+   "es": "Reserva Arena Blanca",
+   "zh": "白沙观鸟保护区",
+   "qu": "Reserva Arena Blanca"
+  }
+ },
+ {
+  "slug": "parque-suchiche",
+  "regional": true,
+  "address": "Cuadra 4, jirón Alegría Arias de Morey, Tarapoto",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/principal-parque-suchiche.webp",
+  "names": {
+   "en": "Suchiche Park",
+   "es": "Parque Suchiche",
+   "zh": "苏奇切公园",
+   "qu": "Parque Suchiche"
+  }
+ },
+ {
+  "slug": "circuitos-ecoturisticos-alto-shilcayo",
+  "regional": true,
+  "address": "Garita Alto Shilcayo, Tarapoto",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/destinos/area-de-conservacion-cordillera_desk.webp",
+  "names": {
+   "en": "Alto Shilcayo forest trails",
+   "es": "Circuitos ecoturísticos Alto Shilcayo",
+   "zh": "上希尔卡约森林游径",
+   "qu": "Circuitos ecoturísticos Alto Shilcayo"
+  }
+ },
+ {
+  "slug": "catarata-de-pucayaquillo",
+  "regional": true,
+  "address": "Puente Colombia, carretera a Chazuta, Shapaja",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Catarata-de-Pucayaquillo.webp",
+  "names": {
+   "en": "Pucayaquillo waterfall",
+   "es": "Catarata de Pucayaquillo",
+   "zh": "普卡亚基约瀑布",
+   "qu": "Catarata de Pucayaquillo"
+  }
+ },
+ {
+  "slug": "catarata-de-huacamaillo",
+  "regional": true,
+  "address": "Catarata Huacamaillo, San Antonio de Cumbaza",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/principal-catarata-Huacamaillo.webp",
+  "names": {
+   "en": "Huacamaillo waterfall",
+   "es": "Catarata de Huacamaillo",
+   "zh": "瓦卡迈约瀑布",
+   "qu": "Catarata de Huacamaillo"
+  }
+ },
+ {
+  "slug": "cascada-de-carpishuyacu",
+  "regional": true,
+  "address": "Caserío San José, Cordillera Escalera",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/CarpishuyacuBanner.webp",
+  "names": {
+   "en": "Carpishuyacu cascades",
+   "es": "Cascada de Carpishuyacu",
+   "zh": "卡尔皮舒亚库双瀑",
+   "qu": "Cascada de Carpishuyacu"
+  }
+ },
+ {
+  "slug": "catarata-ahuashiyacu",
+  "regional": true,
+  "address": "Cordillera Escalera, carretera Tarapoto–Yurimaguas",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/AhuashiyacuBanner.webp",
+  "names": {
+   "en": "Ahuashiyacu waterfall",
+   "es": "Catarata Ahuashiyacu",
+   "zh": "阿瓦希亚库瀑布",
+   "qu": "Catarata Ahuashiyacu"
+  }
+ },
+ {
+  "slug": "centro-poblado-comunidad-nativa-kechwa-el-wayku",
+  "regional": true,
+  "address": "Barrio El Wayku, Lamas",
+  "photo": "https://www.ytuqueplanes.com/imagenes//fotos/destinos/banner-Centro-poblado-comunidad-nativa-Kechwa-El-Wayku.webp",
+  "names": {
+   "en": "Kechwa El Wayku community",
+   "es": "Centro Poblado Comunidad Nativa Kechwa El wayku",
+   "zh": "埃尔瓦伊库克丘瓦社区",
+   "qu": "Centro Poblado Comunidad Nativa Kechwa El wayku"
+  }
+ },
+ {
+  "slug": "castillo-de-lamas",
+  "regional": true,
+  "address": "Castillo de Lamas, Lamas",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/LamasBanner.webp",
+  "names": {
+   "en": "Castle of Lamas",
+   "es": "El Castillo de Lamas",
+   "zh": "拉马斯城堡",
+   "qu": "El Castillo de Lamas"
+  }
+ },
+ {
+  "slug": "centro-cultural-moyobamba",
+  "regional": false,
+  "address": "Reyes Guerra y Serafín Filomeno, Moyobamba",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=617073",
+  "names": {
+   "en": "Moyobamba Cultural Centre",
+   "es": "Centro Cultural Moyobamba (Cumo)",
+   "zh": "莫约班巴文化中心",
+   "qu": "Centro Cultural Moyobamba (Cumo)"
+  }
+ },
+ {
+  "slug": "museo-chanka-y-de-la-diversidad-lamista",
+  "regional": true,
+  "address": "Museo Chanka y de la Diversidad Lamista, Lamas",
+  "photo": "https://www.ytuqueplanes.com/imagenes/fotos/destinos/museo-chanka_desk.webp",
+  "names": {
+   "en": "Chanka and Lamista Diversity Museum",
+   "es": "Museo Chanka y de la Diversidad Lamista",
+   "zh": "昌卡与拉马斯文化多样性博物馆",
+   "qu": "Museo Chanka y de la Diversidad Lamista"
+  }
+ },
+ {
+  "slug": "cueva-cascada-escondida",
+  "regional": false,
+  "address": "La Florida, Nueva Cajamarca, Rioja",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=496631",
+  "names": {
+   "en": "Cascada Escondida Cave",
+   "es": "Cueva Cascada Escondida",
+   "zh": "隐瀑洞",
+   "qu": "Cueva Cascada Escondida"
+  }
+ },
+ {
+  "slug": "boulevard-quillosisa",
+  "regional": false,
+  "address": "Sector Uquihua, Rioja",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=565629",
+  "names": {
+   "en": "Quillosisa Riverside Promenade",
+   "es": "Boulevard Turístico Quillosisa",
+   "zh": "基约西萨滨河步道",
+   "qu": "Boulevard Turístico Quillosisa"
+  }
+ },
+ {
+  "slug": "waqanki",
+  "regional": false,
+  "address": "Quebrada Mishquiyaquillo, Moyobamba",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=295050",
+  "names": {
+   "en": "Waqanki Conservation Centre",
+   "es": "Centro De Conservación Waqanki",
+   "zh": "瓦坎基保护中心",
+   "qu": "Centro De Conservación Waqanki"
+  }
+ },
+ {
+  "slug": "plaza-de-armas-de-moyobamba",
+  "regional": false,
+  "address": "Callao, Pedro Canga, San Martín y Manuel del Águila, Moyobamba",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=616623",
+  "names": {
+   "en": "Moyobamba Main Square",
+   "es": "Plaza De Armas De Moyobamba",
+   "zh": "莫约班巴主广场",
+   "qu": "Plaza De Armas De Moyobamba"
+  }
+ },
+ {
+  "slug": "cerro-mirador-nueva-cajamarca",
+  "regional": false,
+  "address": "Cerro Mirador, Nueva Cajamarca, Rioja",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=512570",
+  "names": {
+   "en": "Cerro Mirador of Nueva Cajamarca",
+   "es": "Cerro Mirador",
+   "zh": "新卡哈马卡观景山",
+   "qu": "Cerro Mirador"
+  }
+ },
+ {
+  "slug": "rio-mayo-juan-antonio-tahuishco",
+  "regional": false,
+  "address": "Embarcadero Tahuishco, Moyobamba",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=313947",
+  "names": {
+   "en": "Río Mayo between Tahuishco and Juan Antonio",
+   "es": "Río Mayo, Sector Juan Antonio - Tahuishco",
+   "zh": "塔维什科至胡安安东尼奥的马约河",
+   "qu": "Río Mayo, Sector Juan Antonio - Tahuishco"
+  }
+ },
+ {
+  "slug": "llanteria-birds",
+  "regional": false,
+  "address": "Llantería Bird’s, Nueva Cajamarca, Rioja",
+  "photo": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=389756",
+  "names": {
+   "en": "Llantería Bird’s garden",
+   "es": "Llantería Bird´S",
+   "zh": "扬特里亚观鸟花园",
+   "qu": "Llantería Bird´S"
+  }
+ }
+]
